@@ -1,27 +1,27 @@
     # Info about you
 name: Danh Tran
 position: AI Engineer
-email: danhtran8mind@gmail.com
+email: danhtran2mind@gmail.com
 #company_name: Company Name
 #company_url: https://www.yourcompany.com
 place_name: HCMC, VN
 
 # Blog info
-title: Danh Tran's Blog (danhtran8mind)
-description: This is Danh Tran's Blog (danhtran8mind)
-url: https://danhtran8mind.github.io/
+title: Danh Tran's Blog (danhtran2mind)
+description: This is Danh Tran's Blog (danhtran2mind)
+url: https://danhtran2mind.github.io/
 main_github_io: false
 long_description: >-
     Welcome to Danh Tran's blog! 
     Explore the frontiers of AI, technology, and beyond with insightful articles and exciting projects.
 
 # Social links
-github_url: https://github.com/danhtran8mind
-linkedin_url: http://www.linkedin.com/in/danhtrancse
+github_url: https://github.com/danhtran2mind
+linkedin_url: http://www.linkedin.com/in/danhtran2mind
 social:
   links:
-    - http://www.linkedin.com/in/danhtrancse
-    - https://github.com/danhtran8mind
+    - http://www.linkedin.com/in/danhtran2mind
+    - https://github.com/danhtran2mind
 
 # Images + files
 logo: https://avatars.githubusercontent.com/u/179741572
