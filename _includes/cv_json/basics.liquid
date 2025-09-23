@@ -52,6 +52,8 @@
                 <a href="mailto:{{ value }}" title="Email {{ value }}">{{ value }}</a>
               {% elsif key == 'phone' %}
                 <a href="tel:{{ value }}" title="Call {{ value }}">{{ value }}</a>
+              {% elsif key == 'website' %}
+                <a href="{{ value }}" title="Website {{ value }}">{{ value }}</a>
               {% else %}
                 {{ value }}
               {% endif %}

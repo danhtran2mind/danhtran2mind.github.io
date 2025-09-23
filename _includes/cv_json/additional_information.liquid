@@ -10,31 +10,34 @@
 {% assign addInfo = site.data.cv.additional_information %}
 
 <div class="additional-info">
-  <ul class="list-unstyled">
-    {% if addInfo %}
+
+  {% if addInfo %}
+  <table class="table" style="width: 100%; border-collapse: collapse;">
+    <tbody>
       {% for item in addInfo %}
         {% for pair in item %}
           {% assign label = pair[0] | capitalize %}
           {% assign url = pair[1] %}
-
-          {% assign display_url = url %}
           
-          <li class="mb-2 d-flex align-items-center">
-            <div style="margin-right: 2rem;">
-              <strong class="me-1">{{ label }}:</strong>
-            </div>
-            <div>
-              <i class="fa-solid fa-link me-2"style="color: var(--global-theme-color);"></i>            
-              <a href="{{ display_url }}" target="_blank" rel="noopener">{{ display_url }}</a>
-            </div>
-          </li>
+          {% if url contains 'http://' %}
+            {% assign display_url = url %}
+          {% else %}
+            {% assign display_url = 'https://' | append: url %}
+          {% endif %}
 
+          <tr style="margin-bottom: 0.5rem;">
+            <td style="padding-right: 2rem; font-weight: bold; width: 30%;">{{ label }}:</td>
+            <td>
+              <i class="fa-solid fa-link me-2" style="color: var(--global-theme-color);"></i>
+              <a href="{{ display_url }}" target="_blank" rel="noopener">{{ display_url }}</a>
+            </td>
+          </tr>
         {% endfor %}
       {% endfor %}
-    {% else %}
-      <li class="mb-2 text-danger">
-        Error: No additional_information data found in _data/cv.json
-      </li>
-    {% endif %}
-  </ul>
+    </tbody>
+  </table>
+{% else %}
+  <p class="text-danger">Error: No additional_information data found in _data/cv.json</p>
+{% endif %}
+
 </div>
