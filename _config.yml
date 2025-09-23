@@ -638,12 +638,13 @@ jsonresume:
   - education
   - publications
   - projects
-  - volunteer
-  - awards
   - certificates
   - skills
   - languages
   - interests
-  - references
-  - certifications
   - additional_information
+  # - references
+  # - volunteer
+  # - awards
+  # - certifications
+  
