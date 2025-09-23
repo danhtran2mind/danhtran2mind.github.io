@@ -267,6 +267,7 @@
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
+      "description": "Machine Learning by Stanford University on Coursera. Topics include supervised learning, unsupervised learning, best practices in machine learning, and more.",
       "icon": "fa-solid fa-location-dot"
     }
   ],
@@ -276,6 +277,7 @@
       "date": "Nov 24, 2024",
       "issuer": "DataCamp",
       "url": "https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1",
+      "description": "Machine Learning by Stanford University on Coursera. Topics include supervised learning, unsupervised learning, best practices in machine learning, and more.",
       "icon": "fa-solid fa-hashtag"
     },
     {
@@ -283,6 +285,7 @@
       "date": "Nov 25, 2024",
       "issuer": "DataCamp",
       "url": "https://www.datacamp.com/statement-of-accomplishment/track/d1152665979387f0abffc6b138f9df14f2ed7000?raw=1",
+      "description":
       "icon": "fa-solid fa-hashtag"
     },
     {
@@ -290,6 +293,7 @@
       "date": "Nov 29, 2024",
       "issuer": "DataCamp",
       "url": "https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1",
+      "description": "Explore deep learning with PyTorch, build models for real-world problems, and master advanced architectures like Transformers.",
       "icon": "fa-solid fa-hashtag"
     },
     

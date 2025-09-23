@@ -104,17 +104,18 @@ data:
   certificates:
     title: Certificates
     items:
-      - name: Associate AI Engineer for Developers
-        date: Jun 15, 2023
-        provider_issuer: Coursera (deeplearning.ai)
-        # url: https://www.coursera.org/specializations/deep-learning
-        url: https://www.coursera.org/specializations/deep-learning
-        description: Finished a series on neural nets, CNNs, RNNs, and seq models.
+      - name: Deep Learning in Python
+        date: Nov 29, 2024
+        provider_issuer: DataCamp
+        url:  https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1
+        description: Learn deep learning, build models with PyTorch.
+
       - name: Associate AI Engineer for Developers
         date: Jun 15, 2023
         provider_issuer: DataCamp
         url: https://www.coursera.org/specializations/deep-learning
         description: Finished a series on neural nets, CNNs, RNNs, and seq models.
+
       - name: Associate AI Engineer for Developers
         date: Jun 15, 2023
         provider_issuer: Coursera (deeplearning.ai)

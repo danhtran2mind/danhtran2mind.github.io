@@ -1,8 +1,8 @@
-- name: Python Programming
-  date: 2023-06-15
-  certificate_url: https://example.com/certificates/python-programming.pdf
-  provider_issuer: Coursera
-  description: Comprehensive course on Python programming fundamentals
+- name: Deep Learning in Python
+  date: Nov 29, 2024
+  certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1
+  provider_issuer: DataCamp
+  description: Explore deep learning with PyTorch, build models for real-world problems, and master advanced architectures like Transformers.
   # tags: [Python, Programming, Data Science]
   file: assets/images/certificates/coursera/th_1.jpg
 
