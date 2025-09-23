@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: FFAN
-middle_name:
-last_name: TPLM
+title: DanhTran2Mind Official Website # the website title (if blank, full name will be used instead)
+first_name: Cong-Danh
+middle_name: P.
+last_name: Tran
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
