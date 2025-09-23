@@ -1,3 +1,18 @@
+<style>
+h6#major.ml-1.ml-md-4 {
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid;
+  background-color: var(--global-theme-color) !important;
+  color: var(--global-card-bg-color) !important;
+  display: inline-block;
+  padding: 0.1rem 0.3rem;
+}
+h6#institution.ml-1.ml-md-4 {
+  style="font-size: 1rem;
+  font-weight: 500";
+}
+</style>
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign education = data[1] | sort: 'startDate' | reverse %}
   {% for content in education %}
@@ -38,15 +53,19 @@
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.studyType }}</a>
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
-          <ul class="items">
-            {% for item in content.courses %}
-              <li>
-                <span class="item">{{ item }}</span>
-              </li>
-            {% endfor %}
-          </ul>
+          <h6 id="institution" class="ml-1 ml-md-4">{{ content.institution | markdownify }}</h6>
+          <h6 id ="major" class="ml-1 ml-md-4">{{ content.area }}</h6>
+          
+          {% if content.courses and content.courses != [""] %}
+            <ul class="items">
+              {% for item in content.courses %}
+                <li>
+                  <span class="item">{{ item }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
         </div>
       </div>
     </li>

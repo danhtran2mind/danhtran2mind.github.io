@@ -5,10 +5,13 @@
   🔗 Certification Details: https://google.com
   …
   Handles array of objects: [{"certificate details": "google.com"}, ...]
-  Includes error handling and URL normalization.
+  Includes debugging to trace incorrect output.
 {%- endcomment -%}
 
 {% assign addInfo = site.data.cv.additional_information %}
+
+{%- comment -%} Debug raw data to check JSON structure {%- endcomment -%}
+<pre>Debug JSON: {{ site.data.cv.additional_information | inspect }}</pre>
 
 <div class="additional-info">
   <ul class="list-unstyled">
