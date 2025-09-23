@@ -39,9 +39,16 @@ horizontal: false
           </div>
           <div class="image-container">
             {% if cer.file %}
-              <img src="{{ cer.file | relative_url }}" alt="{{ cer.name }} certificate">
+              {% if cer.file contains '.pdf' %}
+                <object data="{{ cer.file | relative_url }}" type="application/pdf" width="100%" height="600px">
+                  <p>Unable to display PDF. <a href="{{ cer.file | relative_url }}">Download {{ cer.name }} certificate</a></p>
+                </object>
+              {% else %}
+                <img src="{{ cer.file | relative_url }}" alt="{{ cer.name }} certificate">
+              {% endif %}
             {% else %}
-              <div class="placeholder-image">No Image Available</div>
+              <!-- Handle case where no file is provided -->
+              <p>No certificate file available for {{ cer.name }}</p>
             {% endif %}
           </div>
         </div>

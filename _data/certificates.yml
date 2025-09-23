@@ -4,7 +4,7 @@
   provider_issuer: DataCamp
   description: Explore deep learning with PyTorch, build models for real-world problems, and master advanced architectures like Transformers.
   # tags: [Python, Programming, Data Science]
-  file: assets/images/certificates/coursera/th_1.jpg
+  file: assets/images/certificates/datacamp/DataCamp_deep-learning-in-python.pdf
 
 - name: Machine Learning Fundamentals
   date: 2024-03-20
