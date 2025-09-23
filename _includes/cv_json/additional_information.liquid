@@ -4,21 +4,40 @@
   🔗 Certificate Details: https://google.com
   🔗 Certification Details: https://google.com
   …
+  Handles array of objects: [{"certificate details": "google.com"}, ...]
+  Includes error handling and URL normalization.
 {%- endcomment -%}
 
 {% assign addInfo = site.data.cv.additional_information %}
 
 <div class="additional-info">
   <ul class="list-unstyled">
-    {% for item in addInfo %}
-      {% assign key = item | keys | first %}
-      {% assign label = key | capitalize %}
-      {% assign url = item[key] %}
-      <li class="mb-2 d-flex align-items-center">
-        <i class="fa-solid fa-link me-2"></i>
-        <strong class="me-1">{{ label }}:</strong>
-        <a href="{{ url }}" target="_blank" rel="noopener">{{ url }}</a>
+    {% if addInfo %}
+      {% for item in addInfo %}
+        {% assign key = item | keys | first %}
+        {% if key %}
+          {% assign label = key | capitalize %}
+          {% assign url = item[key] %}
+          {% if url contains "http" %}
+            {% assign display_url = url %}
+          {% else %}
+            {% assign display_url = "https://" | append: url %}
+          {% endif %}
+          <li class="mb-2 d-flex align-items-center">
+            <i class="fa-solid fa-link me-2"></i>
+            <strong class="me-1">{{ label }}:</strong>
+            <a href="{{ display_url }}" target="_blank" rel="noopener">{{ display_url }}</a>
+          </li>
+        {% else %}
+          <li class="mb-2 text-danger">
+            Error: Invalid object format for item {{ item | inspect }}
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      <li class="mb-2 text-danger">
+        Error: No additional_information data found in _data/cv.json
       </li>
-    {% endfor %}
+    {% endif %}
   </ul>
 </div>

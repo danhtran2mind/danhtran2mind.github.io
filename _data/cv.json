@@ -7,10 +7,11 @@
     "birth date": "September 29, 1996",
     "summary": "An AI Engineer: Embracing AI, Powered by Passion",
     "location": {
+      "show_full_address": false,
       "address": "",
       "postalCode": "",
       "city": "Ho Chi Minh City",
-      "countryCode": "VN",
+      "country": "Vietnam",
       "region": "Ho Chi Minh City"
     },
     "email": "danhtran2mind@gmail.com",
@@ -232,7 +233,8 @@
         "Constraints Programming",
         "BigData Technologies",
         "Data Engineering",
-        "Intelligence Systems ",
+        "Intelligence Systems",
+        "Parallel & Distributed Computing"
       ]
     },
     {
@@ -330,7 +332,7 @@
 
   "languages": [
   {
-    "language": "German",
+    "language": "Vietnamese",
     "fluency": "Native speaker",
     "icon": ""
   },
@@ -343,17 +345,37 @@
 
   "interests": [
     {
-      "name": "Physics",
+      "name": "Games",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "League of Legends",
+        "Teamfight Tactics",
+        "FC Online",
+        "Counter-Strike 2",
+        "The Elder Scrolls V: Skyrim",
+        "GTA series"
       ]
-    }
+    },
+    {
+      "name": "Sports",
+      "icon": "fa-solid fa-futbol",
+      "keywords": [
+        "Soccer",
+        "Basketball",
+        "Volleyball",
+        "Tennis"
+      ]
+    },
+    {
+      "name": "General Knowledge",
+      "icon": "fa-solid fa-futbol",
+      "keywords": [
+        "Psychology",
+        "Physics",
+        "Astronomy",
+        "Economy"
+      ]
+    },
   ],
   "additional_information": [
     {"certificate details": "google.com"},
