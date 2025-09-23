@@ -1,16 +1,33 @@
 <style>
-h6#major.ml-1.ml-md-4 {
+/* Style for major badge */
+h6#major {
   font-size: 1rem;
   font-weight: 500;
   border: 1px solid;
-  background-color: var(--global-theme-color) !important;
-  color: var(--global-card-bg-color) !important;
+  background-color: var(--global-theme-color, #007bff); /* Fallback color */
+  color: var(--global-card-bg-color, #ffffff); /* Fallback color */
   display: inline-block;
-  padding: 0.1rem 0.3rem;
+  padding: 0.25rem 0.5rem; /* Slightly increased for better appearance */
+  margin-left: 0.25rem; /* Equivalent to ml-1 */
 }
-h6#institution.ml-1.ml-md-4 {
+
+@media (min-width: 768px) {
+  h6#major {
+    margin-left: 1rem; /* Equivalent to ml-md-4 */
+  }
+}
+
+/* Style for institution text */
+h6#institution {
   font-size: 1rem;
   font-weight: 500;
+  margin-left: 0.25rem; /* Equivalent to ml-1 */
+}
+
+@media (min-width: 768px) {
+  h6#institution {
+    margin-left: 1rem; /* Equivalent to ml-md-4 */
+  }
 }
 </style>
 
@@ -54,18 +71,9 @@ h6#institution.ml-1.ml-md-4 {
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.studyType }}</a>
           </h6>
-          <h6 id="institution" class="ml-1 ml-md-4">{{ content.institution | markdownify }}</h6>
+          <h6 id="institution" class="ml-1 ml-md-4">{{ content.institution | markdownify | replace: '<p>', '' | replace: '</p>', '' }}</h6>
           <h6 id ="major" class="ml-1 ml-md-4">{{ content.area }}</h6>
-          
-          {% if content.courses != [""] %}
-            <ul class="items">
-              {% for item in content.courses %}
-                <li>
-                  <span class="item">{{ item }}</span>
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
+
 
         </div>
       </div>
