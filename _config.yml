@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: DanhTran2Mind Official Website # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Cong-Danh
 middle_name: P.
 last_name: Tran
@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: MY BLOG # blog_name will be displayed in your blog page
-blog_description: Welcome to My Friendly, Warm‑Hearted Blog
+blog_name: DanhTran2Mind Blog # blog_name will be displayed in your blog page
+blog_description: Welcome to My Friendly, Warm-Hearted Blog
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
