@@ -18,13 +18,15 @@
           {% assign url = pair[1] %}
           {% if url contains "http" %}
             {% assign display_url = url %}
-          {% else %}
-            {% assign display_url = "https://" | append: url %}
           {% endif %}
           <li class="mb-2 d-flex align-items-center">
-            <i class="fa-solid fa-link me-2"></i>
-            <strong class="me-1">{{ label }}:</strong>
-            <a href="{{ display_url }}" target="_blank" rel="noopener">{{ display_url }}</a>
+            <div>
+              <strong class="me-1">{{ label }}:</strong>
+            </div>
+            <div>
+              <i class="fa-solid fa-link me-2"></i>            
+              <a href="{{ display_url }}" target="_blank" rel="noopener">{{ display_url }}</a>
+            </div>
           </li>
         {% endfor %}
       {% endfor %}

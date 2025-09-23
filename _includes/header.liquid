@@ -7,11 +7,15 @@
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
-                {{- site.first_name -}}
+                {{- site.first_name | split: "-" | first -}}
               </span>
             {% endif %}
+
+            {%- comment -%}
             {% if site.middle_name %}
               {{- site.middle_name -}}
+            {%- endcomment -%}
+
             {% endif %}
             {% if site.last_name %}
               {{- site.last_name -}}

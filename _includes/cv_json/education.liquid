@@ -9,10 +9,11 @@ h6#major.ml-1.ml-md-4 {
   padding: 0.1rem 0.3rem;
 }
 h6#institution.ml-1.ml-md-4 {
-  style="font-size: 1rem;
+  font-size: 1rem;
   font-weight: 500";
 }
 </style>
+
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign education = data[1] | sort: 'startDate' | reverse %}
   {% for content in education %}
@@ -56,7 +57,7 @@ h6#institution.ml-1.ml-md-4 {
           <h6 id="institution" class="ml-1 ml-md-4">{{ content.institution | markdownify }}</h6>
           <h6 id ="major" class="ml-1 ml-md-4">{{ content.area }}</h6>
           
-          {% if content.courses and content.courses != [""] %}
+          {% if content.courses != [""] %}
             <ul class="items">
               {% for item in content.courses %}
                 <li>
