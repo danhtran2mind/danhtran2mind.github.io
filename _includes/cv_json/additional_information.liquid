@@ -5,22 +5,17 @@
   🔗 Certification Details: https://google.com
   …
   Handles array of objects: [{"certificate details": "google.com"}, ...]
-  Includes debugging to trace incorrect output.
 {%- endcomment -%}
 
 {% assign addInfo = site.data.cv.additional_information %}
-
-{%- comment -%} Debug raw data to check JSON structure {%- endcomment -%}
-<pre>Debug JSON: {{ site.data.cv.additional_information | inspect }}</pre>
 
 <div class="additional-info">
   <ul class="list-unstyled">
     {% if addInfo %}
       {% for item in addInfo %}
-        {% assign key = item | keys | first %}
-        {% if key %}
-          {% assign label = key | capitalize %}
-          {% assign url = item[key] %}
+        {% for pair in item %}
+          {% assign label = pair[0] | capitalize %}
+          {% assign url = pair[1] %}
           {% if url contains "http" %}
             {% assign display_url = url %}
           {% else %}
@@ -31,11 +26,7 @@
             <strong class="me-1">{{ label }}:</strong>
             <a href="{{ display_url }}" target="_blank" rel="noopener">{{ display_url }}</a>
           </li>
-        {% else %}
-          <li class="mb-2 text-danger">
-            Error: Invalid object format for item {{ item | inspect }}
-          </li>
-        {% endif %}
+        {% endfor %}
       {% endfor %}
     {% else %}
       <li class="mb-2 text-danger">

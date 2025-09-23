@@ -345,8 +345,8 @@
 
   "interests": [
     {
-      "name": "Games",
-      "icon": "fa-solid fa-tag",
+      "name": "Video Games",
+      "icon": "fa-solid fa-gamepad",
       "keywords": [
         "League of Legends",
         "Teamfight Tactics",
@@ -357,10 +357,11 @@
       ]
     },
     {
-      "name": "Sports",
+      "name": "Sports and Fitness Activities",
       "icon": "fa-solid fa-futbol",
       "keywords": [
         "Soccer",
+        "Gym",
         "Basketball",
         "Volleyball",
         "Tennis"
@@ -368,7 +369,7 @@
     },
     {
       "name": "General Knowledge",
-      "icon": "fa-solid fa-futbol",
+      "icon": "a-solid fa-book-open",
       "keywords": [
         "Psychology",
         "Physics",
