@@ -3,6 +3,10 @@
   font-weight: 500 !important;
   font-size: 1rem !important;
 }
+.list-group-description {
+  font-style: italic;
+  font-size: 0.9rem !important;
+}
 </style>
 
 <div class="list-groups">
@@ -35,7 +39,14 @@
             </td>
             <td class="list-group-name">{{ content.date }}</td>
           </tr>
-          <!--[add description from content.description]-->
+          {% if content.description %}
+            <tr>
+              <td></td>
+              <td colspan="{{ i }}" class="list-group-description">
+                {{ content.description }}
+              </td>
+            </tr>
+          {% endif %}
         </tbody>
       </table>
     </div>
