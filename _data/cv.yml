@@ -12,8 +12,8 @@
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: HCMUT, HCMC
+      year: 1882
       description:
         - Description 1.
         - Description 2.
@@ -27,6 +27,14 @@
       description:
         - Description 1.
         - Description 2.
+
+# - title: Certificates
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       institution: Google Cloud Skills Boost
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Experience
   type: time_table
@@ -95,3 +103,5 @@
   type: list
   contents:
     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+

@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-{% unless site.data.resume %}
+{% unless site.data.cv %}
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
+        <!--
         {% if page.cv_pdf %}
           <a
             {% if page.cv_pdf contains '://' %}
@@ -20,6 +21,8 @@ layout: default
             <i class="fa-solid fa-file-pdf"></i>
           </a>
         {% endif %}
+        -->
+
       </h1>
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
@@ -31,7 +34,7 @@ layout: default
         {% for entry in site.data.cv %}
           <a class="anchor" id="{{ entry.title }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+            <h3 class="card-title font-weight-medium" style="font-weight: 500;color: var(--global-theme-color);">{{ entry.title }}</h3>
             <div>
               {% if entry.type == 'list' %}
                 {% include cv/list.liquid %}
@@ -57,6 +60,7 @@ layout: default
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
+        <!--
         {% if page.cv_pdf %}
           <a
             {% if page.cv_pdf contains '://' %}
@@ -71,6 +75,7 @@ layout: default
             <i class="fa-solid fa-file-pdf"></i>
           </a>
         {% endif %}
+        -->
       </h1>
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
@@ -79,7 +84,7 @@ layout: default
 
     <article>
       <div class="cv">
-        {% for data in site.data.resume %}
+        {% for data in site.data.cv %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}
             {% unless site.jsonresume contains data[0] %}
               {% continue %}
@@ -88,33 +93,73 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
-            <div>
+            <!--
+            <h3 class="card-title font-weight-medium" style="font-weight: 500;color: var(--global-theme-color);">{{ data[0] | capitalize }}</h3>
+            -->
+            
+            {% if data[0] == "basics" %}
+              {% assign part_title = "Basic Information" %}
+            {% elsif data[0] == "additional_information" %}
+              {% assign part_title = "Additional Information" %}
+            {% else %}
+              {% assign part_title = data[0] %}
+            {% endif %}
+
+            {% if data[0] == "basics" or data[0] == "additional_information" %}
+              <h3 class="card-title font-weight-medium" style="font-weight: 500; color: var(--global-theme-color);">
+                {{ part_title }}
+              </h3>
+            {% else %}
+              <h3 class="card-title font-weight-medium" style="font-weight: 500; color: var(--global-theme-color);">
+                {{ part_title | capitalize }}
+              </h3>
+            {% endif %}
+            
+          <div>
               {% case data[0] %}
                 {% when 'basics' %}
-                  {% include resume/basics.liquid %}
+                  {% include cv_json/basics.liquid %}
+
                 {% when 'education' %}
-                  {% include resume/education.liquid %}
+                  {% include cv_json/education.liquid %}
+                  
                 {% when 'work' %}
-                  {% include resume/work.liquid %}
+                  {% include cv_json/work.liquid %}
+
                 {% when 'volunteer' %}
-                  {% include resume/volunteer.liquid %}
-                {% when 'projects' %}
-                  {% include resume/projects.liquid %}
+                  {% include cv_json/volunteer.liquid %}
+
                 {% when 'awards' %}
-                  {% include resume/awards.liquid %}
+                  {% include cv_json/awards.liquid %}
+
                 {% when 'skills' %}
-                  {% include resume/skills.liquid %}
-                {% when 'publications' %}
-                  {% include resume/publications.liquid %}
-                {% when 'languages' %}
-                  {% include resume/languages.liquid %}
-                {% when 'interests' %}
-                  {% include resume/interests.liquid %}
+                  {% include cv_json/skills.liquid %}
+
+                {% when 'certifications' %}
+                  {% include cv_json/certs.liquid %}
+
                 {% when 'certificates' %}
-                  {% include resume/certificates.liquid %}
+                  {% include cv_json/certs.liquid %}
+
+                {% when 'projects' %}
+                  {% include cv_json/projects.liquid %}
+
+                {% when 'publications' %}
+                  {% include cv_json/publications.liquid %}
+
+
+                {% when 'languages' %}
+                  {% include cv_json/languages.liquid %}
+
+                {% when 'interests' %}
+                  {% include cv_json/interests.liquid %}
+                
                 {% when 'references' %}
-                  {% include resume/references.liquid %}
+                  {% include cv_json/references.liquid %}
+
+                {% when 'additional_information' %}
+                  {% include cv_json/additional_information.liquid %}
+
                 {% else %}
 
               {% endcase %}

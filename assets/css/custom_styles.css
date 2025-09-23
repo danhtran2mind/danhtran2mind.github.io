@@ -1,0 +1,104 @@
+body .container {
+  max-width: 1200px !important;
+}
+
+/*  print-button CSS */
+.print-page-element {
+  margin-bottom: 1.5rem; 
+  margin-right: 0em; 
+  /* text-align: right; */
+}
+.other-version-link {
+  margin-left: 1rem;
+  display: inline-flex; 
+  align-content: left;
+  align-items: left; 
+  gap: 0.5em; 
+  margin-right: 0rem;
+}
+.print-button {
+    gap: 0.3rem !important;
+    background-color: transparent;
+    border: 0.23rem solid var(--global-theme-color);
+    border-radius: 0.3rem;    
+    padding: 0.75rem 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,123,255,0.3);
+    display: inline-flex;
+    align-items: center;
+    color: var(--global-theme-color);
+    /* filter: invert(100%); */
+}
+i.fas.fa-print {
+  color: var(--global-theme-color);
+  
+  /* filter: invert(85%); */
+}
+span.print-button-text {
+  color: var(--global-theme-color);
+  /* filter: invert(85%); */
+  /* margin-left: 0.5rem; */
+}
+
+/* .print-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,123,255,0.4);
+} */
+
+/* .print-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,123,255,0.3);
+} */
+
+/* Dark mode support */
+/* @media (prefers-color-scheme: dark) {
+    .print-button {
+        background-color: #1a73e8;
+    }
+    
+    .print-button:hover {
+        background-color: #0d47a1;
+    }
+} */
+/* End of print-button */
+
+.fas fa-print {
+  margin-right: 0.3rem;
+}
+
+/* Start Skill Part */
+/* .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 24px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+.skill-group {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+}
+.skill-group:hover {
+    transform: translateY(-4px);
+}
+.group-title {
+    font-weight: 700;
+    font-size: 1.1em;
+    color: #1a1a1a;
+    display: block;
+    margin-bottom: 8px;
+}
+.skill-list {
+    font-size: 0.95em;
+    color: #555;
+    line-height: 1.6;
+} */

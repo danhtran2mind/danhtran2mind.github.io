@@ -2,9 +2,9 @@
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
-nav: true
-nav_order: 7
+description: Welcome to my amazing people profiles! 👥 Connect with our talented crew! 💪
+# nav: true
+# nav_order: 7
 
 profiles:
   # if you want to include more than one profile, just replicate the following block

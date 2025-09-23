@@ -1,0 +1,24 @@
+{%- comment -%}
+  Load the “additional_information” object from _data/cv.json
+  and display each entry as:
+  🔗 Certificate Details: https://google.com
+  🔗 Certification Details: https://google.com
+  …
+{%- endcomment -%}
+
+{% assign addInfo = site.data.cv.additional_information %}
+
+<div class="additional-info">
+  <ul class="list-unstyled">
+    {% for item in addInfo %}
+      {% assign key = item | keys | first %}
+      {% assign label = key | capitalize %}
+      {% assign url = item[key] %}
+      <li class="mb-2 d-flex align-items-center">
+        <i class="fa-solid fa-link me-2"></i>
+        <strong class="me-1">{{ label }}:</strong>
+        <a href="{{ url }}" target="_blank" rel="noopener">{{ url }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
