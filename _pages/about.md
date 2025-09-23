@@ -26,7 +26,7 @@ profile:
   more_info: >
     <!-- Avatar Caption -->
     <div style="display: flex;justify-content: center;margin-bottom: 0.75rem;">
-      <span style="font-style: italic">Einstein in 1947</span>
+      <span style="font-style: italic">My Avatar in Ghibli Style</span>
     </div>
     <!-- My Information Table -->
     <div style='display: flex; justify-content: space-between; font-family: "EB Garamond", serif'>
