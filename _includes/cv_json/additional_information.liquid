@@ -19,17 +19,16 @@
 
           {% assign display_url = url %}
           
-          <table style="width: 100%; border-collapse: collapse;">
-            <tr style="display: flex; align-items: center; margin-bottom: 0.5rem;">
-              <td style="flex: 0 0 auto; margin-right: 2rem;">
-                <strong>{{ label }}:</strong>
-              </td>
-              <td style="flex: 1;">
-                <i class="fa-solid fa-link" style="color: var(--global-theme-color); margin-right: 0.5rem;"></i>
-                <a href="{{ display_url }}" target="_blank" rel="noopener">{{ display_url }}</a>
-              </td>
-            </tr>
-          </table>
+          <li class="mb-2 d-flex align-items-center">
+            <div style="margin-right: 2rem;">
+              <strong class="me-1">{{ label }}:</strong>
+            </div>
+            <div>
+              <i class="fa-solid fa-link me-2"style="color: var(--global-theme-color);"></i>            
+              <a href="{{ display_url }}" target="_blank" rel="noopener">{{ display_url }}</a>
+            </div>
+          </li>
+
         {% endfor %}
       {% endfor %}
     {% else %}
