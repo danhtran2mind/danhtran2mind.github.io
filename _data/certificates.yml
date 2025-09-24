@@ -243,7 +243,7 @@
 #                           Anthropic Certificates                           #
 # ========================================================================== #
 - name: Introduction to Model Context Protocol
-  date: Sep 16, 2024
+  date: Sep 19, 2025
   certificate_url: 'https://verify.skilljar.com/c/ydfdh6p4t453'
   provider_issuer: Anthropic
   description: "Learn MCP to connect Claude with services: build servers/clients, expose tools, resources, prompts, and create a document‑management system."
@@ -252,11 +252,71 @@
   file: 'assets/images/certificates/anthropic/Introduction to Model Context Protocol.jpg'
 
 - name: 'Model Context Protocol: Advanced Topics'
-  date: Sep 19, 2024
+  date: Sep 19, 2025
   certificate_url: 'https://verify.skilljar.com/c/ydfdh6p4t453'
   provider_issuer: Anthropic
   description: "Learn MCP to connect Claude with services: build servers/clients, expose tools, resources, prompts, and create a document‑management system."
   short_description: "Master MCP integration for Claude services."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: 'assets/images/certificates/anthropic/Model Context Protocol - Advanced Topics.jpg'
+
+# ========================================================================== #
+#                            OpenCV Certificates                             #
+# ========================================================================== #
+- name: 'FREE TensorFlow Keras Bootcamp'
+  date: Mar 4, 2025
+  certificate_url: 'https://courses.opencv.org/certificates/8036870dc30e40309db2321117120def'
+  provider_issuer: OpenCV
+  description: "Learn NN, MLP, CNN for image classification/segmentation and train a custom CNN on your dataset."
+  short_description: "Learn CNNs, train custom image model."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/opencv/Model Context Protocol - Advanced Topics.jpg'
+
+- name: 'OpenCV Bootcamp'
+  date: Sep 29, 2024
+  certificate_url: 'https://courses.opencv.org/certificates/7e56e37fe25a44709b0d39dee24764ef'
+  provider_issuer: OpenCV
+  description: "Free OpenCV course teaches image/video manipulation, object and face detection for AI and deep learning."
+  short_description: "Master OpenCV: image, video, object detection."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/opencv/OpenCV Bootcamp.jpg'
+
+- name: 'Python for Beginners'
+  date: Sep 29, 2024
+  certificate_url: 'https://courses.opencv.org/certificates/722b6f87c7f2480da0d390d1f57121e5'
+  provider_issuer: OpenCV
+  description: "Learn essential Python to launch a career in computer vision, deep learning, and AI."
+  short_description: "Python fundamentals for AI careers."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/opencv/Python for Beginners.jpg'
+
+- name: 'Vision Language Model Bootcamp'
+  date: Sep 17, 2025
+  certificate_url: 'https://courses.opencv.org/certificates/722b6f87c7f2480da0d390d1f57121e5'
+  provider_issuer: OpenCV
+  description: "Free VLM course teaches CLIP embeddings for zero‑shot classification, then Qwen2.5‑VL for image captioning and object detection hands-on."
+  short_description: "Free VLM course: CLIP & Qwen2.5‑VL."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/opencv/Python for Beginners.jpg'
+
+- name: 'PyTorch Bootcamp'
+  date: Sep 17, 2025
+  certificate_url: 'https://courses.opencv.org/certificates/a01b381eaae9471bafef979ad7197a2e'
+  provider_issuer: OpenCV
+  description: "Free PyTorch bootcamp teaching deep‑learning fundamentals, hands‑on tensors, neural networks, optimization, plus object detection and segmentation."
+  short_description: "Free PyTorch bootcamp: tensors to segmentation."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/opencv/PyTorch Bootcamp.jpg'
+
+# ========================================================================== #
+#                         freeCodeCamp Certificates                          #
+# ========================================================================== #
+- name: 'Machine Learning with Python'
+  date: Otc 1, 2024
+  certificate_url: 'https://www.freecodecamp.org/certification/fcc5b1ee14f-24e8-43d3-96e2-4f9e79d80051/machine-learning-with-python-v7'
+  provider_issuer: freeCodeCamp
+  description: "Learn TensorFlow to build neural networks, covering NLP, reinforcement learning, and deep, recurrent, convolutional architectures."
+  short_description: "TensorFlow: neural nets, NLP, reinforcement learning."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/freecodecamp/Machine Learning with Python.jpg'
 
