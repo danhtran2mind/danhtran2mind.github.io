@@ -196,3 +196,39 @@
   short_description: "Build fast, async Python APIs with FastAPI."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: 'assets/images/certificates/datacamp/Building APIs in Python.jpg'
+
+- name: Data Analytics Essentials
+  date: Otc 30, 2024
+  certificate_url: 'https://www.credly.com/badges/7fed13a3-a269-4a20-a177-57194ac41ad3'
+  provider_issuer: Cisco
+  description: "Learn Excel, SQL, Tableau for data analysis; build a portfolio with a popular‑movies dataset, created with OpenEDG Python Institute."
+  short_description: "Excel, SQL, Tableau data analytics course."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/netcad-cisco/Data Analytics Essentials.jpg'
+
+- name: Python Essentials 1
+  date: Sep 26, 2024
+  certificate_url: 'https://www.credly.com/badges/1c9274cf-d6b4-4f57-9647-60eeb5525415'
+  provider_issuer: Cisco
+  description: "Learn Python fundamentals, build projects, and prepare for PCEP certification for diverse tech careers."
+  short_description: "Python fundamentals, PCEP prep, tech careers."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/netcad-cisco/Python Essentials 1.jpg'
+
+- name: Python Essentials 2
+  date: Sep 29, 2024
+  certificate_url: 'https://www.credly.com/badges/d589eb5b-d2f5-4c77-9c2e-67c9921896e1'
+  provider_issuer: Cisco
+  description: "Advanced Python course covering OOP, portfolio projects, and PCAP certification prep, for learners with basics."
+  short_description: "Advanced Python OOP and PCAP prep."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/netcad-cisco/Python Essentials 2.jpg'
+
+- name: JavaScript Essentials 1
+  date: Otc 16, 2024
+  certificate_url: 'https://www.credly.com/badges/e740f914-00b7-4ecf-bbd9-ae31aedc09f3'
+  provider_issuer: Cisco
+  description: "Learn JavaScript front‑end development, earn JSE entry‑level certification, no experience needed, boost career in web, mobile, gaming."
+  short_description: "JavaScript basics, certification, career boost."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/netcad-cisco/JavaScript Essentials 1.jpg'
