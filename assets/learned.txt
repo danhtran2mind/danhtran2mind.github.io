@@ -1,0 +1,12 @@
+aws
+	www.aws.training
+	skillbuilder.aws
+google
+microsoft
+cisco netcad
+freecodecamp
+hackerrank
+cognitiveclass.ai
+datacamp
+codecademy
+anthropic.skilljar.com

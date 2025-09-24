@@ -1,3 +1,6 @@
+# ========================================================================== #
+#                           DataCamp Certificates                            #
+# ========================================================================== #
 - name: Deep Learning in Python
   date: Nov 29, 2024
   certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1'
@@ -197,6 +200,9 @@
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: 'assets/images/certificates/datacamp/Building APIs in Python.jpg'
 
+# ========================================================================== #
+#                         NetCad-Cisco Certificates                          #
+# ========================================================================== #
 - name: Data Analytics Essentials
   date: Oct 30, 2024
   certificate_url: 'https://www.credly.com/badges/7fed13a3-a269-4a20-a177-57194ac41ad3'
@@ -232,3 +238,25 @@
   short_description: "JavaScript basics, certification, career boost."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: 'assets/images/certificates/netcad-cisco/JavaScript Essentials 1.jpg'
+
+# ========================================================================== #
+#                           Anthropic Certificates                           #
+# ========================================================================== #
+- name: Introduction to Model Context Protocol
+  date: Sep 16, 2024
+  certificate_url: 'https://verify.skilljar.com/c/ydfdh6p4t453'
+  provider_issuer: Anthropic
+  description: "Learn MCP to connect Claude with services: build servers/clients, expose tools, resources, prompts, and create a document‑management system."
+  short_description: "Master MCP integration for Claude services."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/anthropic/Introduction to Model Context Protocol.jpg'
+
+- name: 'Model Context Protocol: Advanced Topics'
+  date: Sep 19, 2024
+  certificate_url: 'https://verify.skilljar.com/c/ydfdh6p4t453'
+  provider_issuer: Anthropic
+  description: "Learn MCP to connect Claude with services: build servers/clients, expose tools, resources, prompts, and create a document‑management system."
+  short_description: "Master MCP integration for Claude services."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/anthropic/Model Context Protocol - Advanced Topics.jpg'
+
