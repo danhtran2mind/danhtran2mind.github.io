@@ -13,7 +13,7 @@ horizontal: false
 
 <div class="certificates-grid">
   {% for cer in site.data.certificates %}
-    <div class="cer-card" style="display: inline-flex;">
+    <div class="cer-card" style="display: inline-flex;" style="padding-right: 0px;">
       <div class="cer-content">
         <a href="{{ cer.certificate_url }}" class="text-2xl group" target="_blank" rel="external nofollow noopener">
           {{ cer.name }}

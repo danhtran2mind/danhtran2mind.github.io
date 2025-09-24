@@ -14,6 +14,7 @@
   description: "Learn AI engineering, master APIs, LLMs, and build production-ready AI systems."
   short_description: "Master AI engineering, build impactful applications."
   # tags: [Machine Learning, AI, Data Science]
+  file: 'assets/images/certificates/datacamp/Associate AI Engineer for Developers.jpg'
 
 - name: Associate AI Engineer for Data Scientists
   date: Nov 22, 2024
@@ -21,7 +22,8 @@
   provider_issuer: DataCamp
   description: "Become an AI Engineer: Master AI development, deployment, and MLOps with hands-on Python, LLMs, and LangChain experience."
   short_description: "AI Engineer: Build, deploy AI solutions."
-# tags: [Web Development, HTML, CSS, JavaScript]
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Associate AI Engineer for Data Scientists.jpg'
 
 - name: Machine Learning Engineer
   date: Nov 24, 2024
@@ -31,6 +33,7 @@
   short_description: "Master MLOps, deploy models, gain expertise."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: assets/images/certificates/ibm/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Machine Learning Engineer.jpg'
 
 - name: Keras Fundamentals
   date: Nov 25, 2024
@@ -39,7 +42,7 @@
   description: "Learn Keras, neural networks, and deep learning to solve real-world challenges like predicting housing prices."
   short_description: "Master Keras, neural networks, deep learning."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Keras Fundamentals.jpg'
 
 - name: Machine Learning Fundamentals in Python
   date: Nov 28, 2024
@@ -48,7 +51,7 @@
   description: "Master machine learning with Python using scikit-learn, PyTorch, and Gymnasium for supervised, unsupervised, deep, and reinforcement learning."
   short_description: "Learn machine learning with Python comprehensively."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Machine Learning Fundamentals in Python.jpg'
 
 - name: Developing Large Language Models
   date: Nov 29, 2024
@@ -57,7 +60,7 @@
   description: "Learn to build LLMs with PyTorch, transformers, and Hugging Face, from inception to real-world deployment."
   short_description: "Build LLMs with PyTorch and transformers."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Developing Large Language Models.jpg'
 
 - name: OpenAI Fundamentals
   date: Nov 22, 2024
@@ -65,7 +68,7 @@
   description: "Learn to use the OpenAI API in Python for chatbots, semantic search, recommendations, advanced prompting, and embeddings."
   short_description: "Build AI apps with OpenAI API."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/OpenAI Fundamentals.jpg'
 
 - name: Machine Learning in Production in Python
   date: Nov 24, 2024
@@ -74,7 +77,7 @@
   description: "Learn MLOps fundamentals, deploy and monitor Python models with MLflow and DVC in a hands‑on production‑ready track."
   short_description: "Deploy, monitor Python ML models with MLOps."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Machine Learning in Production in Python.jpg'
 
 - name: Natural Language Processing in Python
   date: Nov 29, 2024
@@ -83,7 +86,7 @@
   description: "Learn Python NLP to process unstructured data, using NLTK, spaCy, scikit‑learn, and SpeechRecognition for transcription and sentiment analysis."
   short_description: "Python NLP: audio transcription and sentiment analysis."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Natural Language Processing in Python.jpg'
 
 - name: Big Data with PySpark
   date: Dec 04, 2024
@@ -92,7 +95,7 @@
   description: "Learn NLP: transcribe audio, analyze sentiment, and extract insights from Wikipedia, reviews, and flight data using NLTK, scikit‑learn, spaCy, SpeechRecognition."
   short_description: "Python NLP: transcribe audio, analyze sentiment."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Big Data with PySpark.jpg'
 
 - name: Reinforcement Learning in Python
   date: Aug 29, 2025
@@ -101,7 +104,7 @@
   description: "Learn RL fundamentals, apply Q‑learning, SARSA, deep RL, and RLHF using Python and Gymnasium for games, robotics, and trading."
   short_description: "Master RL basics to advanced human‑feedback models."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Reinforcement Learning in Python.jpg'
 
 - name: Llama Fundamentals
   date: Aug 29, 2025
@@ -110,7 +113,7 @@
   description: "Learn to run, fine‑tune, and deploy Llama 3 for inference, summarization, and generation on consumer hardware."
   short_description: "Implement Llama 3 for inference and fine‑tuning."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Llama Fundamentals.jpg'
 
 - name: Python Programming
   date: Sep 10, 2025
@@ -119,7 +122,7 @@
   description: "Advanced Python: context managers, decorators, testing, OOP, and best‑practice modular development."
   short_description: "Advanced Python: testing, OOP, best practices."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Python Programming.jpg'
 
 - name: Developing Applications with LangChain
   date: Sep 10, 2025
@@ -128,7 +131,7 @@
   description: "Learn LangChain to build LLM apps: chatbots, RAG, and autonomous agents using Hugging Face and OpenAI."
   short_description: "LLM apps with LangChain: chatbots, RAG, agents."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Developing Applications with LangChain.jpg'
 
 - name: Machine Learning Scientist in Python
   date: Sep 11, 2025
@@ -137,7 +140,7 @@
   description: "Comprehensive Python track teaches ML fundamentals, advanced techniques, real projects, preparing you for machine‑learning scientist roles."
   short_description: "Python machine learning track for job‑ready scientists."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Machine Learning Scientist in Python.jpg'
 
 - name: Associate Python Developer
   date: Sep 13, 2025
@@ -146,7 +149,7 @@
   description: "Comprehensive beginner track teaches Python fundamentals, advanced concepts, and real‑world projects to launch a software development career."
   short_description: "Learn Python, build projects, start dev career."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Associate Python Developer.jpg'
 
 - name: Python Developer
   date: Sep 14, 2025
@@ -155,7 +158,7 @@
   description: "Advanced Python track: testing, optimization, packaging, Git, web scraping, OOP, data structures, algorithms for professional development."
   short_description: "Professional Python development: testing, Git, scraping, OOP."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Python Developer.jpg'
 
 - name: Python Programming Fundamentals
   date: Sep 15, 2025
@@ -164,7 +167,7 @@
   description: "Learn Python basics, work with data types, built‑ins, modules, then build a user‑registration project."
   short_description: "Python fundamentals to create a registration app."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Python Programming Fundamentals.jpg'
 
 - name: Python Programming Toolbox
   date: Sep 15, 2025
@@ -173,7 +176,7 @@
   description: "Learn Python basics: dates, times, time zones, string manipulation, regex, and classic algorithms with complexity analysis."
   short_description: "Python dates, regex, and algorithms basics."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Python Programming Toolbox.jpg'
 
 - name: Git Fundamentals
   date: Sep 15, 2025
@@ -182,7 +185,7 @@
   description: "Comprehensive Git course covering basics, branching, merging, rebasing, LFS, bisect, submodules, and collaborative workflows."
   short_description: "Master Git basics to advanced workflows."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  file: 'assets/images/certificates/datacamp/Git Fundamentals.jpg'
 
 - name: Building APIs in Python
   date: Sep 15, 2025
@@ -191,4 +194,4 @@
   description: "Learn Python fundamentals, consume APIs, then build fast, async FastAPI services, culminating in a real‑time exchange‑rate API."
   short_description: "Build fast, async Python APIs with FastAPI."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/datacamp/th_1.jpg
+  fifile: 'assets/images/certificates/datacamp/Building APIs in Python.jpg'
