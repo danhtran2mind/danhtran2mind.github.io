@@ -2,10 +2,10 @@
   date: Nov 29, 2024
   certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1'
   provider_issuer: DataCamp
-  description: "Explore deep learning with PyTorch, build models for real-world problems, and master advanced architectures like Transformers.""
+  description: "Explore deep learning with PyTorch, build models for real-world problems, and master advanced architectures like Transformers."
   short_description: "Learn deep learning, build models with PyTorch."
   # tags: [Python, Programming, Data Science]
-  # file: assets/images/certificates/datacamp/DataCamp_deep-learning-in-python.pdf
+  file: 'assets/images/certificates/datacamp/Deep Learning in Python.jpg'
 
 - name: Associate AI Engineer for Developers
   date: Nov 19, 2024
