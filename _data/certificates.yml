@@ -2,8 +2,8 @@
   date: Nov 29, 2024
   certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1
   provider_issuer: DataCamp
-  description: Explore deep learning with PyTorch, build models for real-world problems, and master advanced architectures like Transformers.
-  short_description: Learn deep learning, build models with PyTorch.
+  description: "Explore deep learning with PyTorch, build models for real-world problems, and master advanced architectures like Transformers.""
+  short_description: "Learn deep learning, build models with PyTorch."
   # tags: [Python, Programming, Data Science]
   # file: assets/images/certificates/datacamp/DataCamp_deep-learning-in-python.pdf
 
@@ -11,8 +11,8 @@
   date: Nov 19, 2024
   certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/9be5c32bd0d1bc752cf39f631c4f35bd824e1f79?raw=1
   provider_issuer: DataCamp
-  description: Learn AI engineering, master APIs, LLMs, and build production-ready AI systems.
-  short_description: Master AI engineering, build impactful applications.
+  description: "Learn AI engineering, master APIs, LLMs, and build production-ready AI systems."
+  short_description: "Master AI engineering, build impactful applications."
   # tags: [Machine Learning, AI, Data Science]
 
 - name: Associate AI Engineer for Data Scientists
@@ -27,8 +27,8 @@
   date: Nov 24, 2024
   certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1
   provider_issuer: DataCamp
-  description: Become a machine learning engineer with MLOps, model deployment, and real-world projects.
-  short_description: Master MLOps, deploy models, gain expertise.
+  description: "Become a machine learning engineer with MLOps, model deployment, and real-world projects."
+  short_description: "Master MLOps, deploy models, gain expertise."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: assets/images/certificates/ibm/th_1.jpg
 
@@ -36,8 +36,8 @@
   date: Nov 25, 2024
   certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/d1152665979387f0abffc6b138f9df14f2ed7000?raw=1
   provider_issuer: DataCamp
-  description: Learn Keras, neural networks, and deep learning to solve real-world challenges like predicting housing prices.
-  short_description: Master Keras, neural networks, deep learning.
+  description: "Learn Keras, neural networks, and deep learning to solve real-world challenges like predicting housing prices."
+  short_description: "Master Keras, neural networks, deep learning."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: assets/images/certificates/datacamp/th_1.jpg
 
@@ -45,39 +45,39 @@
   date: Nov 28, 2024
   certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/83554b9fdffc9aef27dd906aafba730673c4ee20?raw=1
   provider_issuer: DataCamp
-  description: Master machine learning with Python using scikit-learn, PyTorch, and Gymnasium for supervised, unsupervised, deep, and reinforcement learning.
-  short_description: Learn machine learning with Python comprehensively.
+  description: "Master machine learning with Python using scikit-learn, PyTorch, and Gymnasium for supervised, unsupervised, deep, and reinforcement learning."
+  short_description: "Learn machine learning with Python comprehensively."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: assets/images/certificates/datacamp/th_1.jpg
 
 - name: Developing Large Language Models
   date: Nov 29, 2024
   certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/7535c53246f1013fe3c625462939a18fcb342e65?raw=1
-  description: Learn to build LLMs with PyTorch, transformers, and Hugging Face, from inception to real-world deployment.
-  short_description: Build LLMs with PyTorch and transformers.
+  description: "Learn to build LLMs with PyTorch, transformers, and Hugging Face, from inception to real-world deployment."
+  short_description: "Build LLMs with PyTorch and transformers."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: assets/images/certificates/datacamp/th_1.jpg
 
 - name: OpenAI Fundamentals
   date: Nov 22, 2024
   certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/55a6617dab4407e4807d6c5438fa6ef28378a726?raw=1
-  description: Learn to use the OpenAI API in Python for chatbots, semantic search, recommendations, advanced prompting, and embeddings.
-  short_description: Build AI apps with OpenAI API.
+  description: "Learn to use the OpenAI API in Python for chatbots, semantic search, recommendations, advanced prompting, and embeddings."
+  short_description: "Build AI apps with OpenAI API."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: assets/images/certificates/datacamp/th_1.jpg
 
 - name: Machine Learning in Production in Python
   date: Nov 24, 2024
   certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/3dbb239ab99db948c01f2f3972fb2d2b783a5bc4?raw=1
-  description: Learn MLOps fundamentals, deploy and monitor Python models with MLflow and DVC in a hands‑on production‑ready track.
-  short_description: Deploy, monitor Python ML models with MLOps.
+  description: "Learn MLOps fundamentals, deploy and monitor Python models with MLflow and DVC in a hands‑on production‑ready track."
+  short_description: "Deploy, monitor Python ML models with MLOps."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: assets/images/certificates/datacamp/th_1.jpg
 
 - name: Natural Language Processing in Python
   date: Nov 29, 2024
   certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/cbbebe7949a9faa86b32e2789f7354133fe52fd9?raw=1
-  description: Learn Python NLP to process unstructured data, using NLTK, spaCy, scikit‑learn, and SpeechRecognition for transcription and sentiment analysis.
+  description: "Learn Python NLP to process unstructured data, using NLTK, spaCy, scikit‑learn, and SpeechRecognition for transcription and sentiment analysis."
   short_description: "Python NLP: audio transcription and sentiment analysis."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: assets/images/certificates/datacamp/th_1.jpg
