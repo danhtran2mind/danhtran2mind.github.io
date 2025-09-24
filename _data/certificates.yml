@@ -198,7 +198,7 @@
   file: 'assets/images/certificates/datacamp/Building APIs in Python.jpg'
 
 - name: Data Analytics Essentials
-  date: Otc 30, 2024
+  date: Oct 30, 2024
   certificate_url: 'https://www.credly.com/badges/7fed13a3-a269-4a20-a177-57194ac41ad3'
   provider_issuer: Cisco
   description: "Learn Excel, SQL, Tableau for data analysis; build a portfolio with a popular‑movies dataset, created with OpenEDG Python Institute."
@@ -225,7 +225,7 @@
   file: 'assets/images/certificates/netcad-cisco/Python Essentials 2.jpg'
 
 - name: JavaScript Essentials 1
-  date: Otc 16, 2024
+  date: Oct 16, 2024
   certificate_url: 'https://www.credly.com/badges/e740f914-00b7-4ecf-bbd9-ae31aedc09f3'
   provider_issuer: Cisco
   description: "Learn JavaScript front‑end development, earn JSE entry‑level certification, no experience needed, boost career in web, mobile, gaming."
