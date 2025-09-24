@@ -331,3 +331,12 @@
   short_description: "TensorFlow: neural nets, NLP, reinforcement learning."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: 'assets/images/certificates/freecodecamp/Machine Learning with Python.jpg'
+
+- name: 'Fundamentals of Analytics on AWS - Part 1'
+  date: Sep 29, 2024
+  certificate_url: 'https://skillbuilder.aws/9ba5b112-b9af-4d7e-9ba0-5eb542fff24c'
+  provider_issuer: AWS Skill Builder
+  description: "Intro to analytics fundamentals, covering types, 5 V's, challenges, and AWS service mapping; 2‑hour, fundamental level."
+  short_description: "Analytics basics, 5 V's, AWS mapping."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/skillbuilder-aws/Fundamentals of Analytics on AWS - Part 1.jpg'
