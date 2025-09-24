@@ -84,17 +84,17 @@ data:
   education:
     title: Education
     items:
-      - date: 1900 -- 3000
+      - date: 2022 -- 2024
         university: Ho Chi Minh City University of Technology -- Vietnam National University Ho Chi Minh City
-        degree: Master of Science in Computer Science
+        degree: Master of Engineering in Computer Science
         gpa: 8.08/10
         # description: Studied foundational and advanced topics in computer science.
-        thesis: Nothing is True, Everything is Permited version 2
+        thesis: Classification of blood pressure for patients treated at home
         # achievements:
         #   - Completed coursework in algorithms, data structures, and software engineering.
-      - date: 1900 -- 3000
-        university: Ho Chi Minh City University of Technology -- Vietnam National University Ho Chi Minh City
-        degree: Bachelor of Science in Computer Science
+      - date: 2014 -- 2020
+        university: University of Health Sciences -- Vietnam National University Ho Chi Minh City 
+        degree: General Medicine in Doctor of Medicine
         # gpa:
         # description: Studied foundational and advanced topics in computer science.
         # thesis: Nothing is True, Everything is Permited
