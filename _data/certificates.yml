@@ -65,6 +65,7 @@
 - name: OpenAI Fundamentals
   date: Nov 22, 2024
   certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/55a6617dab4407e4807d6c5438fa6ef28378a726?raw=1'
+  provider_issuer: DataCamp
   description: "Learn to use the OpenAI API in Python for chatbots, semantic search, recommendations, advanced prompting, and embeddings."
   short_description: "Build AI apps with OpenAI API."
   # tags: [Web Development, HTML, CSS, JavaScript]
