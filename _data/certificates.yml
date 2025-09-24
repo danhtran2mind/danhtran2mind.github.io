@@ -321,22 +321,10 @@
   file: 'assets/images/certificates/freecodecamp/Machine Learning with Python.jpg'
 
 # ========================================================================== #
-#                        Cognitive Class Certificates                        #
-# ========================================================================== #
-- name: 'Machine Learning with Python'
-  date: Sep 30, 2024
-  certificate_url: 'https://www.freecodecamp.org/certification/fcc5b1ee14f-24e8-43d3-96e2-4f9e79d80051/machine-learning-with-python-v7'
-  provider_issuer: freeCodeCamp
-  description: "Learn TensorFlow to build neural networks, covering NLP, reinforcement learning, and deep, recurrent, convolutional architectures."
-  short_description: "TensorFlow: neural nets, NLP, reinforcement learning."
-  # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/freecodecamp/Machine Learning with Python.jpg'
-
-# ========================================================================== #
 #                       AWS Skill Builder Certificates                       #
 # ========================================================================== #
 - name: 'Fundamentals of Analytics on AWS - Part 1'
-  date: Sep 29, 2024
+  date: Oct 01, 2024
   certificate_url: 'blob:https://skillbuilder.aws/97bdd08d-0dda-442f-8494-f8cb6911d1d8'
   provider_issuer: AWS Skill Builder
   description: "Intro to analytics fundamentals, covering types, 5 V's, challenges, and AWS service mapping; 2‑hour, fundamental level."
@@ -345,10 +333,58 @@
   file: 'assets/images/certificates/skillbuilder-aws/Fundamentals of Analytics on AWS - Part 1.jpg'
 
 - name: 'Building Language Models on AWS'
-  date: Sep 29, 2024
+  date: Oct 01, 2024
   certificate_url: 'blob:https://skillbuilder.aws/4c1b933a-3a57-45a5-8ffe-ad8c02552c05'
   provider_issuer: AWS Skill Builder
   description: "SageMaker course covers LLM data ingestion, distributed training, alignment, and optimized deployment."
   short_description: "SageMaker LLM training and deployment."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: 'assets/images/certificates/skillbuilder-aws/Building Language Models on AWS.jpg'
+
+# ========================================================================== #
+#                        Cognitive Class Certificates                        #
+# ========================================================================== #
+- name: 'Spark Fundamentals II'
+  date: Oct 07, 2024
+  certificate_url: 'https://courses.cognitiveclass.ai/certificates/4ff85ac4e4414a69b6741e87c3ba562c'
+  provider_issuer: Cognitive Class
+  description: "Advanced Spark RDD course covering architecture, caching, and advanced API operations."
+  short_description: "Advanced Spark RDD course."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/cognitiveclass/Spark Fundamentals II.jpg'
+
+- name: 'Deep Learning with TensorFlow'
+  date: Oct 04, 2024
+  certificate_url: 'https://courses.cognitiveclass.ai/certificates/a6f8f3d1579d42dcbce416007e6313d8'
+  provider_issuer: Cognitive Class
+  description: "Deep TensorFlow course teaches neural nets, backpropagation, and architectures for images, sound, and text."
+  short_description: "TensorFlow deep learning basics."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/cognitiveclass/Deep Learning with TensorFlow.jpg'
+
+- name: 'Machine Learning with Apache SystemML'
+  date: Oct 03, 2024
+  certificate_url: 'https://courses.cognitiveclass.ai/certificates/5e6790f5b8b844b693a2dfc8dfecee7b'
+  provider_issuer: Cognitive Class
+  description: "SystemML lets you write R/Python-style ML code that auto-optimizes and scales from single-node to Hadoop/Spark clusters."
+  short_description: "Auto-scaling ML with R/Python-style syntax."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/cognitiveclass/Machine Learning with Apache SystemML.jpg'
+
+- name: 'Simplifying data pipelines with Apache Kafka'
+  date: Oct 03, 2024
+  certificate_url: 'https://courses.cognitiveclass.ai/certificates/92e6840bb6ed4d518ffa737ec8efc162'
+  provider_issuer: Cognitive Class
+  description: "Apache Kafka fundamentals, architecture, and real‑world use cases, plus hands‑on production/consumption, Spark integration, and Kafka Connect."
+  short_description: "Kafka basics and hands‑on labs."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/cognitiveclass/Simplifying data pipelines with Apache Kafka.jpg'
+
+- name: 'Deep Learning Fundamentals'
+  date: Oct 04, 2024
+  certificate_url: 'https://courses.cognitiveclass.ai/certificates/c1ce87dee63645ed83b4972a6c12e847'
+  provider_issuer: Cognitive Class
+  description: "A free crash‑course covering deep learning basics, CNNs, their power, and applications to jump‑start a data‑science career."
+  short_description: "Free intro to deep learning and CNNs.."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/cognitiveclass/Deep Learning Fundamentals.jpg'
