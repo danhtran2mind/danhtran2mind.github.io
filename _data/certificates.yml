@@ -195,4 +195,4 @@
   description: "Learn Python fundamentals, consume APIs, then build fast, async FastAPI services, culminating in a real‑time exchange‑rate API."
   short_description: "Build fast, async Python APIs with FastAPI."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  fifile: 'assets/images/certificates/datacamp/Building APIs in Python.jpg'
+  file: 'assets/images/certificates/datacamp/Building APIs in Python.jpg'
