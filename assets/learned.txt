@@ -10,3 +10,22 @@ cognitiveclass.ai
 datacamp
 codecademy
 anthropic.skilljar.com
+
+leetcode
+hacker rank
+coursera
+udemy
+udacity
+datacamp
+opencv
+edx.org
+confluent
+openai
+edube
+kaggle
+mbcl...	
+cpr...	
+skillsbuild.org
+www.codecademy.com
+accounts.skilljar.com
+cognitiveclass.ai
