@@ -313,7 +313,7 @@
 # ========================================================================== #
 - name: 'Machine Learning with Python'
   date: Sep 30, 2024
-  certificate_url: 'https://www.freecodecamp.org/certification/fcc5b1ee14f-24e8-43d3-96e2-4f9e79d80051/machine-learning-with-python-v7'
+  certificate_url: 'https://www.freecodecamp.org/certification/danhtran2mind/machine-learning-with-python-v7'
   provider_issuer: freeCodeCamp
   description: "Learn TensorFlow to build neural networks, covering NLP, reinforcement learning, and deep, recurrent, convolutional architectures."
   short_description: "TensorFlow: neural nets, NLP, reinforcement learning."
@@ -330,7 +330,7 @@
   description: "Intro to analytics fundamentals, covering types, 5 V's, challenges, and AWS service mapping; 2‑hour, fundamental level."
   short_description: "Analytics basics, 5 V's, AWS mapping."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/skillbuilder-aws/Fundamentals of Analytics on AWS - Part 1.jpg'
+  file: 'assets/images/certificates/skillbuilder-aws/Fundamentals of Analytics on AWS_Part 1.jpg'
 
 - name: 'Building Language Models on AWS'
   date: Oct 01, 2024
