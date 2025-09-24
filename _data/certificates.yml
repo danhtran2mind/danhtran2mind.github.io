@@ -332,11 +332,23 @@
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: 'assets/images/certificates/freecodecamp/Machine Learning with Python.jpg'
 
+# ========================================================================== #
+#                       AWS Skill Builder Certificates                       #
+# ========================================================================== #
 - name: 'Fundamentals of Analytics on AWS - Part 1'
   date: Sep 29, 2024
-  certificate_url: 'https://skillbuilder.aws/9ba5b112-b9af-4d7e-9ba0-5eb542fff24c'
+  certificate_url: 'blob:https://skillbuilder.aws/97bdd08d-0dda-442f-8494-f8cb6911d1d8'
   provider_issuer: AWS Skill Builder
   description: "Intro to analytics fundamentals, covering types, 5 V's, challenges, and AWS service mapping; 2‑hour, fundamental level."
   short_description: "Analytics basics, 5 V's, AWS mapping."
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: 'assets/images/certificates/skillbuilder-aws/Fundamentals of Analytics on AWS - Part 1.jpg'
+
+- name: 'Building Language Models on AWS'
+  date: Sep 29, 2024
+  certificate_url: 'blob:https://skillbuilder.aws/4c1b933a-3a57-45a5-8ffe-ad8c02552c05'
+  provider_issuer: AWS Skill Builder
+  description: "SageMaker course covers LLM data ingestion, distributed training, alignment, and optimized deployment."
+  short_description: "SageMaker LLM training and deployment."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/skillbuilder-aws/Building Language Models on AWS.jpg'
