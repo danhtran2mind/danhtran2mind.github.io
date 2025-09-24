@@ -270,7 +270,7 @@
   description: "Learn NN, MLP, CNN for image classification/segmentation and train a custom CNN on your dataset."
   short_description: "Learn CNNs, train custom image model."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/opencv/Model Context Protocol - Advanced Topics.jpg'
+  file: 'assets/images/certificates/opencv/FREE TensorFlow Keras Bootcamp.jpg'
 
 - name: 'OpenCV Bootcamp'
   date: Sep 29, 2024
@@ -297,7 +297,7 @@
   description: "Free VLM course teaches CLIP embeddings for zero‑shot classification, then Qwen2.5‑VL for image captioning and object detection hands-on."
   short_description: "Free VLM course: CLIP & Qwen2.5‑VL."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/opencv/Python for Beginners.jpg'
+  file: 'assets/images/certificates/opencv/Vision Language Model Bootcamp.jpg'
 
 - name: 'PyTorch Bootcamp'
   date: Sep 17, 2025
@@ -312,7 +312,7 @@
 #                         freeCodeCamp Certificates                          #
 # ========================================================================== #
 - name: 'Machine Learning with Python'
-  date: Otc 1, 2024
+  date: Sep 30, 2024
   certificate_url: 'https://www.freecodecamp.org/certification/fcc5b1ee14f-24e8-43d3-96e2-4f9e79d80051/machine-learning-with-python-v7'
   provider_issuer: freeCodeCamp
   description: "Learn TensorFlow to build neural networks, covering NLP, reinforcement learning, and deep, recurrent, convolutional architectures."
@@ -320,3 +320,14 @@
   # tags: [Web Development, HTML, CSS, JavaScript]
   file: 'assets/images/certificates/freecodecamp/Machine Learning with Python.jpg'
 
+# ========================================================================== #
+#                        Cognitive Class Certificates                        #
+# ========================================================================== #
+- name: 'Machine Learning with Python'
+  date: Sep 30, 2024
+  certificate_url: 'https://www.freecodecamp.org/certification/fcc5b1ee14f-24e8-43d3-96e2-4f9e79d80051/machine-learning-with-python-v7'
+  provider_issuer: freeCodeCamp
+  description: "Learn TensorFlow to build neural networks, covering NLP, reinforcement learning, and deep, recurrent, convolutional architectures."
+  short_description: "TensorFlow: neural nets, NLP, reinforcement learning."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/freecodecamp/Machine Learning with Python.jpg'
