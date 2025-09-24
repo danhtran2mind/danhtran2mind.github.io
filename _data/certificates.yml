@@ -393,7 +393,7 @@
 #                        Microsoft Learn Certificates                        #
 # ========================================================================== #
 - name: 'Create machine learning models'
-  date: Oct 04, 2024
+  date: Sep 20, 2024
   certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/9XHVWYEU'
   provider_issuer: Microsoft Learn
   description: "Microsoft Learn offers browser‑based, interactive Jupyter notebooks covering basic ML models, EDA, and custom architectures as a foundation for deep learning."
@@ -402,7 +402,7 @@
   file: 'assets/images/certificates/microsoft-learn/Create machine learning models.jpg'
 
 - name: 'Develop your own custom copilots with Azure AI Studio'
-  date: Oct 04, 2024
+  date: Sep 20, 2024
   certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/DCSNSEFJ'
   provider_issuer: Microsoft Learn
   description: "Generative AI apps on Azure AI Foundry require AI basics, Azure services knowledge, and programming skills."
@@ -411,16 +411,16 @@
   file: 'assets/images/certificates/microsoft-learn/Develop your own custom copilots with Azure AI Studio.jpg'
 
 - name: 'Microsoft Azure AI Fundamentals: Document Intelligence and Knowledge Mining'
-  date: Oct 04, 2024
+  date: Sep 20, 2024
   certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/DCSWPP2J'
   provider_issuer: Microsoft Learn
   description: "AI fundamentals and Azure AI services; requires Azure portal familiarity."
   short_description: "AI basics, Azure AI; Azure portal needed."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals - Document Intelligence and Knowledge Mining.jpg'
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_ Document Intelligence and Knowledge Mining.jpg'
 
 - name: 'Copilot Foundations'
-  date: Oct 04, 2024
+  date: Sep 20, 2024
   certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/VDEGACJM'
   provider_issuer: Microsoft Learn
   description: "Overview of adopting, using, and building AI copilots on Azure."
@@ -429,38 +429,68 @@
   file: 'assets/images/certificates/microsoft-learn/Copilot Foundations.jpg'
 
 - name: 'Microsoft Azure AI Fundamentals: Natural Language Processing'
-  date: Oct 04, 2024
+  date: Sep 20, 2024
   certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/HANQ6568'
   provider_issuer: Microsoft Learn
   description: "Core AI concepts and Azure AI services overview."
   short_description: "Azure AI basics."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals - Natural Language Processing.jpg'
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_Natural Language Processing.jpg'
 
 - name: 'Microsoft Azure AI Fundamentals: Generative AI'
-  date: Oct 04, 2024
+  date: Sep 20, 2024
   certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/QT4CACVE'
   provider_issuer: Microsoft Learn
   description: "Intro to AI fundamentals and Azure AI services; requires Azure portal familiarity."
   short_description: "AI basics with Azure services."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/cognitivmicrosoft-learneclass/Microsoft Azure AI Fundamentals - Generative AI.jpg'
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_Generative AI.jpg'
 
 - name: 'Microsoft Azure AI Fundamentals: Computer Vision'
-  date: Oct 04, 2024
+  date: Sep 20, 2024
   certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/4LD3ZCUK'
   provider_issuer: Microsoft Learn
   description: "Core AI concepts and Azure AI services overview."
   short_description: "Azure AI basics."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals - Computer Vision.jpg'
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_Computer Vision.jpg'
 
 - name: 'Microsoft Azure AI Fundamentals: AI Overview'
-  date: Oct 04, 2024
+  date: Sep 20, 2024
   certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/DCSWVZ7J'
   provider_issuer: Microsoft Learn
   description: "Core AI concepts and Azure AI services overview."
   short_description: "Azure AI basics."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals - AI Overview.jpg'
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_AI Overview.jpg'
+
+# ========================================================================== #
+#                            Kaggle Certificates                             #
+# ========================================================================== #
+- name: 'Intro to Programming'
+  date: Sep 28, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/intro-to-programming'
+  provider_issuer: Kaggle
+  description: "Core AI concepts and Azure AI services overview."
+  short_description: "Azure AI basics."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_AI Overview.jpg'
+
+- name: 'Python'
+  date: Sep 28, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/python'
+  provider_issuer: Kaggle
+  description: "Core AI concepts and Azure AI services overview."
+  short_description: "Azure AI basics."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_AI Overview.jpg'
+
+- name: 'Pandas'
+  date: Sep 28, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/pandas'
+  provider_issuer: Kaggle
+  description: "Core AI concepts and Azure AI services overview."
+  short_description: "Azure AI basics."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_AI Overview.jpg'
 
