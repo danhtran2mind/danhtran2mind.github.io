@@ -480,6 +480,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-gradio-test-text",
+          title: 'Gradio Test Text',
+          description: "With background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/new_texst%20text/";
             },},{
         id: 'social-email',
         title: 'email',
