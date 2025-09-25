@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Gradio Test Text
-description: With background image
+title: Anime Super Resolution
+# description: With background image
 # img: assets/img/thumbnail.png
 img: assets/images/projects/Anime-Super-Resolution/thumbnail.jpg
 importance: 1
@@ -27,7 +27,7 @@ category: Computer Vision # Computer Vision, Natural Language Processing, Audio,
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 <div align="center">
-  <img src="assets/thumbnail.jpg" alt="Thumbnail" width="700px"/>
+  <img src="https://raw.githubusercontent.com/danhtran2mind/Anime-Super-Resolution/refs/heads/main/assets/thumbnail.jpg" alt="Thumbnail" width="700px"/>
 </div>
 
 ## Introduction 🌟
@@ -73,7 +73,7 @@ Explore the interactive demo hosted on HuggingFace:
 
 Below is a screenshot of the SlimFace Demo GUI:
 
-<img src="/assets/images/projects/Anime-Super-Resolution/gradio_app_demo.jpg" alt="Anime-Super-Resolution Demo" height="600">
+<img src="https://raw.githubusercontent.com/danhtran2mind/Anime-Super-Resolution/refs/heads/main/assets/gradio_app_demo.jpg" alt="Anime-Super-Resolution Demo" height="600">
 
 ### Run Locally
 
@@ -82,8 +82,6 @@ To run the Gradio application locally at the default address `localhost:7860`, e
 ```bash
 python apps/gradio_app.py
 ```
-
-## More Information
 
 ## More Information
 
