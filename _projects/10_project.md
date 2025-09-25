@@ -5,7 +5,7 @@ description: with background image
 # img: assets/img/thumbnail.png
 img: assets/images/projects/gradio_test/thumbnail.png
 importance: 1
-category: Computer Vision
+category: Computer Vision # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 related_publications: true
 ---
 
