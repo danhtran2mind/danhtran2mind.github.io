@@ -480,8 +480,8 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-anime-super-resolution",
-          title: 'Anime Super Resolution',
+            },},{id: "projects-anime-super-resolution-️",
+          title: 'Anime Super Resolution 🖼️',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Anime-Super-Resolution/";
