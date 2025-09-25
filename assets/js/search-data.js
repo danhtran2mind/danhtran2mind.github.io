@@ -484,7 +484,7 @@ ninja.data = [{
           title: 'Gradio Test Text',
           description: "With background image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/new_texst%20text/";
+              window.location.href = "/projects/Anime-Super-Resolution/";
             },},{
         id: 'social-email',
         title: 'email',
