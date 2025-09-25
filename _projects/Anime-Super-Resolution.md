@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Anime Super Resolution
+title: Anime Super Resolution 🖼️
 # description: With background image
 # img: assets/img/thumbnail.png
 img: assets/images/projects/Anime-Super-Resolution/thumbnail.jpg
@@ -8,8 +8,6 @@ importance: 1
 category: Computer Vision # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 # related_publications: true
 ---
-
-# Anime Super Resolution 🖼️
 
 [![GitHub Stars](https://img.shields.io/github/stars/danhtran2mind/Anime-Super-Resolution?style=social&label=Repo%20Stars)](https://github.com/danhtran2mind/Anime-Super-Resolution/stargazers)
 ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FAnime-Super-Resolution&label=Repo+Views&icon=github&color=%236f42c1&message=&style=social&tz=UTC)
@@ -85,5 +83,4 @@ python apps/gradio_app.py
 
 ## More Information
 
-For comprehensive details and further information, please visit the following link:  
-[![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FAnime--Super--Resolution-blue?logo=github)](https://github.com/danhtran2mind/Anime-Super-Resolution/blob/main/README.md)
+For comprehensive details and further information, please visit the following link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FAnime--Super--Resolution-blue?logo=github)](https://github.com/danhtran2mind/Anime-Super-Resolution/blob/main/README.md)
