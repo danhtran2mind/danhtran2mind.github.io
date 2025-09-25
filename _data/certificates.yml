@@ -540,7 +540,7 @@
 
 - name: 'Time Series'
   date: Oct 04, 2024
-  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/learn/time-series'
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/time-series'
   provider_issuer: Kaggle
   description: "Build convolutional neural networks with TensorFlow and Keras."
   short_description: "ML for practical forecasting."
@@ -549,7 +549,7 @@
 
 - name: 'Data Cleaning'
   date: Sep 29, 2024
-  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/learn/data-cleaning'
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/data-cleaning'
   provider_issuer: Kaggle
   description: "Master efficient workflows for cleaning real-world, messy data."
   short_description: "Clean messy data efficiently."
@@ -558,7 +558,7 @@
 
 - name: 'Intro to AI Ethics'
   date: Sep 28, 2024
-  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/learn/intro-to-ai-ethics'
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/intro-to-ai-ethics'
   provider_issuer: Kaggle
   description: "Explore practical tools to guide the moral design of AI systems."
   short_description: "Frameworks, assessments, documentation, workshops, audits."
@@ -567,7 +567,7 @@
 
 - name: 'Machine Learning Explainability'
   date: Oct 04, 2024
-  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/learn/machine-learning-explainability'
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/machine-learning-explainability'
   provider_issuer: Kaggle
   description: "Extract human-understandable insights from any model."
   short_description: "Produce understandable model insights."
