@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: projects
 title: Gradio Test
 description: with background image
 # img: assets/img/thumbnail.png
