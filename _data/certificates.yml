@@ -35,7 +35,6 @@
   description: "Become a machine learning engineer with MLOps, model deployment, and real-world projects."
   short_description: "Master MLOps, deploy models, gain expertise."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: assets/images/certificates/ibm/th_1.jpg
   file: 'assets/images/certificates/datacamp/Machine Learning Engineer.jpg'
 
 - name: Keras Fundamentals
