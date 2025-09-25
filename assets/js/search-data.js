@@ -435,6 +435,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
+            },},{id: "projects-anime-super-resolution-️",
+          title: 'Anime Super Resolution 🖼️',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
