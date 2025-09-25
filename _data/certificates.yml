@@ -474,7 +474,7 @@
   description: "CGet started with Python, if you have no coding experience."
   short_description: "Python basics for absolute beginners."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/kaggle/Microsoft Azure AI Fundamentals_AI Overview.jpg'
+  file: 'assets/images/certificates/kaggle/Intro to Programming.jpg'
 
 - name: 'Python'
   date: Sep 28, 2024
@@ -486,7 +486,7 @@
   file: 'assets/images/certificates/kaggle/Python.jpg'
 
 - name: 'Intro to Machine Learning'
-  date: Sep 28, 2024
+  date: Sep 29, 2024
   certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/intro-to-machine-learning'
   provider_issuer: Kaggle
   description: "Learn the core ideas in machine learning, and build your first models."
@@ -495,7 +495,7 @@
   file: 'assets/images/certificates/kaggle/Intro to Machine Learning.jpg'
 
 - name: 'Pandas'
-  date: Sep 28, 2024
+  date: Sep 29, 2024
   certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/pandas'
   provider_issuer: Kaggle
   description: "Solve short hands-on challenges to perfect your data manipulation skills."
@@ -504,7 +504,7 @@
   file: 'assets/images/certificates/kaggle/Pandas.jpg'
 
 - name: 'Intermediate Machine Learning'
-  date: Sep 28, 2024
+  date: Sep 29, 2024
   certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/intermediate-machine-learning'
   provider_issuer: Kaggle
   description: "Handle missing values, non-numeric values, data leakage, and more."
@@ -513,7 +513,7 @@
   file: 'assets/images/certificates/kaggle/Intermediate Machine Learning.jpg'
 
 - name: 'Feature Engineering'
-  date: Sep 28, 2024
+  date: Oct 04, 2024
   certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/feature-engineering'
   provider_issuer: Kaggle
   description: "Better features make better models. Discover how to get the most out of your data."
@@ -522,7 +522,7 @@
   file: 'assets/images/certificates/kaggle/Feature Engineering.jpg'
 
 - name: 'Intro to Deep Learning'
-  date: Sep 28, 2024
+  date: Sep 29, 2024
   certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/intro-to-deep-learning'
   provider_issuer: Kaggle
   description: "Use TensorFlow and Keras to build and train neural networks for structured data."
@@ -531,7 +531,7 @@
   file: 'assets/images/certificates/kaggle/Intro to Deep Learning.jpg'
 
 - name: 'Computer Vision'
-  date: Sep 28, 2024
+  date: Sep 29, 2024
   certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/computer-vision'
   provider_issuer: Kaggle
   description: "Build convolutional neural networks with TensorFlow and Keras."
@@ -540,7 +540,7 @@
   file: 'assets/images/certificates/kaggle/Computer Vision.jpg'
 
 - name: 'Time Series'
-  date: Sep 28, 2024
+  date: Oct 04, 2024
   certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/learn/time-series'
   provider_issuer: Kaggle
   description: "Build convolutional neural networks with TensorFlow and Keras."
@@ -549,7 +549,7 @@
   file: 'assets/images/certificates/kaggle/Time Series.jpg'
 
 - name: 'Data Cleaning'
-  date: Sep 28, 2024
+  date: Sep 29, 2024
   certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/learn/data-cleaning'
   provider_issuer: Kaggle
   description: "Master efficient workflows for cleaning real-world, messy data."
@@ -567,7 +567,7 @@
   file: 'assets/images/certificates/kaggle/Intro to AI Ethics.jpg'
 
 - name: 'Machine Learning Explainability'
-  date: Sep 28, 2024
+  date: Oct 04, 2024
   certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/learn/machine-learning-explainability'
   provider_issuer: Kaggle
   description: "Extract human-understandable insights from any model."
