@@ -3,10 +3,10 @@ layout: page
 title: Gradio Test Text
 description: With background image
 # img: assets/img/thumbnail.png
-img: assets/images/projects/gradio_test/thumbnail.png
+img: assets/images/projects/Anime-Super-Resolution/thumbnail.jpg
 importance: 1
-category: Audio # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
-related_publications: true
+category: Computer Vision # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
+# related_publications: true
 ---
 
 This is Thumbnail
