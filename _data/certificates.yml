@@ -417,7 +417,7 @@
   description: "AI fundamentals and Azure AI services; requires Azure portal familiarity."
   short_description: "AI basics, Azure AI; Azure portal needed."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_ Document Intelligence and Knowledge Mining.jpg'
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_Document Intelligence and Knowledge Mining.jpg'
 
 - name: 'Copilot Foundations'
   date: Sep 20, 2024

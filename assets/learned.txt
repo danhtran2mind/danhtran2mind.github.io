@@ -1,8 +1,8 @@
 aws
 	www.aws.training
 	skillbuilder.aws
-google
-microsoft
+google	n
+microsoft	q
 cisco netcad
 freecodecamp
 hackerrank
@@ -12,17 +12,17 @@ codecademy
 anthropic.skilljar.com
 
 leetcode
-hacker rank
+hacker rank	q
 coursera
 udemy
 udacity
 datacamp
 opencv
-edx.org
-confluent
-openai
-edube
-kaggle
+edx.org	n
+confluent	q
+openai	q
+edube	q
+kaggle	q
 mbcl...	
 cpr...	
 skillsbuild.org
