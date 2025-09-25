@@ -437,7 +437,7 @@ ninja.data = [{
               window.location.href = "/projects/10_project/";
             },},{id: "projects-anime-super-resolution-️",
           title: 'Anime Super Resolution 🖼️',
-          description: "",
+          description: "With background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11/";
             },},{id: "projects-project-1",
@@ -487,7 +487,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-anime-super-resolution-️",
           title: 'Anime Super Resolution 🖼️',
-          description: "",
+          description: "With background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Anime-Super-Resolution/";
             },},{
