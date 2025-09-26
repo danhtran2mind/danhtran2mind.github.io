@@ -490,6 +490,16 @@ ninja.data = [{
           description: "With background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Anime-Super-Resolution/";
+            },},{id: "projects-ghibli-stable-diffusion-synthesis",
+          title: 'Ghibli Stable Diffusion Synthesis 🎨',
+          description: "Ghibli Fine-Tuned Stable Diffusion generates enchanting Studio Ghibli-style images.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Ghibli-Stable-Diffusion-Synthesis/";
+            },},{id: "projects-slimface-efficient-face-recognition",
+          title: 'SlimFace: Efficient Face Recognition 👦',
+          description: "SlimFace is a lightweight face recognition framework for edge devices.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SlimFace/";
             },},{
         id: 'social-email',
         title: 'email',
