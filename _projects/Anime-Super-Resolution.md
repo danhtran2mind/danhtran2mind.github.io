@@ -7,80 +7,100 @@ img: assets/images/projects/Anime-Super-Resolution/thumbnail.jpg
 importance: 1
 category: Computer Vision # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 # related_publications: true
+toc:
+  sidebar: left
 ---
+<!-- Load Data from GitHUb Repository -->
 
-[![GitHub Stars](https://img.shields.io/github/stars/danhtran2mind/Anime-Super-Resolution?style=social&label=Repo%20Stars)](https://github.com/danhtran2mind/Anime-Super-Resolution/stargazers)
-![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FAnime-Super-Resolution&label=Repo+Views&icon=github&color=%236f42c1&message=&style=social&tz=UTC)
+<!-- Include marked.js for Markdown parsing -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
+<!-- Container for README content -->
+<div id="readme-content"></div>
 
-[![huggingface-hub](https://img.shields.io/badge/huggingface--hub-blue.svg?logo=huggingface)](https://huggingface.co/docs/hub)
-[![torch](https://img.shields.io/badge/torch-blue.svg?logo=pytorch)](https://pytorch.org/)
-[![Pillow](https://img.shields.io/badge/Pillow-blue.svg)](https://pypi.org/project/pillow/)
-[![numpy](https://img.shields.io/badge/numpy-blue.svg?logo=numpy)](https://numpy.org/)
-[![torchvision](https://img.shields.io/badge/torchvision-blue.svg?logo=pytorch)](https://pytorch.org/vision/stable/index.html)
-[![diffusers](https://img.shields.io/badge/diffusers-blue.svg?logo=huggingface)](https://huggingface.co/docs/diffusers)
-[![gradio](https://img.shields.io/badge/gradio-blue.svg?logo=gradio)](https://gradio.app/)
-[![Built on Real-ESRGAN](https://img.shields.io/badge/Built%20on-xinntao%2FReal--ESRGAN-blue?style=flat&logo=github)](https://github.com/xinntao/Real-ESRGAN)
-[![Built on Real-ESRGAN](https://img.shields.io/badge/Built%20on-ai--forever%2FReal--ESRGAN-blue?style=flat&logo=github)](https://github.com/ai-forever/Real-ESRGAN)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+<script>
+// Define repository (hardcoded for this example; in a Jekyll template, use '{{ page.github_repo }}')
+const github_repo = 'danhtran2mind/Anime-Super-Resolution';
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/danhtran2mind/Anime-Super-Resolution/refs/heads/main/assets/thumbnail.jpg" alt="Thumbnail" width="700px"/>
-</div>
+// Construct URLs dynamically using github_repo
+const baseUrl = `https://github.com/${github_repo}/blob/main/`;
+const imgUrl = `https://raw.githubusercontent.com/${github_repo}/main/`;
+const repoUrl = `https://raw.githubusercontent.com/${github_repo}/`;
 
-## Introduction 🌟
+// Continue with the rest of the script (e.g., branch setup, replaceRelativePaths function, fetchReadme, etc.)
+const branch = 'main'; // Try 'main' first, fallback to 'master'
 
-Anime Super Resolution 🖼️ enhances anime-style images using a fine-tuned Real-ESRGAN model, optimized for clarity and detail. Built on the RealESRGAN_x4plus model, it leverages a private dataset of 27,052 high-resolution (1920x1080) anime frames 📸. The project offers tools for data processing, training, inference, and an interactive Gradio demo, accessible on platforms like Colab, Kaggle, and locally 🚀.
+let readmeUrl = `${repoUrl}${branch}/README.md`;
 
-## Key Features ✨
+// Function to replace relative paths with absolute paths
+function replaceRelativePaths(content, baseUrl, imgUrl) {
+  const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+  const normalizedImgUrl = imgUrl.endsWith('/') ? imgUrl : `${imgUrl}/`;
+  let updatedContent = content
+    // Replace relative Markdown links (e.g., [text](path))
+    .replace(/\[([^\]]*)\]\((?!http)([^)]+)\)/g, (match, text, path) => {
+      const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
+      return `[${text}](${normalizedBaseUrl}${cleanPath})`;
+    })
+    // Replace relative image paths in Markdown syntax (e.g., ![alt](path))
+    .replace(/!\[(.*?)\]\((?!http)(.*?)\)/g, (match, alt, path) => {
+      const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
+      return `![${alt}](${normalizedImgUrl}${cleanPath})`;
+    })
+    // Replace relative paths in HTML <img> tags (e.g., <img src="path">)
+    .replace(/<img src="(?!http)([^"]+)"/g, (match, path) => {
+      const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
+      return `<img src="${normalizedImgUrl}${cleanPath}"`;
+    })
+    // Replace relative paths in HTML <a> tags (e.g., <a href="path">)
+    .replace(/<a href="(?!http)([^"]+)"/g, (match, path) => {
+      const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
+      return `<a href="${normalizedBaseUrl}${cleanPath}"`;
+    });
+  return updatedContent;
+}
 
--   **Anime-Specific Upscaling** 🎨: Fine-tuned Real-ESRGAN for high-quality anime image super-resolution.
-    
--   **Large Anime Dataset** 📚: 27,052 high-res anime frames for robust training.
-    
--   **Interactive Gradio Demo** 🖥️: Easy model testing via HuggingFace-hosted interface.
-    
--   **Multi-Platform Support** 🌐: Runs on Colab, Kaggle, JupyterLab, and more.
-    
--   **Data Processing Tools** 🛠️: Scripts for multiscale dataset creation and meta-info generation.
-    
--   **Flexible Training/Inference** ⚙️: Customizable configurations for training and upscaling.
-    
--   **Open-Source** 📖: MIT-licensed, built with PyTorch, NumPy, and Pillow.
-    
--   **Local/Cloud Compatibility** ☁️: Supports local Gradio app and cloud-based execution.
+// Function to fetch README with fallback to 'master' branch
+function fetchReadme() {
+  fetch(readmeUrl)
+    .then(response => {
+      console.log('Fetching README from:', readmeUrl);
+      if (!response.ok) {
+        if (response.status === 404 && branch === 'main') {
+          console.warn(`README not found on 'main' branch, trying 'master' branch...`);
+          readmeUrl = `${repoUrl}master/README.md`;
+          return fetch(readmeUrl);
+        }
+        throw new Error(`Fetch failed with status ${response.status} (${response.statusText})`);
+      }
+      return response.text();
+    })
+    .then(data => {
+      if (!data) throw new Error('Empty README content');
+      const absoluteData = replaceRelativePaths(data, baseUrl, imgUrl);
+      const markdownHtml = marked.parse(absoluteData);
+      const readmeContentDiv = document.getElementById('readme-content');
+      readmeContentDiv.innerHTML = markdownHtml;
+      // Add style to all img tags in readme-content
+      const images = readmeContentDiv.getElementsByTagName('img');
+      for (let img of images) {
+        img.setAttribute('style', 'max-width: 40rem !important; height: auto !important;');
+      }
+    })
+    .catch(error => {
+      console.error('Error fetching README:', error);
+      document.getElementById('readme-content').innerHTML = `
+        <p>Error loading README content: ${error.message}</p>
+        <p>Please verify the repository and branch name at <a href="https://github.com/danhtran2mind/Anime-Super-Resolution">GitHub</a>.</p>
+        <p>Check if README.md exists in the 'main' or 'master' branch.</p>
+      `;
+    });
+}
 
-## Notebook
-This notebook provides a step-by-step guide to finetune the Real-ESRGAN model for enhancing anime-style images. It covers data preparation, model configuration, training, and evaluation, optimized for clarity and reproducibility.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danhtran2mind/Anime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb)
-[![Open in SageMaker](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/danhtran2mind/Anime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb)
-[![Open in Deepnote](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/launch?url=https://github.com/danhtran2mind/Anime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb)
-[![JupyterLab](https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter)](https://mybinder.org/v2/gh/danhtran2mind/Anime-Super-Resolution/main?filepath=notebooks/anime-super-resolution.ipynb)
-[![Open in Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/danhtran2mind/Anime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb)
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danhtran2mind/Anime-Super-Resolution/main)
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FAnime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb)
-[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-181717?logo=github)](https://github.com/danhtran2mind/Anime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb)
-
-## Demonstration
-
-### Interactive Demo
-
-Explore the interactive demo hosted on HuggingFace:
-[![HuggingFace Space Demo](https://img.shields.io/badge/HuggingFace-danhtran2mind%2FAnime--Super--Resolution-yellow?style=flat&logo=huggingface)](https://huggingface.co/spaces/danhtran2mind/Anime-Super-Resolution)
-
-Below is a screenshot of the SlimFace Demo GUI:
-
-<img src="https://raw.githubusercontent.com/danhtran2mind/Anime-Super-Resolution/refs/heads/main/assets/gradio_app_demo.jpg" alt="Anime-Super-Resolution Demo" height="600">
-
-### Run Locally
-
-To run the Gradio application locally at the default address `localhost:7860`, execute:
-
-```bash
-python apps/gradio_app.py
-```
+// Execute fetch
+fetchReadme();
+</script>
 
 ## More Information
 
-For comprehensive details and further information, please visit the following link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FAnime--Super--Resolution-blue?logo=github)](https://github.com/danhtran2mind/Anime-Super-Resolution/blob/main/README.md)
+For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FAnime--Super--Resolution-blue?logo=github)](https://github.com/danhtran2mind/Anime-Super-Resolution/blob/main/README.md)

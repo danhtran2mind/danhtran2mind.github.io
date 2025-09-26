@@ -31,90 +31,194 @@ profile:
     <!-- My Information Table -->
     <div style='display: flex; justify-content: space-between; font-family: "EB Garamond", serif'>
     <table>
-      <tbody>
-          <tr>
-              <th>Name</th>
-              <td>Albert Einstein</td>
-          </tr>
-          <tr>
-              <th>Date of Birth</th>
-              <td>March 14, 1879</td>
-          </tr>
-          <tr>
-              <th>Nationality</th>
-              <td>German-born, later Swiss and American citizen</td>
-          </tr>
-          <tr>
-              <th>Notable Achievements</th>
-              <td>Renowned for the theory of relativity and the mass-energy equivalence formula \( E = mc^2 \). Received the 1921 Nobel Prize in Physics for explaining the photoelectric effect.</td>
-          </tr>
-          <tr>
-              <th>Personal Philosophy</th>
-              <td>Emphasized the importance of imagination in driving discovery and believed in an orderly universe, famously stating, "God does not play dice with the universe."</td>
-          </tr>
-          <tr>
-              <th>Background and Education</th>
-              <td>Born in the German Empire. Moved to Switzerland in 1895, became a Swiss citizen in 1901. Earned a diploma in mathematics and physics (1900) and a PhD in physics (1905) from the Swiss Federal Polytechnic School and University of Zürich, respectively. Worked at the Swiss Patent Office, held academic roles in Berlin, and settled in the USA in 1933, becoming an American citizen in 1940.</td>
-          </tr>
-          <tr>
-              <th>Scientific Contributions</th>
-              <td>Published four groundbreaking papers in 1905 on the photoelectric effect, Brownian motion, special relativity, and mass-energy equivalence. Developed general relativity in 1915, advanced quantum optics, statistical mechanics, photon theory, and Bose–Einstein statistics. Pursued a unified field theory and questioned quantum mechanics' randomness.</td>
-          </tr>
-          <tr>
-              <th>Education</th>
-              <td>Diploma in Mathematics and Physics, Swiss Federal Polytechnic School, Zürich (1900); PhD in Physics, University of Zürich (1905).</td>
-          </tr>
-          <tr>
-              <th>Skills</th>
-              <td>Expertise in theoretical physics, quantum mechanics, mathematical modeling, relativity theory, statistical mechanics, and cosmology. Proficient in violin and piano performance, critical thinking, and thought experiments.</td>
-          </tr>
-          <tr>
-              <th>Affiliations and Professional Details</th>
-              <td>Affiliated with the Prussian Academy of Sciences, Kaiser Wilhelm Institute for Physics, and Institute for Advanced Study (Princeton). Contributed to relativity theories, photoelectric effect, unified field theory, and indirectly endorsed the Manhattan Project. Received Nobel Prize in Physics (1921), Copley Medal (1925), Gold Medal of the Royal Astronomical Society (1926), and Max Planck Medal (1929). Archival resources available at <a href="https://einsteinpapers.press.princeton.edu">einsteinpapers.press.princeton.edu</a>.</td>
-          </tr>
-          <tr>
-              <th>Contact Information</th>
-              <td>Historical correspondence via the Institute for Advanced Study, 112 Mercer Street, Princeton, NJ 08540, USA; archival phone: 609-734-8000.</td>
-          </tr>
-          <tr>
-              <th>Hobbies and Interests</th>
-              <td>Enjoys playing the violin and piano, sailing, hiking, biking, solving puzzles, reading books on nature, and engaging in philosophical discussions.</td>
-          </tr>
-      </tbody>
+      html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tran Pham Cong Danh Profile</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <th>Full Name</th>
+                <td>Tran Pham Cong Danh (Cong-Danh Pham Tran)</td>
+            </tr>
+            <tr>
+                <th>Birth Date</th>
+                <td>September 29, 1996</td>
+            </tr>
+            <tr>
+                <th>Location</th>
+                <td>Ho Chi Minh City, Vietnam</td>
+            </tr>
+            <tr>
+                <th>Occupation</th>
+                <td>AI Engineer</td>
+            </tr>
+            <tr>
+                <th>Summary</th>
+                <td>An AI Engineer: Embracing AI, Powered by Passion</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><a href="mailto:danhtran2mind@gmail.com">danhtran2mind@gmail.com</a></td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>+84xxxxxxxxx</td>
+            </tr>
+            <tr>
+                <th>Website</th>
+                <td><a href="https://danhtran2mind.github.io">danhtran2mind.github.io</a></td>
+            </tr>
+            <tr>
+                <th>Education</th>
+                <td>
+                    Master of Engineering in Computer Science, Ho Chi Minh City University of Technology (2022–2024)<br>
+                    Doctor of Medicine, University of Health Sciences (2014–2020)
+                </td>
+            </tr>
+            <tr>
+                <th>Profiles</th>
+                <td>
+                    GitHub: <a href="https://github.com/danhtran2mind">danhtran2mind</a><br>
+                    GitLab: <a href="https://gitlab.com/danhtran2mind">danhtran2mind</a><br>
+                    Hugging Face: <a href="https://huggingface.co/danhtran2mind">danhtran2mind</a><br>
+                    X-Twitter: <a href="https://x.com/danhtran2mind">danhtran2mind</a><br>
+                    Facebook: <a href="https://facebook.com/danhtran2mind">danhtran2mind</a><br>
+                    LinkedIn: <a href="https://linkedin.com/in/danhtran2mind">danhtran2mind</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Skills</th>
+                <td>
+                    Python, TensorFlow, PyTorch,<br>
+                    NLP, Computer Vision, Audio,<br>
+                    Web Development, Cloud Platforms, DevOps<br>
+                </td>
+            </tr>
+            <tr>
+                <th>Hobbies and Interests</th>
+                <td>Video games, sports, psychology,<br>
+                 physics, astronomy.</td>
+            </tr>
+        </tbody>
+    </table>
     </table>
     </div>
 ---
 
 ## Introduction
-Greetings, I am a German-born theoretical physicist, renowned for developing the theory of relativity. My most celebrated contribution, the mass-energy equivalence formula \( E = mc^2 \), derived from special relativity, is widely recognized as the world's most famous equation. I also made significant advancements in quantum theory, notably through my explanation of the photoelectric effect, which earned me the 1921 Nobel Prize in Physics.
+Greetings, I am Tran Pham Cong Danh (Cong-Danh Pham Tran), an AI Engineer with a unique blend of medical expertise and advanced computational proficiency. Holding a Doctor of Medicine and a Master of Engineering in Computer Science from Vietnam National University Ho Chi Minh City, I am dedicated to leveraging artificial intelligence to transform healthcare and technology. My expertise spans machine learning, deep learning, and natural language processing, with a focus on creating innovative AI solutions tailored for Vietnamese healthcare contexts. My mission is to bridge medical knowledge and cutting-edge technology, delivering impactful, data-driven solutions that enhance lives.
 
 ## Personal Philosophy
-Imagination is more important than knowledge, for it fuels discovery. I firmly believe that the universe operates with order, not chance, as I once remarked, "God does not play dice with the universe."
+I believe that innovation thrives at the intersection of curiosity, interdisciplinary knowledge, and relentless passion. Artificial intelligence is a powerful catalyst for solving complex, real-world challenges. My approach integrates rigorous scientific inquiry with creative problem-solving, ensuring that every project delivers measurable value and advances the frontiers of AI.
 
-## Background and Education
-Born on March 14, 1879, in the German Empire, I relocated to Switzerland in 1895, renouncing German citizenship. In 1897, at age seventeen, I enrolled in the mathematics and physics teaching diploma program at the Swiss Federal Polytechnic School in Zürich, graduating in 1900. I acquired Swiss citizenship in 1901, which I retained for life. In 1905, I earned my PhD in Physics from the University of Zürich. My career included a stint at the Swiss Patent Office in Bern, followed by academic roles in Berlin at the Prussian Academy of Sciences and Humboldt University, where I also served as director of the Kaiser Wilhelm Institute for Physics from 1917. In 1933, due to the rise of the Nazi regime, I settled in the United States, becoming an American citizen in 1940. I spent my later years at the Institute for Advanced Study in Princeton.
-
-## Scientific Contributions
-My *annus mirabilis* in 1905 saw the publication of four groundbreaking papers on the photoelectric effect, Brownian motion, special relativity, and mass-energy equivalence. In 1915, I introduced general relativity, revolutionizing our understanding of gravitation. My 1916 cosmological work explored universe modeling, and my 1917 paper on spontaneous and stimulated emission laid the groundwork for lasers and quantum optics. I also advanced statistical mechanics, proposed the concept of photons, and contributed to Bose–Einstein statistics. Later in life, I pursued a unified field theory and expressed skepticism about quantum mechanics' reliance on randomness, which distanced me from mainstream physics.
+## Basic Information
+- **Full Name**: Tran Pham Cong Danh (Adapted English: Cong-Danh Pham Tran)
+- **Birth Date**: September 29, 1996
+- **Location**: Ho Chi Minh City, Vietnam
+- **Occupation**: AI Engineer
+- **Summary**: An AI Engineer: Embracing AI, Powered by Passion
+- **Email**: danhtran2mind@gmail.com
+- **Phone**: +84xxxxxxxxx
+- **Website**: https://danhtran2mind.github.io
+- **Profiles**:
+  - GitHub: [danhtran2mind](https://github.com/danhtran2mind)
+  - GitLab: [danhtran2mind](https://gitlab.com/danhtran2mind)
+  - Hugging Face: [danhtran2mind](https://huggingface.co/danhtran2mind)
+  - X-Twitter: [danhtran2mind](https://x.com/danhtran2mind)
+  - Facebook: [danhtran2mind](https://facebook.com/danhtran2mind)
+  - LinkedIn: [danhtran2mind](https://linkedin.com/in/danhtran2mind)
 
 ## Education
-- **Diploma in Mathematics and Physics**, Swiss Federal Polytechnic School, Zürich (1900)
-- **PhD in Physics**, University of Zürich (1905)
+- **Master of Engineering in Computer Science**, Ho Chi Minh City University of Technology -- Vietnam National University Ho Chi Minh City, HCMC, VN (2022–2024)  
+  Focused on advanced algorithms, machine learning, and data engineering, providing a robust foundation for developing cutting-edge AI systems.
+- **Doctor of Medicine in General Medicine**, University of Health Sciences -- Vietnam National University Ho Chi Minh City, HCMC, VN (2014–2020)  
+  Acquired comprehensive medical knowledge, enabling the design of AI solutions that address healthcare challenges with precision and empathy.
+
+## Certificates
+Below are some of my certificates, showcasing my expertise in AI, machine learning, and related fields. For a complete list, visit [my certificates page](https://danhtran2mind.github.io/certificates).
+- **Machine Learning Engineer**, DataCamp (Nov 24, 2024)  
+  Mastered MLOps, model deployment, and real-world projects, equipping me to build production-ready machine learning systems. [Certificate](https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1)
+- **Keras Fundamentals**, DataCamp (Nov 25, 2024)  
+  Developed proficiency in Keras for building and optimizing neural networks to solve real-world challenges. [Certificate](https://www.datacamp.com/statement-of-accomplishment/track/d1152665979387f0abffc6b138f9df14f2ed7000?raw=1)
+- **Deep Learning in Python**, DataCamp (Nov 29, 2024)  
+  Gained expertise in PyTorch, constructing advanced deep learning models, including Transformers, for computer vision and NLP applications. [Certificate](https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1)
+- **Developing Large Language Models**, DataCamp (Nov 29, 2024)  
+  Learned to build and deploy LLMs using PyTorch, transformers, and Hugging Face, from inception to production. [Certificate](https://www.datacamp.com/statement-of-accomplishment)
+- **Natural Language Processing in Python**, DataCamp (Nov 29, 2024)  
+  Mastered NLP techniques using NLTK, spaCy, scikit-learn, and SpeechRecognition for transcription and sentiment analysis. [Certificate](https://www.datacamp.com/statement-of-accomplishment)
+- **Machine Learning with Python**, freeCodeCamp (Sep 30, 2024)  
+  Built neural networks with TensorFlow, covering NLP, reinforcement learning, and advanced architectures. [Certificate](https://www.freecodecamp.org/certification)
+- **PyTorch Bootcamp**, OpenCV (Sep 17, 2025)  
+  Mastered deep learning fundamentals, tensors, neural networks, and object detection using PyTorch. [Certificate](https://opencv.org/certification)
 
 ## Skills
-- Theoretical Physics and Quantum Mechanics
-- Mathematical Modeling and Relativity Theory
-- Statistical Mechanics and Cosmology
-- Violin and Piano Performance
-- Critical Thinking and Thought Experiments
+- **Programming Languages**: Master level in Python, JavaScript, PHP, C++  
+  Proficient in writing clean, efficient, and scalable code for diverse applications.
+- **Web Development**: Normal level in HTML, CSS, Jekyll, Bootstrap, Flask, FastAPI  
+  Skilled in developing user-friendly web interfaces and APIs for AI-driven applications.
+- **AI/ML Frameworks & Libraries**: Master level in TensorFlow, Keras, PyTorch, Scikit-learn  
+  Expert in building and deploying state-of-the-art machine learning and deep learning models.
+- **Cloud Platforms**: Normal level in Google Cloud Platform (GCP), AWS, Azure  
+  Experienced in deploying AI models and managing scalable cloud infrastructure.
+- **Data Science & Visualization Tools**: Normal level in Pandas, NumPy, Matplotlib, Seaborn, Google Colab, Jupyter Notebook  
+  Adept at data analysis, preprocessing, and creating insightful visualizations.
+- **Version Control & Collaboration**: Normal level in Git, GitHub, GitLab, Bitbucket  
+  Proficient in collaborative development and maintaining version-controlled codebases.
+- **Operating Systems**: Normal level in Linux, Windows  
+  Comfortable across multiple OS environments for development and deployment.
+- **Databases**: Normal level in SQL Language, NoSQL Language, MySQL, MongoDB  
+  Skilled in designing and querying databases for efficient data management.
+- **DevOps & Containerization**: Normal level in Docker, Kubernetes, CI/CD  
+  Experienced in containerized deployment and streamlining development pipelines.
+- **Machine Learning**: Master level in Supervised Learning, Unsupervised Learning, Reinforcement Learning, Neural Networks, Deep Learning, Natural Language Processing (NLP), Computer Vision, Audio Processing, Data Preprocessing, Data Visualization, Time Series Analysis, Model Evaluation & Tuning, Feature Engineering  
+  Deep expertise in designing and optimizing AI models for diverse domains.
+- **Mathematics & Statistics**: Master level in Linear Algebra, Calculus, Probability Theory, Statistical Inference  
+  Strong mathematical foundation for advanced AI and data science applications.
+- **Computer Science**: Master level in Data Structures, Algorithms, Object-Oriented Programming (OOP), Networking, Cybersecurity, Constraints Programming, BigData Technologies, Data Engineering, Intelligence Systems, Parallel & Distributed Computing  
+  Comprehensive knowledge for robust and scalable system design.
+- **Others**: Master level in Selenium, BeautifulSoup, Scrapy, Rest APIs  
+  Proficient in web scraping and API development for data acquisition and integration.
+- **Soft Skills**: Master level in Problem-Solving, Critical Thinking, Communication, Teamwork, Adaptability  
+  Exceptional interpersonal and analytical skills, fostering collaboration and innovation.
 
-## Affiliations and Professional Details
-- **Affiliations**: Prussian Academy of Sciences, Kaiser Wilhelm Institute for Physics, Institute for Advanced Study (Princeton)
-- **Projects**: Special and General Relativity Theories, Photoelectric Effect, Unified Field Theory, indirect endorsement of the Manhattan Project
-- **Certifications and Awards**: Nobel Prize in Physics (1921), Copley Medal (1925), Gold Medal of the Royal Astronomical Society (1926), Max Planck Medal (1929)
-- **Archival Resources**: My writings and papers are accessible via the Einstein Archives Online (einsteinpapers.press.princeton.edu). A detailed curriculum vitae is available through historical reconstructions, such as the NobelPrize.org biographical profile.
-- **Address**: 112 Mercer Street, Princeton, NJ 08540, USA
-- **Contact**: Historical correspondence via the Institute for Advanced Study; archival phone: 609-734-8000 (no modern email available)
+## Projects
+Below are some of my projects, demonstrating my ability to apply AI to real-world challenges, particularly in healthcare. For a full list, visit [my projects page](https://danhtran2mind.github.io/projects).
+- **Vietnamese Health Chat LoRA** (2025)  
+  Developed an AI-powered chatbot using LoRA (Low-Rank Adaptation) to deliver precise, contextually relevant healthcare responses in Vietnamese. Leveraged NLP and deep learning to enhance medical information accessibility, addressing language-specific challenges in Vietnam’s healthcare system. [Project](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA)
+- **Medical Image Analysis System** (2024)  
+  Built a deep learning-based system using convolutional neural networks (CNNs) to detect and classify anomalies in X-rays and MRIs. Integrated with TensorFlow and deployed on Google Cloud Platform for scalable, real-time processing.
+- **Predictive Healthcare Analytics Dashboard** (2023)  
+  Created a Flask-based web application with interactive visualizations using Matplotlib and Seaborn, enabling healthcare providers to predict patient outcomes through time series analysis and feature engineering.
+- **Vietnamese NLP Model for Sentiment Analysis** (2022)  
+  Developed a transformer-based NLP model with PyTorch for sentiment analysis on Vietnamese text, achieving high accuracy in contextual understanding. Fine-tuned on a custom dataset and integrated into a REST API for real-time applications.
 
 ## Hobbies and Interests
-In my leisure time, I enjoy playing the violin and piano, sailing, hiking, biking, solving puzzles, reading books on nature, and engaging in philosophical discussions.
+In my leisure time, I engage in video games like *League of Legends*, *Teamfight Tactics*, *FC Online*, *Counter-Strike 2*, *The Elder Scrolls V: Skyrim*, and the *GTA* series, which enhance my strategic thinking and creativity. I am passionate about sports and fitness, regularly participating in soccer, gym workouts, basketball, volleyball, and tennis to maintain physical and mental agility. Additionally, I pursue intellectual growth through studying psychology, physics, astronomy, and economics, fostering a well-rounded perspective that informs my interdisciplinary approach to AI.
