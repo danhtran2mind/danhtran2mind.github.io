@@ -9,7 +9,51 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const headings = contentArea.querySelectorAll('h1, h2, h3, h4, h5');
   if (headings.length === 0) return;
+  // Create TOC container
+  const tocList = document.createElement('ul');
+  tocList.className = 'nav flex-column';
 
+  headings.forEach((heading) => {
+    // Generate anchor ID from heading text
+    const anchorId = heading.textContent
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9-]/g, '');
+    heading.id = anchorId;
+
+    // Create TOC item
+    const listItem = document.createElement('li');
+    listItem.className = 'nav-item';
+    const link = document.createElement('a');
+    link.className = 'nav-link';
+    link.href = `#${anchorId}`;
+    link.textContent = heading.textContent;
+
+    // Adjust indentation based on heading level
+    const level = parseInt(heading.tagName.replace('H', '')) - 1;
+    listItem.style.paddingLeft = `${level * 1}rem`;
+
+    listItem.appendChild(link);
+    tocList.appendChild(listItem);
+  });
+
+  // Add TOC title
+  const tocTitle = document.createElement('h4');
+  // tocTitle.textContent = 'Table of Contents';
+  tocSidebar.appendChild(tocTitle);
+  tocSidebar.appendChild(tocList);
+
+  // Add smooth scrolling for anchor links
+  tocSidebar.querySelectorAll('a.nav-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
 
 });
 </script> <div class="post"> <div class="row"> <div class="col-sm-3" style="padding-left: 0rem;padding-right: 2.5rem !important;"> <nav id="toc-sidebar" class="sticky-top"> </nav> </div> <div class="col-sm-9"> <article> <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <div id="readme-content"></div> <script>

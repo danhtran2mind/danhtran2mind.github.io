@@ -9,7 +9,51 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const headings = contentArea.querySelectorAll('h1, h2, h3, h4, h5');
   if (headings.length === 0) return;
+  // Create TOC container
+  const tocList = document.createElement('ul');
+  tocList.className = 'nav flex-column';
 
+  headings.forEach((heading) => {
+    // Generate anchor ID from heading text
+    const anchorId = heading.textContent
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9-]/g, '');
+    heading.id = anchorId;
+
+    // Create TOC item
+    const listItem = document.createElement('li');
+    listItem.className = 'nav-item';
+    const link = document.createElement('a');
+    link.className = 'nav-link';
+    link.href = `#${anchorId}`;
+    link.textContent = heading.textContent;
+
+    // Adjust indentation based on heading level
+    const level = parseInt(heading.tagName.replace('H', '')) - 1;
+    listItem.style.paddingLeft = `${level * 1}rem`;
+
+    listItem.appendChild(link);
+    tocList.appendChild(listItem);
+  });
+
+  // Add TOC title
+  const tocTitle = document.createElement('h4');
+  // tocTitle.textContent = 'Table of Contents';
+  tocSidebar.appendChild(tocTitle);
+  tocSidebar.appendChild(tocList);
+
+  // Add smooth scrolling for anchor links
+  tocSidebar.querySelectorAll('a.nav-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
 
 });
 </script> <div class="post"> <div class="row"> <div class="col-sm-3" style="padding-left: 0rem;padding-right: 2.5rem !important;"> <nav id="toc-sidebar" class="sticky-top"> </nav> </div> <div class="col-sm-9"> <article> <p><a href="https://github.com/danhtran2mind/Anime-Super-Resolution/stargazers" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/github/stars/danhtran2mind/Anime-Super-Resolution?style=social&amp;label=Repo%20Stars" alt="GitHub Stars"></a> <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FAnime-Super-Resolution&amp;label=Repo+Views&amp;icon=github&amp;color=%236f42c1&amp;message=&amp;style=social&amp;tz=UTC" alt="Badge"></p> <p><a href="https://huggingface.co/docs/hub" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/huggingface--hub-blue.svg?logo=huggingface" alt="huggingface-hub"></a> <a href="https://pytorch.org/" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/torch-blue.svg?logo=pytorch" alt="torch"></a> <a href="https://pypi.org/project/pillow/" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/Pillow-blue.svg" alt="Pillow"></a> <a href="https://numpy.org/" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/numpy-blue.svg?logo=numpy" alt="numpy"></a> <a href="https://pytorch.org/vision/stable/index.html" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/torchvision-blue.svg?logo=pytorch" alt="torchvision"></a> <a href="https://huggingface.co/docs/diffusers" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/diffusers-blue.svg?logo=huggingface" alt="diffusers"></a> <a href="https://gradio.app/" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/gradio-blue.svg?logo=gradio" alt="gradio"></a> <a href="https://github.com/xinntao/Real-ESRGAN" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/Built%20on-xinntao%2FReal--ESRGAN-blue?style=flat&amp;logo=github" alt="Built on Real-ESRGAN"></a> <a href="https://github.com/ai-forever/Real-ESRGAN" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/Built%20on-ai--forever%2FReal--ESRGAN-blue?style=flat&amp;logo=github" alt="Built on Real-ESRGAN"></a> <a href="https://opensource.org/licenses/MIT" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a></p> <div align="center"> <img src="https://raw.githubusercontent.com/danhtran2mind/Anime-Super-Resolution/refs/heads/main/assets/thumbnail.jpg" alt="Thumbnail" width="700px"> </div> <h2 id="introduction-">Introduction 🌟</h2> <p>Anime Super Resolution 🖼️ enhances anime-style images using a fine-tuned Real-ESRGAN model, optimized for clarity and detail. Built on the RealESRGAN_x4plus model, it leverages a private dataset of 27,052 high-resolution (1920x1080) anime frames 📸. The project offers tools for data processing, training, inference, and an interactive Gradio demo, accessible on platforms like Colab, Kaggle, and locally 🚀.</p> <h2 id="key-features-">Key Features ✨</h2> <ul> <li> <p><strong>Anime-Specific Upscaling</strong> 🎨: Fine-tuned Real-ESRGAN for high-quality anime image super-resolution.</p> </li> <li> <p><strong>Large Anime Dataset</strong> 📚: 27,052 high-res anime frames for robust training.</p> </li> <li> <p><strong>Interactive Gradio Demo</strong> 🖥️: Easy model testing via HuggingFace-hosted interface.</p> </li> <li> <p><strong>Multi-Platform Support</strong> 🌐: Runs on Colab, Kaggle, JupyterLab, and more.</p> </li> <li> <p><strong>Data Processing Tools</strong> 🛠️: Scripts for multiscale dataset creation and meta-info generation.</p> </li> <li> <p><strong>Flexible Training/Inference</strong> ⚙️: Customizable configurations for training and upscaling.</p> </li> <li> <p><strong>Open-Source</strong> 📖: MIT-licensed, built with PyTorch, NumPy, and Pillow.</p> </li> <li> <p><strong>Local/Cloud Compatibility</strong> ☁️: Supports local Gradio app and cloud-based execution.</p> </li> </ul> <h2 id="notebook">Notebook</h2> <p>This notebook provides a step-by-step guide to finetune the Real-ESRGAN model for enhancing anime-style images. It covers data preparation, model configuration, training, and evaluation, optimized for clarity and reproducibility.</p> <p><a href="https://colab.research.google.com/github/danhtran2mind/Anime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb" rel="external nofollow noopener" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a> <a href="https://studiolab.sagemaker.aws/import/github/danhtran2mind/Anime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb" rel="external nofollow noopener" target="_blank"><img src="https://studiolab.sagemaker.aws/studiolab.svg" alt="Open in SageMaker"></a> <a href="https://deepnote.com/launch?url=https://github.com/danhtran2mind/Anime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb" rel="external nofollow noopener" target="_blank"><img src="https://deepnote.com/buttons/launch-in-deepnote-small.svg" alt="Open in Deepnote"></a> <a href="https://mybinder.org/v2/gh/danhtran2mind/Anime-Super-Resolution/main?filepath=notebooks/anime-super-resolution.ipynb" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/Launch-JupyterLab-orange?logo=Jupyter" alt="JupyterLab"></a> <a href="https://console.paperspace.com/github/danhtran2mind/Anime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb" rel="external nofollow noopener" target="_blank"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Open in Gradient"></a> <a href="https://mybinder.org/v2/gh/danhtran2mind/Anime-Super-Resolution/main" rel="external nofollow noopener" target="_blank"><img src="https://mybinder.org/badge_logo.svg" alt="Open in Binder"></a> <a href="https://www.kaggle.com/notebooks/welcome?src=https%3A%2F%2Fgithub.com%2Fdanhtran2mind%2FAnime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb" rel="external nofollow noopener" target="_blank"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a> <a href="https://github.com/danhtran2mind/Anime-Super-Resolution/blob/main/notebooks/anime-super-resolution.ipynb" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/View%20on-GitHub-181717?logo=github" alt="View on GitHub"></a></p> <h2 id="demonstration">Demonstration</h2> <h3 id="interactive-demo">Interactive Demo</h3> <p>Explore the interactive demo hosted on HuggingFace: <a href="https://huggingface.co/spaces/danhtran2mind/Anime-Super-Resolution" rel="external nofollow noopener" target="_blank"><img src="https://img.shields.io/badge/HuggingFace-danhtran2mind%2FAnime--Super--Resolution-yellow?style=flat&amp;logo=huggingface" alt="HuggingFace Space Demo"></a></p> <p>Below is a screenshot of the SlimFace Demo GUI:</p> <p><img src="https://raw.githubusercontent.com/danhtran2mind/Anime-Super-Resolution/refs/heads/main/assets/gradio_app_demo.jpg" alt="Anime-Super-Resolution Demo" height="600"></p> <h3 id="run-locally">Run Locally</h3> <p>To run the Gradio application locally at the default address <code class="language-plaintext highlighter-rouge">localhost:7860</code>, execute:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python apps/gradio_app.py
