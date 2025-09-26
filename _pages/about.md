@@ -31,38 +31,6 @@ profile:
     <!-- My Information Table -->
     <div style='display: flex; justify-content: space-between; font-family: "EB Garamond", serif'>
     <table>
-      html<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tran Pham Cong Danh Profile</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin: 20px 0;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-            font-weight: bold;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <table>
         <tbody>
             <tr>
                 <th>Full Name</th>
@@ -82,7 +50,7 @@ profile:
             </tr>
             <tr>
                 <th>Summary</th>
-                <td>An AI Engineer: Embracing AI, Powered by Passion</td>
+                <td>An AI Engineer Embracing AI, Powered by Passion</td>
             </tr>
             <tr>
                 <th>Email</th>
@@ -109,7 +77,7 @@ profile:
                     GitHub: <a href="https://github.com/danhtran2mind">danhtran2mind</a><br>
                     GitLab: <a href="https://gitlab.com/danhtran2mind">danhtran2mind</a><br>
                     Hugging Face: <a href="https://huggingface.co/danhtran2mind">danhtran2mind</a><br>
-                    X-Twitter: <a href="https://x.com/danhtran2mind">danhtran2mind</a><br>
+                    X: <a href="https://x.com/danhtran2mind">danhtran2mind</a><br>
                     Facebook: <a href="https://facebook.com/danhtran2mind">danhtran2mind</a><br>
                     LinkedIn: <a href="https://linkedin.com/in/danhtran2mind">danhtran2mind</a>
                 </td>
