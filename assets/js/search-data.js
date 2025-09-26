@@ -51,7 +51,40 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/certifications/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-boost-your-online-skills",
+        
+          title: "Boost Your Online Skills",
+        
+        description: "Enhance essential online skills: effectively surf, code, secure, and conquer various digital challenges.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/post6/";
+          
+        },
+      },{id: "post-directory-tree-printer",
+        
+          title: "Directory Tree Printer",
+        
+        description: "Prints directory tree structure, excluding hidden entries, with clear and formatted visualization output.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/post5/";
+          
+        },
+      },{id: "post-github-setup-and-encryption-guide",
+        
+          title: "GitHub Setup and Encryption Guide",
+        
+        description: "Step-by-step Markdown guide for GitHub setup and encryption using git-crypt in Linux, with emojis and clear structure. 🎉",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/post4/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -71,6 +104,39 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/photo-gallery/";
+          
+        },
+      },{id: "post-steps-to-creating-a-readme",
+        
+          title: "Steps to Creating a README",
+        
+        description: "Guideline for creating a profesional REAME.md",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/post3/";
+          
+        },
+      },{id: "post-iris-flower-classifier-and-visualization-app",
+        
+          title: "Iris Flower Classifier and Visualization App",
+        
+        description: "This Streamlit app helps you predict the species of an Iris flower 💐 based on its measurements! 📏",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/post2/";
+          
+        },
+      },{id: "post-hello-world-in-python",
+        
+          title: "Hello World in Python",
+        
+        description: "How to write &quot;Hello World&quot; in Python",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/post1/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
