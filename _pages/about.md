@@ -2,7 +2,7 @@
 layout: about
 title: ABOUT
 permalink: /
-subtitle: <a href='#affiliations'>Affiliations</a>. <a href='#address'>Address.</a> <a href='#contacts'>Contacts.</a> Motto. Etc.
+subtitle: <a href='#basic-information'>Basic Information</a> • <a href='#education'>Education</a> • <a href='#address'>Address</a> • <a href='#contact'>Contact</a> • <a href='#skills'>Skils</a>
 
 
 
@@ -106,15 +106,14 @@ profile:
 ## Introduction
 Greetings, I am Tran Pham Cong Danh (Cong-Danh Pham Tran), an AI Engineer with a unique blend of medical expertise and advanced computational proficiency. Holding a Doctor of Medicine and a Master of Engineering in Computer Science from Vietnam National University Ho Chi Minh City, I am dedicated to leveraging artificial intelligence to transform healthcare and technology. My expertise spans machine learning, deep learning, and natural language processing, with a focus on creating innovative AI solutions tailored for Vietnamese healthcare contexts. My mission is to bridge medical knowledge and cutting-edge technology, delivering impactful, data-driven solutions that enhance lives.
 
-## Personal Philosophy
-I believe that innovation thrives at the intersection of curiosity, interdisciplinary knowledge, and relentless passion. Artificial intelligence is a powerful catalyst for solving complex, real-world challenges. My approach integrates rigorous scientific inquiry with creative problem-solving, ensuring that every project delivers measurable value and advances the frontiers of AI.
-
 ## Basic Information
 - **Full Name**: Tran Pham Cong Danh (Adapted English: Cong-Danh Pham Tran)
 - **Birth Date**: September 29, 1996
 - **Location**: Ho Chi Minh City, Vietnam
 - **Occupation**: AI Engineer
 - **Summary**: An AI Engineer: Embracing AI, Powered by Passion
+
+## Contact
 - **Email**: danhtran2mind@gmail.com
 - **Phone**: +84xxxxxxxxx
 - **Website**: https://danhtran2mind.github.io
@@ -189,6 +188,9 @@ Below are some of my projects, demonstrating my ability to apply AI to real-worl
   Created a Flask-based web application with interactive visualizations using Matplotlib and Seaborn, enabling healthcare providers to predict patient outcomes through time series analysis and feature engineering.
 - **Vietnamese NLP Model for Sentiment Analysis** (2022)  
   Developed a transformer-based NLP model with PyTorch for sentiment analysis on Vietnamese text, achieving high accuracy in contextual understanding. Fine-tuned on a custom dataset and integrated into a REST API for real-time applications.
+
+## Personal Philosophy
+I believe that innovation thrives at the intersection of curiosity, interdisciplinary knowledge, and relentless passion. Artificial intelligence is a powerful catalyst for solving complex, real-world challenges. My approach integrates rigorous scientific inquiry with creative problem-solving, ensuring that every project delivers measurable value and advances the frontiers of AI.
 
 ## Hobbies and Interests
 In my leisure time, I engage in video games like *League of Legends*, *Teamfight Tactics*, *FC Online*, *Counter-Strike 2*, *The Elder Scrolls V: Skyrim*, and the *GTA* series, which enhance my strategic thinking and creativity. I am passionate about sports and fitness, regularly participating in soccer, gym workouts, basketball, volleyball, and tennis to maintain physical and mental agility. Additionally, I pursue intellectual growth through studying psychology, physics, astronomy, and economics, fostering a well-rounded perspective that informs my interdisciplinary approach to AI.
