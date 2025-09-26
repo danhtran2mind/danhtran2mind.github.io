@@ -136,6 +136,29 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
     {% endif %}
   {% else %}
+
+    <div class="row">
+        <!-- main content area -->
+        <div class="col-sm-9">
+          <article>
+            {{ content }}
+          </article>
+          {% if page.related_publications %}
+            <h2>References</h2>
+            <div class="publications">
+              {% bibliography --cited_in_order %}
+            </div>
+          {% endif %}
+          {% if site.giscus and page.giscus_comments %}
+            {% include giscus.liquid %}
+          {% endif %}
+        </div>
+        <!-- sidebar, which will move to the top on a small screen -->
+        <div class="col-sm-3">
+          <nav id="toc-sidebar" class="sticky-top" style="top: 1rem;"></nav>
+        </div>
+      </div>
+
     <article>
       {{ content }}
     </article>
