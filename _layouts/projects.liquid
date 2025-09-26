@@ -26,47 +26,119 @@ layout: default
   {% endif %}
 </style>
 
+<script>
+// JavaScript to generate TOC dynamically based on headings in the content
+document.addEventListener('DOMContentLoaded', function() {
+  const tocSidebar = document.getElementById('toc-sidebar');
+  const contentArea = document.querySelector('.post article');
+  if (!tocSidebar || !contentArea) return;
+
+  const headings = contentArea.querySelectorAll('h2, h3, h4');
+  if (headings.length === 0) return;
+
+  // Create TOC container
+  const tocList = document.createElement('ul');
+  tocList.className = 'nav flex-column';
+  
+  headings.forEach((heading, index) => {
+    // Generate anchor ID
+    const anchorId = heading.textContent.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    heading.id = anchorId;
+
+    // Create TOC item
+    const listItem = document.createElement('li');
+    listItem.className = 'nav-item';
+    const link = document.createElement('a');
+    link.className = 'nav-link';
+    link.href = `#${anchorId}`;
+    link.textContent = heading.textContent;
+    
+    // Adjust styling based on heading level
+    if (heading.tagName === 'H3') {
+      listItem.style.paddingLeft = '1rem';
+    } else if (heading.tagName === 'H4') {
+      listItem.style.paddingLeft = '2rem';
+    }
+    
+    listItem.appendChild(link);
+    tocList.appendChild(listItem);
+  });
+
+  // Add TOC title
+  const tocTitle = document.createElement('h4');
+  tocTitle.textContent = 'Table of Contents';
+  tocSidebar.appendChild(tocTitle);
+  tocSidebar.appendChild(tocList);
+
+  // Add smooth scrolling for anchor links
+  tocSidebar.querySelectorAll('a.nav-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+});
+</script>
+
 <div class="post">
   {% if page.toc and page.toc.sidebar %}
-    <div class="row">
-      <!-- main content area -->
-      <div class="col-sm-9">
-        <article>
-          <div class="cv">
+    {% if page.toc.sidebar == 'right' %}
+      <div class="row">
+        <!-- main content area -->
+        <div class="col-sm-9">
+          <article>
             {{ content }}
-          </div>
-        </article>
-        {% if page.related_publications %}
-          <div class="card mt-3 p-3">
-            <a class="anchor" id="references"></a>
-            <h3 class="card-title font-weight-medium" style="font-weight: 500; color: var(--global-theme-color);">References</h3>
+          </article>
+          {% if page.related_publications %}
+            <h2>References</h2>
             <div class="publications">
               {% bibliography --cited_in_order %}
             </div>
-          </div>
-        {% endif %}
-        {% if site.giscus and page.giscus_comments %}
-          {% include giscus.liquid %}
-        {% endif %}
+          {% endif %}
+          {% if site.giscus and page.giscus_comments %}
+            {% include giscus.liquid %}
+          {% endif %}
+        </div>
+        <!-- sidebar, which will move to the top on a small screen -->
+        <div class="col-sm-3">
+          <nav id="toc-sidebar" class="sticky-top" style="top: 1rem;"></nav>
+        </div>
       </div>
-      <!-- sidebar, which will move to the top on a small screen -->
-      <div class="col-sm-3">
-        <nav id="toc-sidebar" class="sticky-top"></nav>
+    {% else %}
+      <div class="row">
+        <!-- sidebar, which will move to the top on a small screen -->
+        <div class="col-sm-3">
+          <nav id="toc-sidebar" class="sticky-top" style="top: 1rem;"></nav>
+        </div>
+        <!-- main content area -->
+        <div class="col-sm-9">
+          <article>
+            {{ content }}
+          </article>
+          {% if page.related_publications %}
+            <h2>References</h2>
+            <div class="publications">
+              {% bibliography --cited_in_order %}
+            </div>
+          {% endif %}
+          {% if site.giscus and page.giscus_comments %}
+            {% include giscus.liquid %}
+          {% endif %}
+        </div>
       </div>
-    </div>
+    {% endif %}
   {% else %}
     <article>
-      <div class="cv">
-        {{ content }}
-      </div>
+      {{ content }}
     </article>
     {% if page.related_publications %}
-      <div class="card mt-3 p-3">
-        <a class="anchor" id="references"></a>
-        <h3 class="card-title font-weight-medium" style="font-weight: 500; color: var(--global-theme-color);">References</h3>
-        <div class="publications">
-          {% bibliography --cited_in_order %}
-        </div>
+      <h2>References</h2>
+      <div class="publications">
+        {% bibliography --cited_in_order %}
       </div>
     {% endif %}
     {% if site.giscus and page.giscus_comments %}
@@ -74,58 +146,3 @@ layout: default
     {% endif %}
   {% endif %}
 </div>
-
-<script>
-// Function to generate TOC and wrap content in cards
-document.addEventListener('DOMContentLoaded', function() {
-  const contentDiv = document.querySelector('.cv');
-  const tocSidebar = document.getElementById('toc-sidebar');
-  if (!contentDiv) return;
-
-  const headings = contentDiv.querySelectorAll('h1, h2, h3, h4, h5, h6');
-  let toc = [];
-  let currentCard = '';
-  let resultHtml = '';
-  let lastHeading = null;
-
-  headings.forEach(heading => {
-    const id = heading.textContent.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-    heading.id = id;
-    toc.push({
-      level: parseInt(heading.tagName.replace('H', '')),
-      title: heading.textContent,
-      id: id
-    });
-
-    if (lastHeading) {
-      resultHtml += `<div class="card mt-3 p-3">${currentCard}</div>`;
-      currentCard = '';
-    }
-
-    currentCard += `<a class="anchor" id="${id}"></a><h3 class="card-title font-weight-medium" style="font-weight: 500; color: var(--global-theme-color);">${heading.textContent}</h3><div>`;
-    lastHeading = heading;
-
-    let nextElement = heading.nextElementSibling;
-    while (nextElement && !nextElement.matches('h1, h2, h3, h4, h5, h6')) {
-      currentCard += nextElement.outerHTML;
-      nextElement = nextElement.nextElementSibling;
-    }
-  });
-
-  if (currentCard) {
-    resultHtml += `<div class="card mt-3 p-3">${currentCard}</div>`;
-  }
-
-  contentDiv.innerHTML = resultHtml;
-
-  // Render TOC if sidebar exists
-  if (tocSidebar && toc.length > 0) {
-    let tocHtml = '<ul>';
-    toc.forEach(item => {
-      tocHtml += `<li style="margin-left: ${(item.level - 1) * 1.5}rem;"><a href="#${item.id}">${item.title}</a></li>`;
-    });
-    tocHtml += '</ul>';
-    tocSidebar.innerHTML = tocHtml;
-  }
-});
-</script>
