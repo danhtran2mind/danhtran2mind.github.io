@@ -34,7 +34,7 @@ profile:
         <tbody>
             <tr>
                 <th>Full Name</th>
-                <td>Tran Pham Cong Danh (Cong-Danh Pham Tran)</td>
+                <td>Tran Pham Cong Danh<br>(Cong-Danh Pham Tran)</td>
             </tr>
             <tr>
                 <th>Birth Date</th>
@@ -67,8 +67,10 @@ profile:
             <tr>
                 <th>Education</th>
                 <td>
-                    Master of Engineering in Computer Science, Ho Chi Minh City University of Technology (2022–2024)<br>
-                    Doctor of Medicine, University of Health Sciences (2014–2020)
+                    <ul>
+                        <li>Master of Engineering in Computer Science, Ho Chi Minh City University of Technology (2022–2024)</li>
+                        <li>Doctor of Medicine, University of Health Sciences (2014–2020)</li>
+                    </ul>                    
                 </td>
             </tr>
             <tr>
