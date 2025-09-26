@@ -18,6 +18,10 @@ layout: default
     font-size: 1.4rem;
     font-weight: 450;
   }
+  h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
   p {
     font-size: 1rem;
   }
@@ -27,22 +31,25 @@ layout: default
 </style>
 
 <script>
-// JavaScript to generate TOC dynamically based on headings in the content
+// JavaScript to generate TOC dynamically based on headings
 document.addEventListener('DOMContentLoaded', function() {
   const tocSidebar = document.getElementById('toc-sidebar');
   const contentArea = document.querySelector('.post article');
   if (!tocSidebar || !contentArea) return;
 
-  const headings = contentArea.querySelectorAll('h2, h3, h4');
+  const headings = contentArea.querySelectorAll('h1, h2, h3, h4, h5');
   if (headings.length === 0) return;
 
   // Create TOC container
   const tocList = document.createElement('ul');
   tocList.className = 'nav flex-column';
-  
-  headings.forEach((heading, index) => {
-    // Generate anchor ID
-    const anchorId = heading.textContent.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+
+  headings.forEach((heading) => {
+    // Generate anchor ID from heading text
+    const anchorId = heading.textContent
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9-]/g, '');
     heading.id = anchorId;
 
     // Create TOC item
@@ -52,14 +59,11 @@ document.addEventListener('DOMContentLoaded', function() {
     link.className = 'nav-link';
     link.href = `#${anchorId}`;
     link.textContent = heading.textContent;
-    
-    // Adjust styling based on heading level
-    if (heading.tagName === 'H3') {
-      listItem.style.paddingLeft = '1rem';
-    } else if (heading.tagName === 'H4') {
-      listItem.style.paddingLeft = '2rem';
-    }
-    
+
+    // Adjust indentation based on heading level
+    const level = parseInt(heading.tagName.replace('H', '')) - 1;
+    listItem.style.paddingLeft = `${level * 1}rem`;
+
     listItem.appendChild(link);
     tocList.appendChild(listItem);
   });
