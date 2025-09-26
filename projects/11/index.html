@@ -25,12 +25,18 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 });
-</script> &lt; <article> <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <div id="readme-content"></div> <script>
-// Define URLs
-const baseUrl = 'https://github.com/danhtran2mind/Anime-Super-Resolution/blob/main/';
-const imgUrl = 'https://raw.githubusercontent.com/danhtran2mind/Anime-Super-Resolution/main/';
-const repoUrl = 'https://raw.githubusercontent.com/danhtran2mind/Anime-Super-Resolution/';
+</script> <article> <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <div id="readme-content"></div> <script>
+// Define repository (hardcoded for this example; in a Jekyll template, use '')
+const github_repo = 'danhtran2mind/Anime-Super-Resolution';
+
+// Construct URLs dynamically using github_repo
+const baseUrl = `https://github.com/${github_repo}/blob/main/`;
+const imgUrl = `https://raw.githubusercontent.com/${github_repo}/main/`;
+const repoUrl = `https://raw.githubusercontent.com/${github_repo}/`;
+
+// Continue with the rest of the script (e.g., branch setup, replaceRelativePaths function, fetchReadme, etc.)
 const branch = 'main'; // Try 'main' first, fallback to 'master'
+
 let readmeUrl = `${repoUrl}${branch}/README.md`;
 
 // Function to replace relative paths with absolute paths
