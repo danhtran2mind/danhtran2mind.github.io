@@ -97,7 +97,12 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="post">
   
     <div class="row">
-        
+        <!-- sidebar, which will move to the top on a small screen -->
+        <div class="col-sm-3" style="padding-left: 0rem;padding-right: 2.5rem !important;"> 
+          <nav id="toc-sidebar" class="sticky-top">
+          </nav>
+        </div>
+
         <!-- main content area -->
         <div class="col-sm-9">
           <article>
@@ -113,12 +118,8 @@ document.addEventListener('DOMContentLoaded', function() {
             {% include giscus.liquid %}
           {% endif %}
         </div>
+
         
-        <!-- sidebar, which will move to the top on a small screen -->
-        <div class="col-sm-3" style="padding-left: 0rem;padding-right: 2.5rem !important;"> 
-          <nav id="toc-sidebar" class="sticky-top">
-          </nav>
-        </div>
       </div>
   
 
