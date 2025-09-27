@@ -2,7 +2,7 @@
 layout: about
 title: ABOUT
 permalink: /
-subtitle: <a href='#basic-information'>Basic Information</a> • <a href='#education'>Education</a> • <a href='#address'>Address</a> • <a href='#contact'>Contact</a> • <a href='#skills'>Skils</a>
+subtitle: <a href='#basic-information'>Basic Information</a> • <a href='#education'>Education</a> • <a href='#contact'>Contact</a> • <a href='#skills'>Skills</a>
 
 
 
@@ -126,9 +126,9 @@ Greetings, I am Tran Pham Cong Danh (Cong-Danh Pham Tran), an AI Engineer with a
   - LinkedIn: [danhtran2mind](https://linkedin.com/in/danhtran2mind)
 
 ## Education
-- **Master of Engineering in Computer Science**, Ho Chi Minh City University of Technology -- Vietnam National University Ho Chi Minh City, HCMC, VN (2022–2024)  
+- **Master of Engineering in Computer Science**, Ho Chi Minh City University of Technology -- Vietnam National University Ho Chi Minh City, HCMC, VN (2022–2024).
   Focused on advanced algorithms, machine learning, and data engineering, providing a robust foundation for developing cutting-edge AI systems.
-- **Doctor of Medicine in General Medicine**, University of Health Sciences -- Vietnam National University Ho Chi Minh City, HCMC, VN (2014–2020)  
+- **Doctor of Medicine in General Medicine**, University of Health Sciences -- Vietnam National University Ho Chi Minh City, HCMC, VN (2014–2020).
   Acquired comprehensive medical knowledge, enabling the design of AI solutions that address healthcare challenges with precision and empathy.
 
 ## Certificates
