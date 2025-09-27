@@ -220,14 +220,24 @@ ninja.data = [{
           description: "With background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Anime-Super-Resolution/";
+            },},{id: "projects-controlnet-image-generator-️",
+          title: 'ControlNet Image Generator 🖌️',
+          description: "ControlNet generates high-quality images based on human pose input.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ControlNet-Image-Generator/";
             },},{id: "projects-ghibli-stable-diffusion-synthesis",
           title: 'Ghibli Stable Diffusion Synthesis 🎨',
           description: "Ghibli Fine-Tuned Stable Diffusion generates enchanting Studio Ghibli-style images.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Ghibli-Stable-Diffusion-Synthesis/";
+            },},{id: "projects-license-plate-detector-ocr-️",
+          title: 'License Plate Detector OCR🎟️',
+          description: "Detect license plates and read text using computer vision and OCR.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/License-Plate-Detector-OCR/";
             },},{id: "projects-slimface-efficient-face-recognition",
           title: 'SlimFace: Efficient Face Recognition 👦',
-          description: "SlimFace is a lightweight face recognition framework for edge devices.",
+          description: "SlimFace: Efficient face recognition framework using transfer learning and customization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SlimFace/";
             },},{id: "projects-vietnamese-f5-tts-️-vi-f5-tts",
