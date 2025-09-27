@@ -473,7 +473,7 @@
   description: "Get started with Python, if you have no coding experience."
   short_description: "Python basics for absolute beginners."
   # tags: [Web Development, HTML, CSS, JavaScript]
-  file: 'assets/images/certificates/kaggle/Intro to Programming.jpg'
+  file: 'assets/images/certificates/kaggle/Intro_to_Programming.jpg'
 
 - name: 'Python'
   date: Sep 28, 2024

@@ -1,8 +1,8 @@
 ---
 layout: projects
-title: "SlimFace: Efficient Face Recognition 👦"
-description: "SlimFace: Efficient face recognition framework using transfer learning and customization."
-img: assets/images/projects/SlimFace/thumbnail.jpg
+title: "License Plate Detector OCR🎟️"
+description: Detect license plates and read text using computer vision and OCR.
+img: assets/images/projects/License-Plate-Detector-OCR/thumbnail.jpg
 importance: 1
 category: Computer Vision # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 # related_publications: true
@@ -19,7 +19,7 @@ toc:
 
 <script>
 // Define repository
-const github_repo = 'danhtran2mind/SlimFace';
+const github_repo = 'danhtran2mind/License-Plate-Detector-OCR';
 
 // Construct URLs dynamically using github_repo
 const baseUrl = `https://github.com/${github_repo}/blob/main/`;
@@ -102,4 +102,4 @@ fetchReadme();
 
 ## More Information
 
-For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FSlimFace-blue?logo=github)](https://github.com/danhtran2mind/SlimFace/blob/main/README.md)
+For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FLicense--Plate--Detector--OCR-blue?logo=github)](https://github.com/danhtran2mind/License-Plate-Detector-OCR/blob/main/README.md)
