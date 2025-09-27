@@ -1,10 +1,11 @@
 ---
 layout: projects
-title: "SlimFace: Efficient Face Recognition 👦"
-description: SlimFace is a lightweight face recognition framework for edge devices.
-img: assets/images/projects/SlimFace/thumbnail.jpg
+title: "🚌 Bus GPS Real-time Visualization 🗺️"
+description: Real-time bus tracking in Rio de Janeiro using Kafka and Flask.
+# img: assets/img/thumbnail.png
+img: assets/images/projects/bus-gps-real-time-visualization/thumbnail.jpg
 importance: 1
-category: Computer Vision # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
+category: Bigdata # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 # related_publications: true
 toc:
   sidebar: left
@@ -18,8 +19,8 @@ toc:
 <div id="readme-content"></div>
 
 <script>
-// Define repository
-const github_repo = 'danhtran2mind/SlimFace';
+// Define repository (hardcoded for this example; in a Jekyll template, use '{{ page.github_repo }}')
+const github_repo = 'danhtran2mind/bus-gps-real-time-visualization';
 
 // Construct URLs dynamically using github_repo
 const baseUrl = `https://github.com/${github_repo}/blob/main/`;
@@ -102,4 +103,4 @@ fetchReadme();
 
 ## More Information
 
-For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FSlimFace-blue?logo=github)](https://github.com/danhtran2mind/SlimFace/blob/main/README.md)
+For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2Fbus--gps--real--time--visualization-blue?logo=github)](https://github.com/danhtran2mind/bus-gps-real-time-visualization/blob/main/README.md)

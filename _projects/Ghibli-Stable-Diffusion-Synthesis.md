@@ -2,8 +2,7 @@
 layout: projects
 title: "Ghibli Stable Diffusion Synthesis 🎨"
 description: Ghibli Fine-Tuned Stable Diffusion generates enchanting Studio Ghibli-style images.
-# img: assets/img/thumbnail.png
-# img: assets/images/projects/Ghibli-Stable-Diffusion-Synthesis/thumbnail.jpg
+img: assets/images/projects/Ghibli-Stable-Diffusion-Synthesis/thumbnail.jpg
 importance: 1
 category: Computer Vision # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 # related_publications: true
