@@ -68,9 +68,9 @@ profile:
                 <th>Education</th>
                 <td>
                     <ul>
-                        <li>Master of Engineering in Computer Science, Ho Chi Minh City University of Technology (2022–2024)</li>
-                        <li>Doctor of Medicine, University of Health Sciences (2014–2020)</li>
-                    </ul>                    
+                      <li>M.Eng. in Computer Science, HCMUT &ndash; VNUHCM (2022 &ndash; 2024)</li>
+                      <li>M.D. in General Medicine, UHS &ndash; VNUHCM (2014 &ndash; 2020)</li>
+                    </ul>                
                 </td>
             </tr>
             <tr>
