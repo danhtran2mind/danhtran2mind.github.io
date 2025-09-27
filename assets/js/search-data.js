@@ -566,6 +566,21 @@ ninja.data = [{
           description: "SlimFace is a lightweight face recognition framework for edge devices.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SlimFace/";
+            },},{id: "projects-vietnamese-f5-tts-️-vi-f5-tts",
+          title: 'Vietnamese F5-TTS🗣️ (Vi-F5-TTS)',
+          description: "Vietnamese F5-TTS generates natural audio for voice applications using PyTorch.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Vi-F5-TTS/";
+            },},{id: "projects-vietnamese-health-chat-lora-️",
+          title: 'Vietnamese Health Chat LoRA ⚕️',
+          description: "Vietnamese Health Chat LoRA provides accurate healthcare responses using AI.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Vietnamese-Health-Chat-LoRA/";
+            },},{id: "projects-bus-gps-real-time-visualization-️",
+          title: '🚌 Bus GPS Real-time Visualization 🗺️',
+          description: "Real-time bus tracking in Rio de Janeiro using Kafka and Flask.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bus-gps-real-time-visualization/";
             },},{
         id: 'social-email',
         title: 'email',
