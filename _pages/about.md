@@ -68,8 +68,8 @@ profile:
                 <th>Education</th>
                 <td>
                     <ul>
-                      <li>M.Eng. in Computer Science, HCMUT &ndash; VNUHCM (2022 &ndash; 2024)</li>
-                      <li>M.D. in General Medicine, UHS &ndash; VNUHCM (2014 &ndash; 2020)</li>
+                      <M.Eng. in Computer Science, HCMUT&ndash;VNUHCM (2022&ndash;2024)<br>
+                      M.D. in General Medicine, UHS&ndash;VNUHCM (2014&ndash;2020)
                     </ul>                
                 </td>
             </tr>
