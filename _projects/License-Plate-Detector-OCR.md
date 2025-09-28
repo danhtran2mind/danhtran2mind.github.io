@@ -8,6 +8,35 @@ category: Computer Vision # Computer Vision, Natural Language Processing, Audio,
 # related_publications: true
 toc:
   sidebar: left
+
+_styles:
+  h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 550;
+  }
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.4rem;
+    font-weight: 450;
+  }
+  h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  p {
+    font-size: 1rem;
+  }
+  blockquote {
+    font-size: 1rem !important;
+  }
+
 ---
 <!-- Load Data from GitHUb Repository -->
 
