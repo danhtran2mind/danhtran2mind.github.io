@@ -225,9 +225,9 @@ ninja.data = [{
           description: "Ghibli Fine-Tuned Stable Diffusion generates enchanting Studio Ghibli-style images.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Ghibli-Stable-Diffusion-Synthesis/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-license-plate-detector-ocr-️",
+          title: 'License Plate Detector OCR🎟️',
+          description: "Detect license plates and read text using computer vision and OCR.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/License-Plate-Detector-OCR/";
             },},{id: "projects-slimface-efficient-face-recognition",
