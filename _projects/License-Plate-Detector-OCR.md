@@ -85,7 +85,7 @@ function fetchReadme() {
       // Add styles to images (uncommented and refined)
       const images = readmeContentDiv.getElementsByTagName('img');
       for (let img of images) {
-        img.style.maxWidth = '60rem';
+        img.style.maxWidth = '50rem';
         img.style.height = 'auto';
       }
     })
