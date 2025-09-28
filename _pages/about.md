@@ -25,9 +25,11 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <!-- Table CSS -->
+    <style>
     td.table-content {
       padding-right: 0 !important;
     }
+    </style>
     <!-- Avatar Caption -->
     <div style="display: flex;justify-content: center;margin-bottom: 0.75rem;">
       <span style="font-style: italic">My Avatar in Ghibli Style</span>
