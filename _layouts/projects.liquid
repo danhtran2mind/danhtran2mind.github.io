@@ -4,6 +4,51 @@ layout: default
 {% include resume_css.liquid %}
 <script src="/assets/js/theme_toggle.js" defer></script>
 <style type="text/css">
+    h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 550;
+  }
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.4rem;
+    font-weight: 450;
+  }
+  h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  p {
+    font-size: 1rem;
+  }
+  blockquote {
+    font-size: 1rem !important;
+  }
+  /* Image Table */
+  .table-hover {
+    max-width: 40rem !important;
+    width: 40rem;
+    table-layout: fixed;
+    margin: 0 auto;
+}
+
+  .table-hover td, .table-hover th {
+      padding: 0.5rem;
+      overflow: hidden;
+  }
+
+  .table-hover img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+  }
+
   {% if page._styles %}
     {{ page._styles }}
   {% endif %}

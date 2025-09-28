@@ -8,35 +8,6 @@ category: Computer Vision # Computer Vision, Natural Language Processing, Audio,
 # related_publications: true
 toc:
   sidebar: left
-
-_styles:>
-  h1 {
-    font-size: 2.2rem;
-    font-weight: 600;
-  }
-  h2 {
-    font-size: 2rem;
-    font-weight: 550;
-  }
-  h3 {
-    font-size: 1.75rem;
-    font-weight: 500;
-  }
-  h4 {
-    font-size: 1.4rem;
-    font-weight: 450;
-  }
-  h5 {
-    font-size: 1.2rem;
-    font-weight: 400;
-  }
-  p {
-    font-size: 1rem;
-  }
-  blockquote {
-    font-size: 1rem !important;
-  }
-
 ---
 <!-- Load Data from GitHUb Repository -->
 
@@ -55,7 +26,7 @@ const baseUrl = `https://github.com/${github_repo}/blob/main/`;
 const imgUrl = `https://raw.githubusercontent.com/${github_repo}/main/`;
 const repoUrl = `https://raw.githubusercontent.com/${github_repo}/`;
 
-// Continue with the rest of the script (e.g., branch setup, replaceRelativePaths function, fetchReadme, etc.)
+// Continue with the rest of the script (e.g., branch setup, replaceRelativePaths function, fetchReadme, etc.)  
 const branch = 'main'; // Try 'main' first, fallback to 'master'
 
 let readmeUrl = `${repoUrl}${branch}/README.md`;
@@ -64,28 +35,23 @@ let readmeUrl = `${repoUrl}${branch}/README.md`;
 function replaceRelativePaths(content, baseUrl, imgUrl) {
   const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
   const normalizedImgUrl = imgUrl.endsWith('/') ? imgUrl : `${imgUrl}/`;
-  let updatedContent = content
-    // Replace relative Markdown links (e.g., [text](path))
+  return content
     .replace(/\[([^\]]*)\]\((?!http)([^)]+)\)/g, (match, text, path) => {
       const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
       return `[${text}](${normalizedBaseUrl}${cleanPath})`;
     })
-    // Replace relative image paths in Markdown syntax (e.g., ![alt](path))
     .replace(/!\[(.*?)\]\((?!http)(.*?)\)/g, (match, alt, path) => {
       const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
       return `![${alt}](${normalizedImgUrl}${cleanPath})`;
     })
-    // Replace relative paths in HTML <img> tags (e.g., <img src="path">)
     .replace(/<img src="(?!http)([^"]+)"/g, (match, path) => {
       const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
       return `<img src="${normalizedImgUrl}${cleanPath}"`;
     })
-    // Replace relative paths in HTML <a> tags (e.g., <a href="path">)
     .replace(/<a href="(?!http)([^"]+)"/g, (match, path) => {
       const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
       return `<a href="${normalizedBaseUrl}${cleanPath}"`;
     });
-  return updatedContent;
 }
 
 // Function to fetch README with fallback to 'master' branch
@@ -99,7 +65,7 @@ function fetchReadme() {
           readmeUrl = `${repoUrl}master/README.md`;
           return fetch(readmeUrl);
         }
-        throw new Error(`Fetch failed with status ${response.status} (${response.statusText})`);
+        throw new Error(`Failed to fetch README: ${response.status} (${response.statusText})`);
       }
       return response.text();
     })
@@ -109,17 +75,25 @@ function fetchReadme() {
       const markdownHtml = marked.parse(absoluteData);
       const readmeContentDiv = document.getElementById('readme-content');
       readmeContentDiv.innerHTML = markdownHtml;
-      // Add style to all img tags in readme-content
+
+      // Add table-hover class to all tables
+      const tables = readmeContentDiv.getElementsByTagName('table');
+      for (let table of tables) {
+        table.classList.add('table-hover');
+      }
+
+      // Add styles to images (uncommented and refined)
       const images = readmeContentDiv.getElementsByTagName('img');
       for (let img of images) {
-        img.setAttribute('style', 'max-width: 40rem !important; height: auto !important;');
+        img.style.maxWidth = '60rem';
+        img.style.height = 'auto';
       }
     })
     .catch(error => {
       console.error('Error fetching README:', error);
       document.getElementById('readme-content').innerHTML = `
         <p>Error loading README content: ${error.message}</p>
-        <p>Please verify the repository and branch name at <a href="https://github.com/danhtran2mind/Anime-Super-Resolution">GitHub</a>.</p>
+        <p>Please verify the repository at <a href="https://github.com/${github_repo}">GitHub</a>.</p>
         <p>Check if README.md exists in the 'main' or 'master' branch.</p>
       `;
     });
