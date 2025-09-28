@@ -24,6 +24,10 @@ profile:
   image: avatar.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <!-- Table CSS -->
+    td.table-content {
+      padding-right: 0 !important;
+    }
     <!-- Avatar Caption -->
     <div style="display: flex;justify-content: center;margin-bottom: 0.75rem;">
       <span style="font-style: italic">My Avatar in Ghibli Style</span>
@@ -31,72 +35,71 @@ profile:
     <!-- My Information Table -->
     <div style='display: flex; justify-content: space-between; font-family: "EB Garamond", serif'>
     <table>
-        <tbody>
-            <tr>
-                <th>Full Name</th>
-                <td>Tran Pham Cong Danh<br>(Cong-Danh Pham Tran)</td>
-            </tr>
-            <tr>
-                <th>Birth Date</th>
-                <td>September 29, 1996</td>
-            </tr>
-            <tr>
-                <th>Location</th>
-                <td>Ho Chi Minh City, Vietnam</td>
-            </tr>
-            <tr>
-                <th>Occupation</th>
-                <td>AI Engineer</td>
-            </tr>
-            <tr>
-                <th>Summary</th>
-                <td>An AI Engineer Embracing AI, Powered by Passion</td>
-            </tr>
-            <tr>
-                <th>Email</th>
-                <td><a href="mailto:danhtran2mind@gmail.com">danhtran2mind@gmail.com</a></td>
-            </tr>
-            <tr>
-                <th>Phone</th>
-                <td>+84xxxxxxxxx</td>
-            </tr>
-            <tr>
-                <th>Website</th>
-                <td><a href="https://danhtran2mind.github.io">danhtran2mind.github.io</a></td>
-            </tr>
-            <tr>
-                <th>Education</th>
-                <td>
-                      M.Eng. in Computer Science, HCMUT&ndash;VNUHCM (2022&ndash;2024)<br>
-                      M.D. in General Medicine, UHS&ndash;VNUHCM (2014&ndash;2020)               
-                </td>
-            </tr>
-            <tr>
-                <th>Profiles</th>
-                <td>
-                    GitHub: <a href="https://github.com/danhtran2mind">danhtran2mind</a><br>
-                    GitLab: <a href="https://gitlab.com/danhtran2mind">danhtran2mind</a><br>
-                    Hugging Face: <a href="https://huggingface.co/danhtran2mind">danhtran2mind</a><br>
-                    X: <a href="https://x.com/danhtran2mind">danhtran2mind</a><br>
-                    Facebook: <a href="https://facebook.com/danhtran2mind">danhtran2mind</a><br>
-                    LinkedIn: <a href="https://linkedin.com/in/danhtran2mind">danhtran2mind</a>
-                </td>
-            </tr>
-            <tr>
-                <th>Skills</th>
-                <td>
-                    Python, TensorFlow, PyTorch,<br>
-                    NLP, Computer Vision, Audio,<br>
-                    Web Development, Cloud Platforms, DevOps<br>
-                </td>
-            </tr>
-            <tr>
-                <th>Hobbies and Interests</th>
-                <td>Video games, sports, psychology,<br>
-                 physics, astronomy.</td>
-            </tr>
-        </tbody>
-    </table>
+      <tbody>
+          <tr>
+              <th>Full Name</th>
+              <td class="table-content">Tran Pham Cong Danh<br>(Cong-Danh Pham Tran)</td>
+          </tr>
+          <tr>
+              <th>Birth Date</th>
+              <td class="table-content">September 29, 1996</td>
+          </tr>
+          <tr>
+              <th>Location</th>
+              <td class="table-content">Ho Chi Minh City, Vietnam</td>
+          </tr>
+          <tr>
+              <th>Occupation</th>
+              <td class="table-content">AI Engineer</td>
+          </tr>
+          <tr>
+              <th>Summary</th>
+              <td class="table-content">An AI Engineer Embracing AI, Powered by Passion</td>
+          </tr>
+          <tr>
+              <th>Email</th>
+              <td class="table-content"><a href="mailto:danhtran2mind@gmail.com">danhtran2mind@gmail.com</a></td>
+          </tr>
+          <tr>
+              <th>Phone</th>
+              <td class="table-content">+84xxxxxxxxx</td>
+          </tr>
+          <tr>
+              <th>Website</th>
+              <td class="table-content"><a href="https://danhtran2mind.github.io">danhtran2mind.github.io</a></td>
+          </tr>
+          <tr>
+              <th>Education</th>
+              <td class="table-content">
+                  M.Eng. in Computer Science, HCMUT &ndash; VNUHCM (2022 &ndash; 2024)<br>
+                  M.D. in General Medicine, UHS &ndash; VNUHCM (2014 &ndash; 2020)               
+              </td>
+          </tr>
+          <tr>
+              <th>Profiles</th>
+              <td class="table-content">
+                  GitHub: <a href="https://github.com/danhtran2mind">danhtran2mind</a><br>
+                  GitLab: <a href="https://gitlab.com/danhtran2mind">danhtran2mind</a><br>
+                  Hugging Face: <a href="https://huggingface.co/danhtran2mind">danhtran2mind</a><br>
+                  X: <a href="https://x.com/danhtran2mind">danhtran2mind</a><br>
+                  Facebook: <a href="https://facebook.com/danhtran2mind">danhtran2mind</a><br>
+                  LinkedIn: <a href="https://linkedin.com/in/danhtran2mind">danhtran2mind</a>
+              </td>
+          </tr>
+          <tr>
+              <th>Skills</th>
+              <td class="table-content">
+                  Python, TensorFlow, PyTorch,<br>
+                  NLP, Computer Vision, Audio,<br>
+                  Web Development, Cloud Platforms, DevOps<br>
+              </td>
+          </tr>
+          <tr>
+              <th>Hobbies and Interests</th>
+              <td class="table-content">Video games, sports, psychology,<br>
+              physics, astronomy.</td>
+          </tr>
+      </tbody>
     </table>
     </div>
 ---
