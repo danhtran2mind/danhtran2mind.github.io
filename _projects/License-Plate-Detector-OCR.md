@@ -9,7 +9,7 @@ category: Computer Vision # Computer Vision, Natural Language Processing, Audio,
 toc:
   sidebar: left
 
-_styles:
+_styles:>
   h1 {
     font-size: 2.2rem;
     font-weight: 600;
