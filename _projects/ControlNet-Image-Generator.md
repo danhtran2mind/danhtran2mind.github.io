@@ -23,7 +23,7 @@ const github_repo = 'danhtran2mind/ControlNet-Image-Generator';
 
 // Construct URLs dynamically using github_repo
 const baseUrl = `https://github.com/${github_repo}/blob/main/`;
-const imgUrl = `https://raw.githubusercontent.com/${github_repo}/main/`;
+const imgUrl = `https://raw.githubusercontent.com/${github_repo}/refs/heads/main/`;
 const repoUrl = `https://raw.githubusercontent.com/${github_repo}/`;
 
 // Continue with the rest of the script (e.g., branch setup, replaceRelativePaths function, fetchReadme, etc.)  
