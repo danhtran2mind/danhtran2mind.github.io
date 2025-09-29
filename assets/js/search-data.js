@@ -250,6 +250,11 @@ ninja.data = [{
           description: "Vietnamese Health Chat LoRA provides accurate healthcare responses using AI.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Vietnamese-Health-Chat-LoRA/";
+            },},{id: "projects-vietnamese-news-classification",
+          title: 'Vietnamese News Classification 📰',
+          description: "Lightweight neural network classifies Vietnamese news into nine specific categories.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Vietnamese-News-Classification/";
             },},{id: "projects-bus-gps-real-time-visualization-️",
           title: '🚌 Bus GPS Real-time Visualization 🗺️',
           description: "Real-time bus tracking in Rio de Janeiro using Kafka and Flask.",
