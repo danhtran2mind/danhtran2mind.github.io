@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Text to Video Ghibli style 🎞
+title: Text to Video Ghibli style 🎞️
 description: Ghibli‑style videos from text using fine‑tuned zeroscope model.
 # img: assets/img/thumbnail.png
 img: assets/images/projects/Text2Video-Ghibli-style/thumbnail.jpg
@@ -24,7 +24,7 @@ const github_repo = 'danhtran2mind/Text2Video-Ghibli-style';
 
 // Construct URLs dynamically using github_repo
 const baseUrl = `https://github.com/${github_repo}/blob/main/`;
-const imgUrl = `https://raw.githubusercontent.com/${github_repo}/main/`;
+const imgUrl = `https://raw.githubusercontent.com/${github_repo}/refs/heads/main/`;
 const repoUrl = `https://raw.githubusercontent.com/${github_repo}/`;
 
 // Continue with the rest of the script (e.g., branch setup, replaceRelativePaths function, fetchReadme, etc.)  
