@@ -255,6 +255,21 @@ ninja.data = [{
           description: "Real-time bus tracking in Rio de Janeiro using Kafka and Flask.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bus-gps-real-time-visualization/";
+            },},{id: "projects-grayscale2color-landscape-from-scratch",
+          title: 'Grayscale2Color Landscape from scratch🌄',
+          description: "AutoEncoder/U‑Net/Transformer colorizes grayscale landscapes via Lab* prediction.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/grayscale2color-landscape-from-scratch/";
+            },},{id: "projects-vietnamese-medical-mt5-finetune-question-and-answer-️",
+          title: 'Vietnamese Medical mT5 Finetune Question and Answer 👨🏻‍⚕️',
+          description: "Vietnamese medical QA system fine‑tuned mT5, low loss, strong performance.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vi-medical-mt5-finetune-qa/";
+            },},{id: "projects-viet-news-summary-mt5-small-finetune",
+          title: 'Viet News Summary mT5 Small Finetune 📰',
+          description: "Fine‑tuned mt5‑small Vietnamese news summarizer, low loss, high BLEU.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/viet-news-sum-mt5-small-finetune/";
             },},{
         id: 'social-email',
         title: 'email',
