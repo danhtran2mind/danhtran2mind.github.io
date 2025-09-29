@@ -235,8 +235,8 @@ ninja.data = [{
           description: "SlimFace: Efficient face recognition framework using transfer learning and customization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SlimFace/";
-            },},{id: "projects-text-to-video-ghibli-style",
-          title: 'Text to Video Ghibli style 🎞',
+            },},{id: "projects-text-to-video-ghibli-style-️",
+          title: 'Text to Video Ghibli style 🎞️',
           description: "Ghibli‑style videos from text using fine‑tuned zeroscope model.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Text2Video-Ghibli-style/";
