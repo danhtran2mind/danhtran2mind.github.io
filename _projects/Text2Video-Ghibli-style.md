@@ -106,4 +106,4 @@ fetchReadme();
 
 ## More Information
 
-For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FText2Video--Ghibli--style-blue?logo=github)](https://github.com/danhtran2mind/Text2Video-Ghibli-style/blob/main/README.md)
+For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FText2Video--Ghibli--style-blue?logo=github)](https://github.com/danhtran2mind/Text2Video-Ghibli-style)

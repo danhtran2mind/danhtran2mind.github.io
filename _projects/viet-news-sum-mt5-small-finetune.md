@@ -106,4 +106,4 @@ fetchReadme();
 
 ## More Information
 
-For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2Fviet--news--sum--mt5--small--finetune-blue?logo=github)](https://github.com/danhtran2mind/viet-news-sum-mt5-small-finetune/blob/main/README.md)
+For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2Fviet--news--sum--mt5--small--finetune-blue?logo=github)](https://github.com/danhtran2mind/viet-news-sum-mt5-small-finetune)
