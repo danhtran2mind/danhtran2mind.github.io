@@ -245,6 +245,11 @@ ninja.data = [{
           description: "Vietnamese F5-TTS generates natural audio for voice applications using PyTorch.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Vi-F5-TTS/";
+            },},{id: "projects-viet-glow-tts-finetuning",
+          title: 'Viet Glow-TTS Finetuning 📢',
+          description: "Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Viet-Glow-TTS-finetuning/";
             },},{id: "projects-vietnamese-health-chat-lora-️",
           title: 'Vietnamese Health Chat LoRA ⚕️',
           description: "Vietnamese Health Chat LoRA provides accurate healthcare responses using AI.",
@@ -271,7 +276,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/vi-medical-mt5-finetune-qa/";
             },},{id: "projects-vietnamese-nutrition-gpt2-finetune",
-          title: 'Vietnamese Nutrition GPT2 Finetune 📰',
+          title: 'Vietnamese Nutrition GPT2 Finetune 🍲',
           description: "Vietnamese Nutrition GPT-2: Fine-tuned, accurate, interactive nutrition guidance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/vi-nutrition-gpt2-finetune/";
