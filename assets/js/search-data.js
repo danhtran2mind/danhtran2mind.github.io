@@ -270,6 +270,11 @@ ninja.data = [{
           description: "Vietnamese medical QA system fine‑tuned mT5, low loss, strong performance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/vi-medical-mt5-finetune-qa/";
+            },},{id: "projects-vietnamese-nutrition-gpt2-finetune",
+          title: 'Vietnamese Nutrition GPT2 Finetune 📰',
+          description: "Vietnamese Nutrition GPT-2: Fine-tuned, accurate, interactive nutrition guidance.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vi-nutrition-gpt2-finetune/";
             },},{id: "projects-viet-news-summary-mt5-small-finetune",
           title: 'Viet News Summary mT5 Small Finetune 📰',
           description: "Fine‑tuned mt5‑small Vietnamese news summarizer, low loss, high BLEU.",
