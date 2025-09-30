@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Vietnamese News Classification 📰
+title: Vietnamese News Classification 🗞️
 description: Lightweight neural network classifies Vietnamese news into nine specific categories.
 # img: assets/img/thumbnail.png
 img: assets/images/projects/Vietnamese-News-Classification/thumbnail.jpg
