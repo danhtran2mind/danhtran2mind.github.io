@@ -2,7 +2,6 @@
 layout: projects
 title: Vietnamese Whisper Tiny finetuning 🎙️
 description: Fine-tuned Whisper Tiny for accurate, real-time Vietnamese speech recognition.
-# img: assets/img/thumbnail.png
 img: assets/images/projects/Vi-Whisper-Tiny-finetuning/thumbnail.jpg
 importance: 4
 category: Audio # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
