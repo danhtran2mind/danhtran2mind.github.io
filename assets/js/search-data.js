@@ -247,12 +247,12 @@ ninja.data = [{
               window.location.href = "/projects/Vi-F5-TTS/";
             },},{id: "projects-viet-glow-tts-finetuning",
           title: 'Viet Glow-TTS Finetuning 📢',
-          description: "Vietnamese TTS model fine‑tuned, male/female voices, Gradio demo.",
+          description: "Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Viet-Glow-TTS-finetuning/";
             },},{id: "projects-viet-speecht5-tts-finetuning",
           title: 'Viet SpeechT5-TTS finetuning 🔈',
-          description: "Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.",
+          description: "Vietnamese TTS model fine‑tuned, male/female voices, Gradio demo.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Viet-SpeechT5-TTS-finetuning/";
             },},{id: "projects-vietnamese-health-chat-lora-️",
