@@ -247,9 +247,14 @@ ninja.data = [{
               window.location.href = "/projects/Vi-F5-TTS/";
             },},{id: "projects-viet-glow-tts-finetuning",
           title: 'Viet Glow-TTS Finetuning 📢',
-          description: "Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.",
+          description: "Vietnamese TTS model fine‑tuned, male/female voices, Gradio demo.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Viet-Glow-TTS-finetuning/";
+            },},{id: "projects-viet-speecht5-tts-finetuning",
+          title: 'Viet SpeechT5-TTS finetuning 🔈',
+          description: "Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Viet-SpeechT5-TTS-finetuning/";
             },},{id: "projects-vietnamese-health-chat-lora-️",
           title: 'Vietnamese Health Chat LoRA ⚕️',
           description: "Vietnamese Health Chat LoRA provides accurate healthcare responses using AI.",
@@ -290,28 +295,28 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%61%62%63%64%31%32%33%34%68%74%74%72%72@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%64%61%6E%68%74%72%61%6E%32%6D%69%6E%64@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-facebook',
         title: 'Facebook',
         section: 'Socials',
         handler: () => {
-          window.open("https://facebook.com/abcd1234httrr", "_blank");
+          window.open("https://facebook.com/danhtran2mind", "_blank");
         },
       },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/peterlicon2323", "_blank");
+          window.open("https://github.com/danhtran2mind", "_blank");
         },
       },{
         id: 'social-gitlab',
         title: 'GitLab',
         section: 'Socials',
         handler: () => {
-          window.open("https://gitlab.com/abcd1234httrr", "_blank");
+          window.open("https://gitlab.com/danhtran2mind", "_blank");
         },
       },{
         id: 'social-huggingface_username',
@@ -325,14 +330,14 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/abcd1234httrr", "_blank");
+          window.open("https://www.linkedin.com/in/danhtran2mind", "_blank");
         },
       },{
         id: 'social-x',
         title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://twitter.com/abcd1234httrr", "_blank");
+          window.open("https://twitter.com/danhtran2mind", "_blank");
         },
       },{
       id: 'light-theme',
