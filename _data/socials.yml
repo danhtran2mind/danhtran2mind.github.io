@@ -10,12 +10,12 @@
 # bluesky_url: # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: abcd1234httrr@example.com # your email address
-facebook_id: abcd1234httrr
+email: danhtran2mind@example.com # your email address
+facebook_id: danhtran2mind
 # flickr_id: # your flickr id
-github_username: peterlicon2323
-gitlab_username: abcd1234httrr
-huggingface_username: abcd1234httrr
+github_username: danhtran2mind
+gitlab_username: danhtran2mind
+huggingface_username: danhtran2mind
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: 1010907 # Inspire HEP author ID
@@ -25,7 +25,7 @@ huggingface_username: abcd1234httrr
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: abcd1234httrr
+linkedin_username: danhtran2mind
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
@@ -48,7 +48,7 @@ linkedin_username: abcd1234httrr
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: abcd1234httrr.github.io
-x_username: abcd1234httrr
+x_username: danhtran2mind
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 # Add more custom Website

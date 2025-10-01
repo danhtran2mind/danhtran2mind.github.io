@@ -1,10 +1,10 @@
 ---
 layout: projects
-title: Viet Glow-TTS Finetuning 📢
-description: Vietnamese TTS model fine‑tuned, male/female voices, Gradio demo.
+title: Viet SpeechT5-TTS finetuning 🔈
+description: Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.
 # img: assets/img/thumbnail.png
-img: assets/images/projects/Viet-SpeechT5-TTS-finetuning/thumbnail.jpg
-importance: 4
+img: assets/images/projects/Viet-Glow-TTS-finetuning/thumbnail.jpg
+importance: 1
 category: Audio # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 # related_publications: true
 toc:
@@ -106,4 +106,4 @@ fetchReadme();
 
 ## More Information
 
-For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FViet--Glow--TTS--finetuning-blue?logo=github)](https://github.com/danhtran2mind/Viet-Glow-TTS-finetuning)
+For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FViet--SpeechT5--TTS--finetuning-blue?logo=github)](https://github.com/danhtran2mind/Viet-SpeechT5-TTS-finetuning)
