@@ -1,9 +1,9 @@
 ---
 layout: projects
 title: Viet SpeechT5-TTS finetuning 🔈
-description: Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.
+description: Vietnamese TTS model fine‑tuned, male/female voices, Gradio demo.
 # img: assets/img/thumbnail.png
-img: assets/images/projects/Viet-Glow-TTS-finetuning/thumbnail.jpg
+img: assets/images/projects/Viet-SpeechT5-TTS-finetuning/thumbnail.jpg
 importance: 1
 category: Audio # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 # related_publications: true
@@ -20,7 +20,7 @@ toc:
 
 <script>
 // Define repository (hardcoded for this example; in a Jekyll template, use '{{ page.github_repo }}')
-const github_repo = 'danhtran2mind/Viet-Glow-TTS-finetuning';
+const github_repo = 'danhtran2mind/Viet-SpeechT5-TTS-finetuning';
 
 // Construct URLs dynamically using github_repo
 const baseUrl = `https://github.com/${github_repo}/blob/main/`;
