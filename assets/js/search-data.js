@@ -245,11 +245,6 @@ ninja.data = [{
           description: "Vietnamese F5-TTS generates natural audio for voice applications using PyTorch.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Vi-F5-TTS/";
-            },},{id: "projects-vietnamese-whisper-tiny-finetuning-️",
-          title: 'Vietnamese Whisper Tiny finetuning 🎙️',
-          description: "Fine-tuned Whisper Tiny for accurate, real-time Vietnamese speech recognition.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Vi-Whisper-tiny-finetuning/";
             },},{id: "projects-viet-glow-tts-finetuning",
           title: 'Viet Glow-TTS Finetuning 📢',
           description: "Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.",
