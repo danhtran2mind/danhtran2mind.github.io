@@ -212,7 +212,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-anime-super-resolution-️",
           title: 'Anime Super Resolution 🖼️',
-          description: "With background image",
+          description: "Anime Super Resolution enhances anime images using fine-tuned Real-ESRGAN model.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Anime-Super-Resolution/";
             },},{id: "projects-controlnet-image-generator-️",
@@ -252,7 +252,7 @@ ninja.data = [{
               window.location.href = "/projects/Text2Video-Ghibli-style/";
             },},{id: "projects-vietnamese-f5-tts-️-vi-f5-tts",
           title: 'Vietnamese F5-TTS🗣️ (Vi-F5-TTS)',
-          description: "Vietnamese F5-TTS generates natural audio for voice applications using PyTorch.",
+          description: "Fine-tuned F5-TTS to generate natural audio for voice applications in Vietnamese.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Vi-F5-TTS/";
             },},{id: "projects-vietnamese-whisper-tiny-finetuning-️",
