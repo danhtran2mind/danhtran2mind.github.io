@@ -220,6 +220,11 @@ ninja.data = [{
           description: "ControlNet generates high-quality images based on human pose input.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ControlNet-Image-Generator/";
+            },},{id: "projects-english-vietnamese-translation-model-built-with-tensorflow",
+          title: 'English-Vietnamese Translation Model Built with TensorFlow 🔠',
+          description: "Transformer-based English-to-Vietnamese translation model with interactive Gradio demo.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/En-Vi-Translatetion-Transformer-TensorFlow/";
             },},{id: "projects-ghibli-stable-diffusion-synthesis",
           title: 'Ghibli Stable Diffusion Synthesis 🎨',
           description: "Ghibli Fine-Tuned Stable Diffusion generates enchanting Studio Ghibli-style images.",
@@ -235,6 +240,11 @@ ninja.data = [{
           description: "SlimFace: Efficient face recognition framework using transfer learning and customization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SlimFace/";
+            },},{id: "projects-text2music-composer",
+          title: 'Text2Music Composer 📢',
+          description: "Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Text2Music-Composer/";
             },},{id: "projects-text-to-video-ghibli-style-️",
           title: 'Text to Video Ghibli style 🎞️',
           description: "Ghibli‑style videos from text using fine‑tuned zeroscope model.",
