@@ -1,10 +1,11 @@
 ---
 layout: projects
-title: Vietnamese Whisper Tiny finetuning 🎙️
-description: Fine-tuned Whisper Tiny for accurate, real-time Vietnamese speech recognition.
-img: assets/images/projects/Vi-Whisper-Tiny-finetuning/thumbnail.jpg
-importance: 3
-category: Audio
+title: English-Vietnamese Translation Model Built with TensorFlow 🔠
+description: Transformer-based English-to-Vietnamese translation model with interactive Gradio demo.
+# img: assets/img/thumbnail.png
+img: assets/images/projects/En-Vi-Translatetion-Transformer-TensorFlow/thumbnail.jpg
+importance: 1
+category: Natural Language Processing # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 # related_publications: true
 toc:
   sidebar: left
@@ -19,7 +20,7 @@ toc:
 
 <script>
 // Define repository (hardcoded for this example; in a Jekyll template, use '{{ page.github_repo }}')
-const github_repo = 'danhtran2mind/Vi-Whisper-Tiny-finetuning';
+const github_repo = 'danhtran2mind/En-Vi-Translatetion-Transformer-TensorFlow';
 
 // Construct URLs dynamically using github_repo
 const baseUrl = `https://github.com/${github_repo}/blob/main/`;
@@ -105,4 +106,4 @@ fetchReadme();
 
 ## More Information
 
-For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FVi--Whisper--Tiny--finetuning-blue?logo=github)](https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning)
+For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FEn--Vi--Translatetion--Transformer--TensorFlow-blue?logo=github)](https://github.com/danhtran2mind/En-Vi-Translatetion-Transformer-TensorFlow)

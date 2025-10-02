@@ -1,15 +1,14 @@
 ---
 layout: projects
-title: Vietnamese Whisper Tiny finetuning 🎙️
-description: Fine-tuned Whisper Tiny for accurate, real-time Vietnamese speech recognition.
-img: assets/images/projects/Vi-Whisper-Tiny-finetuning/thumbnail.jpg
-importance: 3
+title: Text2Music Composer 📢
+description: Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.
+img: assets/images/projects/Text2Music-Composer/thumbnail.jpg
+importance: 4
 category: Audio
-# related_publications: true
 toc:
   sidebar: left
 ---
-<!-- Load Data from GitHUb Repository -->
+<!-- Load Data from GitHub Repository -->
 
 <!-- Include marked.js for Markdown parsing -->
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -19,7 +18,7 @@ toc:
 
 <script>
 // Define repository (hardcoded for this example; in a Jekyll template, use '{{ page.github_repo }}')
-const github_repo = 'danhtran2mind/Vi-Whisper-Tiny-finetuning';
+const github_repo = 'danhtran2mind/Text2Music-Composer';
 
 // Construct URLs dynamically using github_repo
 const baseUrl = `https://github.com/${github_repo}/blob/main/`;
@@ -31,22 +30,47 @@ const branch = 'main'; // Try 'main' first, fallback to 'master'
 
 let readmeUrl = `${repoUrl}${branch}/README.md`;
 
-// Function to replace relative paths with absolute paths
+// Function to replace relative paths with absolute paths, preserving specific image attributes
 function replaceRelativePaths(content, baseUrl, imgUrl) {
   const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
   const normalizedImgUrl = imgUrl.endsWith('/') ? imgUrl : `${imgUrl}/`;
+  
+  // Define a flag to track whether we are in the badge section
+  let inBadgeSection = false;
+
   return content
+    .replace(/^<!-- Start Introduce Badge -->$/gm, () => {
+      inBadgeSection = true;
+      return '<!-- Start Introduce Badge -->';
+    })
+    .replace(/^<!-- End Introduce Badge -->$/gm, () => {
+      inBadgeSection = false;
+      return '<!-- End Introduce Badge -->';
+    })
     .replace(/\[([^\]]*)\]\((?!http)([^)]+)\)/g, (match, text, path) => {
       const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
       return `[${text}](${normalizedBaseUrl}${cleanPath})`;
     })
     .replace(/!\[(.*?)\]\((?!http)(.*?)\)/g, (match, alt, path) => {
       const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
-      return `![${alt}](${normalizedImgUrl}${cleanPath})`;
+      if (inBadgeSection) {
+        // Preserve original image attributes in badge section
+        return `![${alt}](${normalizedImgUrl}${cleanPath})`;
+      } else {
+        // Apply max-width and height auto for non-badge images
+        return `<img src="${normalizedImgUrl}${cleanPath}" alt="${alt}" style="max-width: 50rem; height: auto;">`;
+      }
     })
-    .replace(/<img src="(?!http)([^"]+)"/g, (match, path) => {
+    .replace(/<img src="(?!http)([^"]+)"([^>]*)/g, (match, path, attributes) => {
       const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
-      return `<img src="${normalizedImgUrl}${cleanPath}"`;
+      if (inBadgeSection) {
+        // Preserve original image attributes in badge section
+        return `<img src="${normalizedImgUrl}${cleanPath}"${attributes}`;
+      } else {
+        // Apply max-width and height auto, preserving other attributes
+        const attrWithoutStyle = attributes.replace(/\s*style="[^"]*"/, '');
+        return `<img src="${normalizedImgUrl}${cleanPath}"${attrWithoutStyle} style="max-width: 50rem; height: auto;"`;
+      }
     })
     .replace(/<a href="(?!http)([^"]+)"/g, (match, path) => {
       const cleanPath = path.replace(/^\.\//, '').replace(/^\//, '');
@@ -81,13 +105,6 @@ function fetchReadme() {
       for (let table of tables) {
         table.classList.add('table-hover');
       }
-
-      // Add styles to images (uncommented and refined)
-      const images = readmeContentDiv.getElementsByTagName('img');
-      for (let img of images) {
-        img.style.maxWidth = '50rem';
-        img.style.height = 'auto';
-      }
     })
     .catch(error => {
       console.error('Error fetching README:', error);
@@ -105,4 +122,4 @@ fetchReadme();
 
 ## More Information
 
-For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FVi--Whisper--Tiny--finetuning-blue?logo=github)](https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning)
+For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2FText2Music--Composer-blue?logo=github)](https://github.com/danhtran2mind/Text2Music-Composer)
