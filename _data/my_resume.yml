@@ -57,14 +57,14 @@ data:
       - date: 04/2025 -- 05/2025
         organization: Karuna Veggie Restaurant
         job_title: AI-Driven Marketing Engineer
-        description: Utilized AI tools to create targeted campaigns, digital content, and slides promoting veggie diets.
+        description: Leveraged AI tools for content ideation, visual generation, campaign optimization, and presentations to enhance brand visibility.
         # location: Not specified
         # achievements:
         #   - Contributed to team projects with consistent performance.
       - date: 01/2021 -- 12/2021
         organization: Dr. Nhung Dental Clinic
         job_title: Web Developer
-        description: Built healthcare website with PHP, front-end, and MySQL, enhancing user experience and operational efficiency.
+        description: Engineered internal healthcare website with PHP, front-end technologies, and MySQL, streamlining workflows for efficiency.
         # location: Not specified
         # achievements:
         #   - Contributed to team projects with consistent performance.

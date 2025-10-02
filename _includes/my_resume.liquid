@@ -669,7 +669,7 @@
                                 <div class="cv-item-row-name">
                                     <span>{{item.name}}</span>
                                 </div>
-                                <div style="display: flex;justify-content: space-between;">
+                                <div style="display: flex; justify-content: space-between; font-size: 0.73rem !important;">
                                     <div>
                                         {% if item.url %}
                                             {% if item.url contains 'github.com' %}
@@ -694,9 +694,9 @@
                                             <span></span>
                                         {% endif %}
                                     </div>
-                                <div>
-                                    <span>{{item.date | markdownify}}</span>
-                                </div>
+                                    <div>
+                                        <span>{{item.date | markdownify}}</span>
+                                    </div>
                                 </div>
                             </div>
                             {% if item.description %}
@@ -719,10 +719,11 @@
                 <div class="three-column-section">
                     {% for item in section.items %}
                         <div class="cv-item">
-                            <div class="cv-item-row two-columns">
+                            <div class="cv-item-row two-columns" style="display: inline;">
                                 <div class="cv-item-row-name">
                                     <span>{{item.name}}</span>
                                 </div>
+                                <div style="display: flex;justify-content: space-between;">
                                 <div>
                                     {% if item.url %}
                                         <a href="{{ item.url }}" target="_blank" style="margin-right: 0.15rem;">{{ item.provider_issuer }}</a>
@@ -732,6 +733,7 @@
                                     {% endif %}
                                 </div>
                                 <div><span>{{item.date | markdownify}}</span></div>
+                                </div>
                             </div>
                             <div class="cv-item-content about">
                                 {% if item.description %}
@@ -762,7 +764,7 @@
                         <div class="cv-item-content">
                             {% if item.description %}
                                 <div>
-                                    <em>About:</em>
+                                    <em>Description:</em>
                                     <span style="font-style: italic; font-size: 0.85rem;">
                                         <p style="display:inline;">{{item.description | markdownify | strip_html}}</p>
                                     </span>
