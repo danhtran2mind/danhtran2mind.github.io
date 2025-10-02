@@ -1,7 +1,7 @@
 ---
 layout: projects
 title: Vietnamese F5-TTS🗣️ (Vi-F5-TTS)
-description: Vietnamese F5-TTS generates natural audio for voice applications using PyTorch.
+description: Fine-tuned F5-TTS to generate natural audio for voice applications in Vietnamese.
 # img: assets/img/thumbnail.png
 img: assets/images/projects/Vi-F5-TTS/thumbnail.jpg
 importance: 1

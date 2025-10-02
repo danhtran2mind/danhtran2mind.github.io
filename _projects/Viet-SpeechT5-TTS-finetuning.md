@@ -4,7 +4,7 @@ title: Viet SpeechT5-TTS finetuning 🔈
 description: Vietnamese TTS model fine‑tuned, male/female voices, Gradio demo.
 # img: assets/img/thumbnail.png
 img: assets/images/projects/Viet-SpeechT5-TTS-finetuning/thumbnail.jpg
-importance: 1
+importance: 3
 category: Audio # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 # related_publications: true
 toc:

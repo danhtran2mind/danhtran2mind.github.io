@@ -1,7 +1,7 @@
 ---
 layout: projects
 title: Anime Super Resolution 🖼️
-description: With background image
+description: Anime Super Resolution enhances anime images using fine-tuned Real-ESRGAN model.
 # img: assets/img/thumbnail.png
 img: assets/images/projects/Anime-Super-Resolution/thumbnail.jpg
 importance: 1

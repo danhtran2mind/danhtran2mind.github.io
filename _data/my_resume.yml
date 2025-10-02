@@ -54,17 +54,17 @@ data:
   experience:
     title: Work Experience
     items:
-      - date: 1900 -- 3000
-        organization: ABC Inc
-        job_title: normal staff
-        description: Do somthing right or wrong, I dont know how and  I can do, test high preformence system AI Agent.
+      - date: 04/2025 -- 05/2025
+        organization: Karuna Veggie Restaurant
+        job_title: AI-Driven Marketing Engineer
+        description: Utilized AI tools to create targeted campaigns, digital content, and slides promoting veggie diets.
         # location: Not specified
         # achievements:
         #   - Contributed to team projects with consistent performance.
-      - date: 1900 -- 3000
-        organization: ABC Inc
-        job_title: normal staff
-        description: Do somthing right or wrong, I dont know how and  I can do, test high preformence system AI Agent.
+      - date: 01/2021 -- 12/2021
+        organization: Dr. Nhung Dental Clinic
+        job_title: Web Developer
+        description: Built healthcare website with PHP, front-end, and MySQL, enhancing user experience and operational efficiency.
         # location: Not specified
         # achievements:
         #   - Contributed to team projects with consistent performance.
@@ -107,30 +107,39 @@ data:
       - name: Deep Learning in Python
         date: Nov 29, 2024
         provider_issuer: DataCamp
-        url:  https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1
-        description: Learn deep learning, build models with PyTorch.
+        url: https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1
+        description: "Learn deep learning and build models using PyTorch framework"
 
-      - name: Associate AI Engineer for Developers
-        date: Jun 15, 2023
+      - name: Python Developer
+        date: Sep 14, 2025
         provider_issuer: DataCamp
-        url: https://www.coursera.org/specializations/deep-learning
-        description: Finished a series on neural nets, CNNs, RNNs, and seq models.
+        url: https://www.datacamp.com/statement-of-accomplishment/track/aeb14daa0ffcaf568d9c83a187d83fbe9c2d6314?raw=1
+        description: "Professional Python skills in testing, Git, scraping, and OOP"
 
-      - name: Associate AI Engineer for Developers
-        date: Jun 15, 2023
-        provider_issuer: Coursera (deeplearning.ai)
-        url: https://www.coursera.org/specializations/deep-learning
-        description: Finished a series on neural nets, CNNs, RNNs, and seq models.
-      - name: Associate AI Engineer for Developers
-        date: Jun 15, 2023
-        provider_issuer: Google Cloud Skills Boost
-        url: https://www.coursera.org/specializations/deep-learning
-        description: Finished a series on neural nets, CNNs, RNNs, and seq models.
-      - name: Machine Learning Scientist in Python
-        date: Jun 15, 2023
-        provider_issuer: Microsoft Learn
-        url: https://www.coursera.org/specializations/deep-learning
-        description: Finished a series on neural nets, CNNs, RNNs, and seq models.    
+      - name: Machine Learning Engineer
+        date: Nov 24, 2024
+        provider_issuer: DataCamp
+        url: https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1
+        description: "Master MLOps and deploy models for real-world expertise"
+
+      - name: Python Essentials 2
+        date: Sep 29, 2024
+        provider_issuer: Cisco
+        url: https://www.credly.com/badges/d589eb5b-d2f5-4c77-9c2e-67c9921896e1
+        description: "Advanced Python with OOP and PCAP certification preparation"
+
+      - name: OpenCV Bootcamp
+        date: Sep 29, 2024
+        provider_issuer: OpenCV
+        url: https://courses.opencv.org/certificates/7e56e37fe25a44709b0d39dee24764ef
+        description: "Master OpenCV for image, video, and object detection"
+
+      - name: Machine Learning with Python
+        date: Sep 30, 2024
+        provider_issuer: freeCodeCamp
+        url: https://www.freecodecamp.org/certification/danhtran2mind/machine-learning-with-python-v7
+        description: "Build neural networks with TensorFlow for NLP and reinforcement"
+
 
   # skills:
   #   title: Technical Skills
@@ -175,38 +184,42 @@ data:
   projects:
     title: AI & Programming Projects
     items:
-      - name: Grayscale2color-landscape-from-scratch
-        date: 2024
-        url: https://github.com/Stability-AI/stablediffusion
-        description: "Stable Diffusion: new checkpoints for image generation."
-      - name: Grayscale2color-landscape-from-scratch
-        date: 2024
-        url: https://github.com/Stability-AI/stablediffusion
-        description: "Stable Diffusion: new checkpoints for image generation."
-      - name: Grayscale2color-landscape-from-scratch
-        date: 2024
-        url: https://github.com/Stability-AI/stablediffusion
-        description: "Stable Diffusion: new checkpoints for image generation."
-      - name: Grayscale2color-landscape-from-scratch
-        date: 2024
-        url: https://github.com/Stability-AI/stablediffusion
-        description: "Stable Diffusion: new checkpoints for image generation."
-      - name: Grayscale2color-landscape-from-scratch
-        date: 2024
-        url: https://github.com/Stability-AI/stablediffusion
-        description: "Stable Diffusion: new checkpoints for image generation."
-      - name: Grayscale2color-landscape-from-scratch
-        date: 2024
-        url: https://github.com/Stability-AI/stablediffusion
-        description: "Stable Diffusion: new checkpoints for image generation."
-      - name: Grayscale2color-landscape-from-scratch
-        date: 2024
-        url: https://github.com/Stability-AI/stablediffusion
-        description: "Stable Diffusion: new checkpoints for image generation."
-      - name: Grayscale2color-landscape-from-scratch
-        date: 2024
-        url: https://github.com/Stability-AI/stablediffusion
-        description: "Stable Diffusion: new checkpoints for image generation."
+      - name: Anime Super Resolution
+        date: 2025
+        url: https://github.com/danhtran2mind/Anime-Super-Resolution
+        description: "Enhances anime images using fine-tuned Real-ESRGAN model."
+      - name: SlimFace
+        date: 2025
+        url: https://github.com/danhtran2mind/SlimFace
+        description: "Efficient face recognition using transfer learning."
+      - name: Grayscale2Color Landscape
+        date: 2025
+        url: https://github.com/danhtran2mind/grayscale2color-landscape-from-scratch
+        description: "Colorizes grayscale landscapes with AutoEncoder/U-Net/Transformer."
+      - name: Text to Video Ghibli Style
+        date: 2025
+        url: https://github.com/danhtran2mind/Text2Video-Ghibli-style
+        description: "Generates Ghibli-style videos from text."
+      - name: Vietnamese Health Chat LoRA
+        date: 2025
+        url: https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA
+        description: "AI healthcare responses for Vietnamese users."
+      - name: Vietnamese Nutrition GPT-2
+        date: 2025
+        url: https://github.com/danhtran2mind/vi-nutrition-gpt2-finetune
+        description: "Fine-tuned GPT-2 for Vietnamese nutrition guidance."
+      - name: Vietnamese F5-TTS
+        date: 2025
+        url: https://github.com/danhtran2mind/Vi-F5-TTS
+        description: "Generates natural Vietnamese audio for voice applications."
+      - name: Vietnamese Whisper Tiny
+        date: 2025
+        url: https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning
+        description: "Fine-tuned Whisper Tiny for Vietnamese speech recognition."
+      - name: Viet Glow-TTS
+        date: 2025
+        url: https://github.com/danhtran2mind/Viet-Glow-TTS-finetuning
+        description: "Converts text to Vietnamese speech using GlowTTS."
 
         
   free_time:

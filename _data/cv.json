@@ -78,13 +78,26 @@
 
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Karuna Veggie Restaurant",
+      "position": "AI-Driven Marketing Engineer",
+      "url": "https://www.facebook.com/KarunaVeggie",
+      "startDate": "2025-04-01",
+      "endDate": "2025-05-01",
+      "summary": "Utilized AI tools to create targeted campaigns, digital content, and slides promoting veggie diets.",
+      "highlights": ["Engineered AI-driven marketing campaigns using advanced AI agents to boost brand visibility and customer engagement.",
+                     "Developed dynamic banners and digital content with AI-powered platforms to promote plant-based diets effectively.",
+                     "Designed data-driven presentation slides for offline veggie diet meetings, optimizing content with AI analytics tools."]
+    },
+    {
+      "name": "Dr. Nhung Dental Clinic",
+      "position": "Web Developer",
+      "url": "https://www.facebook.com/nhakhoadrnhung",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-01",
+      "summary": "Built healthcare website with PHP, front-end, and MySQL, enhancing user experience and operational efficiency.",
+      "highlights": ["Developed a comprehensive healthcare website using PHP and MySQL to manage patient data and revenue tracking.",
+                     "Designed responsive front-end interfaces and optimized MySQL database solutions for accurate, secure data management.",
+                     "Implemented AI-enhanced server-side features with PHP to improve user experience and clinic operational efficiency."]
     }
   ],
 
@@ -273,22 +286,6 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning Engineer",
-      "date": "Nov 24, 2024",
-      "issuer": "DataCamp",
-      "url": "https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1",
-      "description": "Machine Learning by Stanford University on Coursera. Topics include supervised learning, unsupervised learning, best practices in machine learning, and more.",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Keras Fundamentals",
-      "date": "Nov 25, 2024",
-      "issuer": "DataCamp",
-      "url": "https://www.datacamp.com/statement-of-accomplishment/track/d1152665979387f0abffc6b138f9df14f2ed7000?raw=1",
-      "description": "abc",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
       "name": "Deep Learning in Python",
       "date": "Nov 29, 2024",
       "issuer": "DataCamp",
@@ -296,17 +293,168 @@
       "description": "Explore deep learning with PyTorch, build models for real-world problems, and master advanced architectures like Transformers.",
       "icon": "fa-solid fa-hashtag"
     },
-    
+    {
+      "name": "Associate AI Engineer for Developers",
+      "date": "Nov 19, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/9be5c32bd0d1bc752cf39f631c4f35bd824e1f79?raw=1",
+      "description": "Learn AI engineering, master APIs, LLMs, and build production-ready AI systems.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Python Developer",
+      "date": "Sep 14, 2025",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/aeb14daa0ffcaf568d9c83a187d83fbe9c2d6314?raw=1",
+      "description": "Advanced Python track: testing, optimization, packaging, Git, web scraping, OOP, data structures, algorithms for professional development.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Machine Learning Engineer",
+      "date": "Nov 24, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1",
+      "description": "Become a machine learning engineer with MLOps, model deployment, and real-world projects.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Developing Large Language Models",
+      "date": "Nov 29, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/7535c53246f1013fe3c625462939a18fcb342e65?raw=1",
+      "description": "Learn to build LLMs with PyTorch, transformers, and Hugging Face, from inception to real-world deployment.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Python Essentials 1",
+      "date": "Sep 26, 2024",
+      "issuer": "Cisco",
+      "url": "https://www.credly.com/badges/1c9274cf-d6b4-4f57-9647-60eeb5525415",
+      "description": "Learn Python fundamentals, build projects, and prepare for PCEP certification for diverse tech careers.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Python Essentials 2",
+      "date": "Sep 29, 2024",
+      "issuer": "Cisco",
+      "url": "https://www.credly.com/badges/d589eb5b-d2f5-4c77-9c2e-67c9921896e1",
+      "description": "Advanced Python course covering OOP, portfolio projects, and PCAP certification prep, for learners with basics.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Model Context Protocol: Advanced Topics",
+      "date": "Sep 19, 2025",
+      "issuer": "Anthropic",
+      "url": "https://verify.skilljar.com/c/ydfdh6p4t453",
+      "description": "Learn MCP to connect Claude with services: build servers/clients, expose tools, resources, prompts, and create a document-management system.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "OpenCV Bootcamp",
+      "date": "Sep 29, 2024",
+      "issuer": "OpenCV",
+      "url": "https://courses.opencv.org/certificates/7e56e37fe25a44709b0d39dee24764ef",
+      "description": "Free OpenCV course teaches image/video manipulation, object and face detection for AI and deep learning.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Machine Learning with Python",
+      "date": "Sep 30, 2024",
+      "issuer": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/danhtran2mind/machine-learning-with-python-v7",
+      "description": "Learn TensorFlow to build neural networks, covering NLP, reinforcement learning, and deep, recurrent, convolutional architectures.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Keras Fundamentals",
+      "date": "Nov 25, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/d1152665979387f0abffc6b138f9df14f2ed7000?raw=1",
+      "description": "Learn Keras, neural networks, and deep learning to solve real-world challenges like predicting housing prices.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "PyTorch Bootcamp",
+      "date": "Sep 17, 2025",
+      "issuer": "OpenCV",
+      "url": "https://courses.opencv.org/certificates/a01b381eaae9471bafef979ad7197a2e",
+      "description": "Free PyTorch bootcamp teaching deep-learning fundamentals, hands-on tensors, neural networks, optimization, plus object detection and segmentation.",
+      "icon": "fa-solid fa-hashtag"
+    }
   ],
   
   "projects": [
     {
+      "name": "Anime Super Resolution",
+      "summary": "Enhances anime images using fine-tuned Real-ESRGAN model.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/Anime-Super-Resolution"
+    },
+    {
+      "name": "SlimFace",
+      "summary": "Efficient face recognition framework using transfer learning and customization.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/SlimFace"
+    },
+    {
+      "name": "Grayscale2Color Landscape",
+      "summary": "AutoEncoder/U-Net/Transformer colorizes grayscale landscapes via Lab* prediction.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/grayscale2color-landscape-from-scratch"
+    },
+    {
+      "name": "Text to Video Ghibli Style",
+      "summary": "Generates Ghibli-style videos from text using fine-tuned zeroscope model.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/Text2Video-Ghibli-style"
+    },
+    {
       "name": "Vietnamese Health Chat LoRA",
-      "summary": "Vietnamese-Health-Chat-LoRA: AI for precise, contextually relevant healthcare queries in Vietnamese.",
+      "summary": "Provides accurate healthcare responses using AI for Vietnamese users.",
       "highlights": [""],
       "startDate": "2025",
       "endDate": "2025",
       "url": "https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA"
+    },
+    {
+      "name": "Vietnamese Nutrition GPT-2",
+      "summary": "Fine-tuned GPT-2 for accurate, interactive nutrition guidance in Vietnamese.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/vi-nutrition-gpt2-finetune"
+    },
+    {
+      "name": "Vietnamese F5-TTS",
+      "summary": "Fine-tuned F5-TTS to generate natural audio for voice applications in Vietnamese.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/Vi-F5-TTS"
+    },
+    {
+      "name": "Vietnamese Whisper Tiny",
+      "summary": "Fine-tuned Whisper Tiny for accurate, real-time Vietnamese speech recognition.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning"
+    },
+    {
+      "name": "Viet Glow-TTS",
+      "summary": "Transforms text into natural, high-quality Vietnamese speech.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/Viet-Glow-TTS-finetuning"
     }
   ],
 
