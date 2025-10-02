@@ -107,7 +107,7 @@ profile:
 ---
 
 ## Introduction
-Greetings, I am Tran Pham Cong Danh (Cong-Danh Pham Tran), an AI Engineer with a unique blend of medical expertise and advanced computational proficiency. Holding a Doctor of Medicine and a Master of Engineering in Computer Science from Vietnam National University Ho Chi Minh City, I am dedicated to leveraging artificial intelligence to transform healthcare and technology. My expertise spans machine learning, deep learning, and natural language processing, with a focus on creating innovative AI solutions tailored for Vietnamese healthcare contexts. My mission is to bridge medical knowledge and cutting-edge technology, delivering impactful, data-driven solutions that enhance lives.
+Greetings, I am Tran Pham Cong Danh (Cong-Danh Pham Tran), an AI Engineer with a unique blend of medical expertise and advanced computational proficiency. Holding a Medicine Doctor and a Master of Engineering in Computer Science from Vietnam National University Ho Chi Minh City, I am dedicated to leveraging artificial intelligence to transform healthcare and technology. My expertise spans machine learning, deep learning, and natural language processing, with a focus on creating innovative AI solutions tailored for Vietnamese healthcare contexts. My mission is to bridge medical knowledge and cutting-edge technology, delivering impactful, data-driven solutions that enhance lives.
 
 ## Basic Information
 - **Full Name**: Tran Pham Cong Danh (Adapted English: Cong-Danh Pham Tran)
