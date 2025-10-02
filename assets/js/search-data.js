@@ -241,7 +241,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/SlimFace/";
             },},{id: "projects-text2music-composer",
-          title: 'Text2Music Composer 📢',
+          title: 'Text2Music Composer 🎶',
           description: "Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Text2Music-Composer/";
