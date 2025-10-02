@@ -1,9 +1,9 @@
 ---
 layout: projects
-title: Text2Music Composer 📢
+title: Text2Music Composer 🎶
 description: Viet Glow-TTS transforms text into natural, high-quality Vietnamese speech.
 img: assets/images/projects/Text2Music-Composer/thumbnail.jpg
-importance: 4
+importance: 2
 category: Audio
 toc:
   sidebar: left

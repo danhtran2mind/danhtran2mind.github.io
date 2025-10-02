@@ -4,7 +4,7 @@ title: English-Vietnamese Translation Model Built with TensorFlow 🔠
 description: Transformer-based English-to-Vietnamese translation model with interactive Gradio demo.
 # img: assets/img/thumbnail.png
 img: assets/images/projects/En-Vi-Translatetion-Transformer-TensorFlow/thumbnail.jpg
-importance: 1
+importance: 6
 category: Natural Language Processing # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 # related_publications: true
 toc:
