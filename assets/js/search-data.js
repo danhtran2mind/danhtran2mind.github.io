@@ -289,7 +289,7 @@ ninja.data = [{
           title: 'Grayscale2Color Landscape from scratch🌄',
           description: "AutoEncoder/U‑Net/Transformer colorizes grayscale landscapes via Lab* prediction.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/grayscale2color-landscape-from-scratch/";
+              window.location.href = "/projects/gray2color-landscape-from-scratch/";
             },},{id: "projects-vietnamese-medical-mt5-finetune-question-and-answer-️",
           title: 'Vietnamese Medical mT5 Finetune Question and Answer 👨🏻‍⚕️',
           description: "Vietnamese medical QA system fine‑tuned mT5, low loss, strong performance.",
