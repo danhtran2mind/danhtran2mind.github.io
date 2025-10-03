@@ -402,7 +402,7 @@
       "url": "https://github.com/danhtran2mind/SlimFace"
     },
     {
-      "name": "Grayscale2Color Landscape",
+      "name": "Grayscale2Color Landscape from scratch",
       "summary": "AutoEncoder/U-Net/Transformer colorizes grayscale landscapes via Lab* prediction.",
       "highlights": [""],
       "startDate": "2025",
@@ -426,7 +426,7 @@
       "url": "https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA"
     },
     {
-      "name": "Vietnamese Nutrition GPT-2",
+      "name": "Vietnamese Nutrition GPT-2 finetune",
       "summary": "Fine-tuned GPT-2 for accurate, interactive nutrition guidance in Vietnamese.",
       "highlights": [""],
       "startDate": "2025",
@@ -442,7 +442,7 @@
       "url": "https://github.com/danhtran2mind/Vi-F5-TTS"
     },
     {
-      "name": "Vietnamese Whisper Tiny",
+      "name": "Vietnamese Whisper Tiny finetuning",
       "summary": "Fine-tuned Whisper Tiny for accurate, real-time Vietnamese speech recognition.",
       "highlights": [""],
       "startDate": "2025",
@@ -450,7 +450,7 @@
       "url": "https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning"
     },
     {
-      "name": "Viet Glow-TTS",
+      "name": "Viet Glow-TTS finetuning",
       "summary": "Transforms text into natural, high-quality Vietnamese speech.",
       "highlights": [""],
       "startDate": "2025",
