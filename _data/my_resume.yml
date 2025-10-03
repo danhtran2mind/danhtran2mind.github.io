@@ -124,7 +124,7 @@ data:
 
       - name: Python Essentials 2
         date: Sep 29, 2024
-        provider_issuer: Cisco
+        provider_issuer: Cisco Networking Academy
         url: https://www.credly.com/badges/d589eb5b-d2f5-4c77-9c2e-67c9921896e1
         description: "Advanced Python with OOP and PCAP certification preparation"
 
