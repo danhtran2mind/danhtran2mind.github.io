@@ -124,7 +124,7 @@ data:
 
       - name: Python Essentials 2
         date: Sep 29, 2024
-        provider_issuer: Cisco Networking Academy
+        provider_issuer: NetAcad
         url: https://www.credly.com/badges/d589eb5b-d2f5-4c77-9c2e-67c9921896e1
         description: "Advanced Python with OOP and PCAP certification preparation"
 
@@ -194,8 +194,8 @@ data:
         description: "Efficient face recognition using transfer learning."
       - name: Grayscale2Color Landscape
         date: 2025
-        url: https://github.com/danhtran2mind/grayscale2color-landscape-from-scratch
-        description: "Colorizes grayscale landscapes with AutoEncoder/U-Net/Transformer."
+        url: https://github.com/danhtran2mind/gray2color-landscape-from-scratch
+        description: "Gray landscape colorizer with AutoEncoder/U-Net/Transformer."
       - name: Text to Video Ghibli Style
         date: 2025
         url: https://github.com/danhtran2mind/Text2Video-Ghibli-style

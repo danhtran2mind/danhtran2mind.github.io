@@ -2,7 +2,7 @@
 layout: projects
 title: "Grayscale2Color Landscape from scratch🌄"
 description: AutoEncoder/U‑Net/Transformer colorizes grayscale landscapes via Lab* prediction.
-img: assets/images/projects/grayscale2color-landscape-from-scratch/thumbnail.jpg
+img: assets/images/projects/gray2color-landscape-from-scratch/thumbnail.jpg
 importance: 1
 category: Computer Vision # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular
 # related_publications: true
@@ -19,7 +19,7 @@ toc:
 
 <script>
 // Define repository
-const github_repo = 'danhtran2mind/grayscale2color-landscape-from-scratch';
+const github_repo = 'danhtran2mind/gray2color-landscape-from-scratch';
 
 // Construct URLs dynamically using github_repo
 const baseUrl = `https://github.com/${github_repo}/blob/main/`;
@@ -105,4 +105,4 @@ fetchReadme();
 
 ## More Information
 
-For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2Fgrayscale2color--landscape--from--scratch-blue?logo=github)](https://github.com/danhtran2mind/grayscale2color-landscape-from-scratch)
+For more insights and information, please take a look at this link: [![GitHub Repo - danhtran2mind/Anime-Super-Resolution](https://img.shields.io/badge/GitHub_Repo-danhtran2mind%2Fgray2color--landscape--from--scratch-blue?logo=github)](https://github.com/danhtran2mind/gray2color-landscape-from-scratch)
