@@ -500,6 +500,17 @@
                 font-weight: bold;
             } */
 
+            .project-date {
+                font-size: 0.73rem;
+            }
+
+            .project-url {
+                font-size: 0.69rem;
+            }
+            .experience-description {
+                font-style: italic; 
+                font-size: 0.85rem;
+            }
         }
         .cv-item-content.more {
             line-height: 1.6 !important;
@@ -532,6 +543,18 @@
             font-size: 0.9em;
         }
 
+        .project-date {
+            font-size: 0.73rem;
+        }
+
+        .project-url {
+            font-size: 0.69rem;
+        }
+
+        .experience-description {
+            font-style: italic; 
+            font-size: 0.85rem;
+        }
     </style>
 
     <!-- Name and Avatar -->
@@ -669,8 +692,8 @@
                                 <div class="cv-item-row-name">
                                     <span>{{item.name}}</span>
                                 </div>
-                                <div style="display: flex; justify-content: space-between; font-size: 0.73rem !important;">
-                                    <div>
+                                <div class="project-date" style="display: flex; justify-content: space-between; font-size: 0.73rem !important;">
+                                    <div class="project-url">
                                         {% if item.url %}
                                             {% if item.url contains 'github.com' %}
                                             <img src="{{ '/assets/svg/github.svg' | relative_url }}" style="width: 12px; height: 12px;" alt="GitHub icon"/>
@@ -765,7 +788,7 @@
                             {% if item.description %}
                                 <div>
                                     <em>Description:</em>
-                                    <span style="font-style: italic; font-size: 0.85rem;">
+                                    <span class="experience-description">
                                         <p style="display:inline;">{{item.description | markdownify | strip_html}}</p>
                                     </span>
                                 </div>
