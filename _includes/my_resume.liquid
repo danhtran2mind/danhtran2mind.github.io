@@ -522,16 +522,16 @@
                 font-size: 8.5pt !important;
             }
             .cv-item-content.about {
-                font-size: 7pt !important;
+                font-size: 6pt !important;
             }
         }
         .cv-item-content.more {
-            line-height: 1.6 !important;
+            line-height: 1 !important;
         }
         .cv-item-content.about {
             font-style: italic;
             font-size: 0.6rem !important;
-            line-height: 1;
+            line-height: 1.1;
         }
         .cv-item-row-name {
             font-size: 0.85rem !important;
@@ -804,7 +804,7 @@
                             <span>{{item.organization | markdownify}}</span>
                             <span>{{item.date | markdownify}}</span>
                         </div>
-                        <div class="cv-item-content">
+                        <div class="cv-item-content" style="line-height: 1;">
                             {% if item.description %}
                                 <div>
                                     <em>Description:</em>
