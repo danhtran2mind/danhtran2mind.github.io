@@ -368,7 +368,10 @@
             }
             .cv-item-content.about {
                 font-style: italic; 
-                font-size: 0.6rem !important;
+                font-size: 0.6rem;
+            }
+            .cv-item-content.about.cert {
+                font-size: 0.57rem !important;
             }
             .contact-block, .contact, a.contact {
                 font-size: 9pt;
@@ -524,14 +527,20 @@
             .cv-item-content.about {
                 font-size: 6pt !important;
             }
+            .cv-item-content.edu.instustute {
+                font-size: 11pt !important;
+            }
         }
         .cv-item-content.more {
             line-height: 1 !important;
         }
         .cv-item-content.about {
             font-style: italic;
-            font-size: 0.6rem !important;
+            font-size: 0.6rem;
             line-height: 1.1;
+        }
+        .cv-item-content.about.cert {
+            font-size: 0.57rem !important;
         }
         .cv-item-row-name {
             font-size: 0.85rem !important;
@@ -688,14 +697,14 @@
                                 <span>{{item.date | markdownify}}</span>
                             </div>
                         </div>
-                        <div class="cv-item-content">
+                        <div class="cv-item-content edu instustute">
                             <em>University:</em>
                             <span class="university-name">
                                 {{item.university | markdownify | strip_html}}
                             </span>
                         </div>
                         {% if item.thesis %}
-                            <div class="cv-item-content">
+                            <div class="cv-item-content edu document">
                                 <em>Thesis:</em>
                                 <span class="thesis-name">
                                     <p style="display:inline;">{{item.thesis | strip_html}}</p>
@@ -778,7 +787,7 @@
                                 <div><span>{{item.date | markdownify}}</span></div>
                                 </div>
                             </div>
-                            <div class="cv-item-content about">
+                            <div class="cv-item-content about cert">
                                 {% if item.description %}
                                     <div >
                                         <span>
