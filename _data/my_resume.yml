@@ -267,6 +267,8 @@ data:
           proficiency: 4/5
         - element: Scikit-learn
           proficiency: 4/5
+        - element: ONNX
+          proficiency: 3/5
 
       - group_name: Data Management & Processing
         group_name_elements:
@@ -298,6 +300,8 @@ data:
           proficiency: 3/5
         - element: Pandas
           proficiency: 3/5
+        - element: Matplotlib
+          proficiency: 3/5
         - element: Gradio
           proficiency: 4.5/5
         - element: Streamlit
@@ -313,6 +317,8 @@ data:
           proficiency: 4.5/5
         - element: Selenium
           proficiency: 4.5/5
+        - element: Flask
+          proficiency: 3/5
 
         
 # Programming Languages

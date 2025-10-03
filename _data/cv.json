@@ -135,6 +135,7 @@
         "Keras",
         "PyTorch",
         "Scikit-learn",
+        "ONNX"
       ]
     },
     {
@@ -406,7 +407,7 @@
       "highlights": [""],
       "startDate": "2025",
       "endDate": "2025",
-      "url": "https://github.com/danhtran2mind/grayscale2color-landscape-from-scratch"
+      "url": "https://github.com/danhtran2mind/gray2color-landscape-from-scratch"
     },
     {
       "name": "Text to Video Ghibli Style",

@@ -492,11 +492,11 @@
                 font-weight: 700;
             }
             .thesis-name {
-                font-size: 11pt;
+                font-size: 10.75pt;
                 font-weight: 700;
             }
             .degree {
-                font-size: 11pt;
+                font-size: 10.75pt;
             }
             /* .cv-item-row-name {
                 font-size: 1pt !important;
@@ -809,10 +809,10 @@
             {% elsif sec_id == 'experience' %}
                 {% for item in section.items %}
                     <div class="cv-item">
-                        <div class="cv-item-row">
-                            <span>{{item.job_title | markdownify}}</span>
-                            <span>{{item.organization | markdownify}}</span>
-                            <span>{{item.date | markdownify}}</span>
+                        <div class="cv-item-row" style="display: flex; justify-content: space-between;">
+                            <div style="width: 40%;">{{item.job_title | markdownify}}</div>
+                            <div style="width: 30%;">{{item.organization | markdownify}}</div>
+                            <div style="width: 25%; text-align: right;">{{item.date | markdownify}}</div>
                         </div>
                         <div class="cv-item-content" style="line-height: 1;">
                             {% if item.description %}
