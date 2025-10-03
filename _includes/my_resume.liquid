@@ -511,6 +511,13 @@
                 font-style: italic; 
                 font-size: 0.85rem;
             }
+            .more-info-link {
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                gap: 0.1rem;
+                font-size: 0.78rem;
+            }
         }
         .cv-item-content.more {
             line-height: 1.6 !important;
@@ -554,6 +561,13 @@
         .experience-description {
             font-style: italic; 
             font-size: 0.85rem;
+        }
+        .more-info-link {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            gap: 0.1rem;
+            font-size: 0.78rem;
         }
     </style>
 
@@ -831,7 +845,7 @@
                 </div>
 
             {% elsif sec_id == 'additional_info' %}
-                <div style="display: flex; align-content: center; justify-content: center; gap: 0.1rem; font-size: 0.8rem;">
+                <div class="more-info-link">
                     {% for item in section.items %}
                         <div class="cv-item" style="margin-bottom: 0rem;">
                             <div class="cv-item-row" style="display: flex; justify-content: center !important;">
