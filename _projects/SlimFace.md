@@ -1,7 +1,7 @@
 ---
 layout: projects
 title: "SlimFace: Efficient Face Recognition 👦"
-description: "SlimFace: Efficient face recognition framework using transfer learning and customization."
+description: "Efficient SlimFace: High-accuracy face recognition via TorchVision transfer learning."
 img: assets/images/projects/SlimFace/thumbnail.jpg
 importance: 1
 category: Computer Vision # Computer Vision, Natural Language Processing, Audio, Reinforcement Learning, Tabular

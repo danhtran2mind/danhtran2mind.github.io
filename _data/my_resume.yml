@@ -188,7 +188,7 @@ data:
         date: 2025
         url: https://github.com/danhtran2mind/Anime-Super-Resolution
         description: "Enhances anime images using fine-tuned Real-ESRGAN model."
-      - name: SlimFace
+      - name: SlimFace: Efficient Face Recognition
         date: 2025
         url: https://github.com/danhtran2mind/SlimFace
         description: "Efficient face recognition using transfer learning."
