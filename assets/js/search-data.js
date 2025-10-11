@@ -237,7 +237,7 @@ ninja.data = [{
               window.location.href = "/projects/License-Plate-Detector-OCR/";
             },},{id: "projects-slimface-efficient-face-recognition",
           title: 'SlimFace: Efficient Face Recognition 👦',
-          description: "SlimFace: Efficient face recognition framework using transfer learning and customization.",
+          description: "Efficient SlimFace: High-accuracy face recognition via TorchVision transfer learning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SlimFace/";
             },},{id: "projects-text2music-composer",
