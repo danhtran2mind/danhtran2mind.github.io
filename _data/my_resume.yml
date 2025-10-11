@@ -56,15 +56,15 @@ data:
     items:
       - date: 04/2025 -- 05/2025
         organization: Karuna Veggie Restaurant
-        job_title: AI-Driven Marketing Engineer
-        description: Utilized AI tools for content ideation, visual generation, campaign optimization, and presentations to enhance brand visibility.
+        job_title: AI-Driven Marketing Supporter
+        description: Used AI tools and AI agents to craft targeted campaigns, digital content, and data-driven slides to promote veggie diets, enhancing brand visibility and engagement.
         # location: Not specified
         # achievements:
         #   - Contributed to team projects with consistent performance.
       - date: 01/2021 -- 12/2021
         organization: Dr. Nhung Dental Clinic
         job_title: Web Developer
-        description: Engineered internal healthcare website with PHP, front-end technologies, and MySQL, streamlining workflows for efficiency.
+        description: Built internal management website for HeathDental using PHP, MySQL, responsive front-end, secure data management, and jQuery image gallery for enhanced user experience.
         # location: Not specified
         # achievements:
         #   - Contributed to team projects with consistent performance.
@@ -184,11 +184,15 @@ data:
   projects:
     title: AI & Programming Projects
     items:
+      - name: BTC-USDT ETL Pipeline
+        date: 2025
+        url: https://github.com/danhtran2mind/BTC-USDT-ETL-Pipeline
+        description: "Modern BTC-USDT ETL pipeline using Apache Airflow, MinIO, and Spark for scalable data processing."
       - name: Anime Super Resolution
         date: 2025
         url: https://github.com/danhtran2mind/Anime-Super-Resolution
         description: "Enhances anime images using fine-tuned Real-ESRGAN model."
-      - name: SlimFace: Efficient Face Recognition
+      - name: "SlimFace: Efficient Face Recognition"
         date: 2025
         url: https://github.com/danhtran2mind/SlimFace
         description: "Efficient face recognition using transfer learning."
@@ -216,10 +220,10 @@ data:
         date: 2025
         url: https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning
         description: "Fine-tuned Whisper Tiny for Vietnamese speech recognition."
-      - name: Viet Glow-TTS finetuning
-        date: 2025
-        url: https://github.com/danhtran2mind/Viet-Glow-TTS-finetuning
-        description: "Converts text to Vietnamese speech using GlowTTS."
+      # - name: Viet Glow-TTS finetuning
+      #   date: 2025
+      #   url: https://github.com/danhtran2mind/Viet-Glow-TTS-finetuning
+      #   description: "Converts text to Vietnamese speech using GlowTTS."
 
         
   free_time:

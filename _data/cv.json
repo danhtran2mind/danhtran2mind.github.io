@@ -79,7 +79,7 @@
   "work": [
     {
       "name": "Karuna Veggie Restaurant",
-      "position": "AI-Driven Marketing Engineer",
+      "position": "AI-Driven Marketing Supporter",
       "url": "https://www.facebook.com/KarunaVeggie",
       "startDate": "2025-04-01",
       "endDate": "2025-05-01",
@@ -94,10 +94,12 @@
       "url": "https://www.facebook.com/nhakhoadrnhung",
       "startDate": "2021-01-01",
       "endDate": "2021-12-01",
-      "summary": "Built healthcare website with PHP, front-end, and MySQL, enhancing user experience and operational efficiency.",
-      "highlights": ["Developed a comprehensive healthcare website using PHP and MySQL to manage patient data and revenue tracking.",
-                     "Designed responsive front-end interfaces and optimized MySQL database solutions for accurate, secure data management.",
-                     "Implemented AI-enhanced server-side features with PHP to improve user experience and clinic operational efficiency."]
+      "summary": "Built internal management website for HeathDental clinic with PHP, front-end, and MySQL, enhancing user experience and operational efficiency.",
+      "highlights": [
+        "Developed a comprehensive management website using PHP and MySQL to manage patient data and revenue tracking.",
+        "Designed responsive front-end interfaces and optimized MySQL database solutions for accurate, secure data management.",
+        "Applied jQuery to create an easy-to-control image gallery, enhancing user interaction and visual presentation."
+      ]
     }
   ],
 
@@ -456,6 +458,14 @@
       "startDate": "2025",
       "endDate": "2025",
       "url": "https://github.com/danhtran2mind/Viet-Glow-TTS-finetuning"
+    },
+    {
+      "name": "BTC-USDT ETL Pipeline",
+      "summary": "This project extracts, transforms, and loads BTC-USDT trading data using scalable, cloud-native frameworks.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/BTC-USDT-ETL-Pipeline"
     }
   ],
 
