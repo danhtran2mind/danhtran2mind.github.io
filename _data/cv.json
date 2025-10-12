@@ -461,7 +461,7 @@
     },
     {
       "name": "BTC-USDT ETL Pipeline",
-      "summary": "This project extracts, transforms, and loads BTC-USDT trading data using scalable, cloud-native frameworks.",
+      "summary": "Extracts, transforms, and loads BTC-USDT trading data using scalable, cloud-native frameworks.",
       "highlights": [""],
       "startDate": "2025",
       "endDate": "2025",

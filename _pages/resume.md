@@ -5,7 +5,7 @@ title: RESUME
 # nav: true
 # nav_order: 3
 cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/resume.md'. You can also change or remove the top pdf download button.
+description: The resume of Tran Pham Cong Danh.
 toc:
   sidebar: left
 ---
