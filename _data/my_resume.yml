@@ -57,14 +57,13 @@ data:
       - date: 04/2025 -- 05/2025
         organization: Karuna Veggie Restaurant
         job_title: AI-Driven Marketing Supporter
-        description: Used AI tools and AI agents to craft targeted campaigns, digital content, and data-driven slides to promote veggie diets, enhancing brand visibility and engagement.
-        # location: Not specified
+        description: Used AI to design targeted veggie diet campaigns, digital banners, content, and analytics-optimized slides. Drove AI-powered marketing to increase brand visibility, customer engagement, and promote plant-based lifestyles across digital and offline channels.
         # achievements:
         #   - Contributed to team projects with consistent performance.
       - date: 01/2021 -- 12/2021
         organization: Dr. Nhung Dental Clinic
         job_title: Web Developer
-        description: Built internal management website for HeathDental using PHP, MySQL, responsive front-end, secure data management, and jQuery image gallery for enhanced user experience.
+        description: Created a PHP-MySQL internal management portal for HeathDental clinic, streamlining patient records and revenue tracking. Built responsive UI with secure database optimization and jQuery-powered image gallery for enhanced usability and operational efficiency.
         # location: Not specified
         # achievements:
         #   - Contributed to team projects with consistent performance.
@@ -108,37 +107,37 @@ data:
         date: Nov 29, 2024
         provider_issuer: DataCamp
         url: https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1
-        description: "Learn deep learning and build models using PyTorch framework"
+        description: "Explore deep learning and build models using PyTorch framework."
 
       - name: Python Developer
         date: Sep 14, 2025
         provider_issuer: DataCamp
         url: https://www.datacamp.com/statement-of-accomplishment/track/aeb14daa0ffcaf568d9c83a187d83fbe9c2d6314?raw=1
-        description: "Professional Python skills in testing, Git, scraping, and OOP"
+        description: "Professional Python skills in testing, Git, scraping, and OOP."
 
       - name: Machine Learning Engineer
         date: Nov 24, 2024
         provider_issuer: DataCamp
         url: https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1
-        description: "Master MLOps and deploy models for real-world expertise"
+        description: "Master MLOps and deploy models for real-world expertise."
 
       - name: Python Essentials 2
         date: Sep 29, 2024
         provider_issuer: NetAcad
         url: https://www.credly.com/badges/d589eb5b-d2f5-4c77-9c2e-67c9921896e1
-        description: "Advanced Python with OOP and PCAP certification preparation"
+        description: "Advanced Python with OOP and PCAP certification preparation."
 
       - name: OpenCV Bootcamp
         date: Sep 29, 2024
         provider_issuer: OpenCV
         url: https://courses.opencv.org/certificates/7e56e37fe25a44709b0d39dee24764ef
-        description: "Master OpenCV for image, video, and object detection"
+        description: "Master OpenCV for image, video, and object detection."
 
       - name: Machine Learning with Python
         date: Sep 30, 2024
         provider_issuer: freeCodeCamp
         url: https://www.freecodecamp.org/certification/danhtran2mind/machine-learning-with-python-v7
-        description: "Build neural networks with TensorFlow for NLP and reinforcement"
+        description: "Build neural networks with TensorFlow for NLP and reinforcement."
 
 
   # skills:
@@ -184,38 +183,38 @@ data:
   projects:
     title: AI & Programming Projects
     items:
-      - name: BTC-USDT ETL Pipeline
+      - name: BTCUSDT ML ETL Pipeline
         date: 2025
-        url: https://github.com/danhtran2mind/BTC-USDT-ETL-Pipeline
-        description: "Modern BTC-USDT ETL pipeline using Apache Airflow, MinIO, and Spark for scalable data processing."
+        url: https://github.com/danhtran2mind/BTCUSDT-ML-ETL-Pipeline
+        description: "Scalable BTC-USDT ML ETL Pipeline using Airflow, MinIO, Spark for data processing and LSTM price forecasting."
       - name: Anime Super Resolution
         date: 2025
         url: https://github.com/danhtran2mind/Anime-Super-Resolution
-        description: "Enhances anime images using fine-tuned Real-ESRGAN model."
+        description: "Anime Super Resolution enhances anime-style images using fine-tuned Real-ESRGAN model optimized for clarity, detail."
       - name: "SlimFace: Efficient Face Recognition"
         date: 2025
         url: https://github.com/danhtran2mind/SlimFace
-        description: "Efficient face recognition using transfer learning."
+        description: "SlimFace: Efficient transfer learning framework for high-accuracy face recognition on edge devices with custom datasets."
       - name: Grayscale2Color Landscape from scratch
         date: 2025
         url: https://github.com/danhtran2mind/gray2color-landscape-from-scratch
-        description: "Gray landscape colorizer with AutoEncoder/U-Net/Transformer."
+        description: "From-scratch DL models (AutoEncoder, U-Net, Transformer) colorize grayscale landscapes in Lab*. Vibrant, minimalist."
       - name: Text to Video Ghibli Style
         date: 2025
         url: https://github.com/danhtran2mind/Text2Video-Ghibli-style
-        description: "Generates Ghibli-style videos from text."
+        description: "Transform text into enchanting Studio Ghibli-style videos with fine-tuned zeroscope_v2_576w on optimized MotionDirector."
       - name: Vietnamese Health Chat LoRA
         date: 2025
         url: https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA
-        description: "AI healthcare responses for Vietnamese users."
+        description: "LoRA fine-tunes models for Vietnamese Health Chat AI, enabling precise, contextual healthcare responses."
       - name: Vietnamese Nutrition GPT-2 finetune
         date: 2025
         url: https://github.com/danhtran2mind/vi-nutrition-gpt2-finetune
-        description: "Fine-tuned GPT-2 for Vietnamese nutrition guidance."
+        description: "Fine-tuned GPT-2 on Hanoi Medical textbook for accurate Vietnamese nutrition guidance in rehabilitation."
       - name: Vietnamese F5-TTS
         date: 2025
         url: https://github.com/danhtran2mind/Vi-F5-TTS
-        description: "Generates natural Vietnamese audio for voice applications."
+        description: "F5-TTS-based Vi-F5-TTS uses vin100h-preprocessed-v2 to create natural Vietnamese TTS for assistants, audiobooks."
       - name: Vietnamese Whisper Tiny finetuning
         date: 2025
         url: https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning
