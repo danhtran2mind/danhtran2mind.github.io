@@ -215,6 +215,11 @@ ninja.data = [{
           description: "Anime Super Resolution enhances anime images using fine-tuned Real-ESRGAN model.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Anime-Super-Resolution/";
+            },},{id: "projects-btcusdt-ml-etl-pipeline",
+          title: '₿ BTCUSDT ML ETL Pipeline 📈',
+          description: "Robust BTC-USDT ETL: cloud-native, orchestrated, scalable processing.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/BTCUSDT%20ML%20ETL%20Pipeline/";
             },},{id: "projects-controlnet-image-generator-️",
           title: 'ControlNet Image Generator 🖌️',
           description: "ControlNet generates high-quality images based on human pose input.",
