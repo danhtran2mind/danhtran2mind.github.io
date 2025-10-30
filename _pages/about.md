@@ -206,6 +206,7 @@ Below are some of my projects, demonstrating my ability to apply AI to real-worl
 
 -   **[BTCUSDT ML ETL Pipeline](https://github.com/danhtran2mind/BTCUSDT-ML-ETL-Pipeline)**
   This project delivers a robust, cloud-native ETL pipeline for extracting, transforming, and loading BTC-USDT trading data, leveraging industry-leading tools for orchestration, storage, and distributed processing.
+  
 -   **[Anime Super Resolution](https://github.com/danhtran2mind/Anime-Super-Resolution)**
   Anime Super Resolution enhances anime-style images using a fine-tuned Real-ESRGAN model, optimized for clarity and detail. Built on the RealESRGAN_x4plus model, it leverages a private dataset of 27,052 high-resolution (1920x1080) anime frames. The project offers tools for data processing, training, inference, and an interactive Gradio demo, accessible on platforms like Colab, Kaggle, and locally.
 
