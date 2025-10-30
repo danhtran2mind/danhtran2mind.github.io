@@ -218,7 +218,7 @@ data:
       - name: Vietnamese Whisper Tiny finetuning
         date: 2025
         url: https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning
-        description: "Fine-tuned Whisper Tiny for Vietnamese speech recognition."
+        description: "Vi-Whisper-Tiny-finetuning: Lightweight, real-time Vietnamese ASR with local Gradio/Python deployment."
       # - name: Viet Glow-TTS finetuning
       #   date: 2025
       #   url: https://github.com/danhtran2mind/Viet-Glow-TTS-finetuning
