@@ -136,61 +136,99 @@ Greetings, I am Tran Pham Cong Danh (Cong-Danh Pham Tran), an AI Engineer with a
 
 ## Certificates
 Below are some of my certificates, showcasing my expertise in AI, machine learning, and related fields. For a complete list, visit [my certificates page](https://danhtran2mind.github.io/certificates).
-- **Machine Learning Engineer**, DataCamp (Nov 24, 2024)  
-  Mastered MLOps, model deployment, and real-world projects, equipping me to build production-ready machine learning systems. [Certificate](https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1)
-- **Keras Fundamentals**, DataCamp (Nov 25, 2024)  
-  Developed proficiency in Keras for building and optimizing neural networks to solve real-world challenges. [Certificate](https://www.datacamp.com/statement-of-accomplishment/track/d1152665979387f0abffc6b138f9df14f2ed7000?raw=1)
-- **Deep Learning in Python**, DataCamp (Nov 29, 2024)  
-  Gained expertise in PyTorch, constructing advanced deep learning models, including Transformers, for computer vision and NLP applications. [Certificate](https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1)
-- **Developing Large Language Models**, DataCamp (Nov 29, 2024)  
+
+- **[Machine Learning Engineer](https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1)**, DataCamp (November 24, 2024)  
+  Mastered MLOps, model deployment, and real-world projects, equipping me to build production-ready machine learning systems.
+
+- **[Associate AI Engineer for Developers](https://www.datacamp.com/statement-of-accomplishment/track/9be5c32bd0d1bc752cf39f631c4f35bd824e1f79?raw=1)**, DataCamp (November 19, 2024)  
+  Learn to integrate AI into apps using OpenAI, Hugging Face, LangChain, and Pinecone. Build chatbots, recommendation systems, and production-ready AI applications.
+
+- **Developing Large Language Models**, DataCamp (November 29, 2024)  
   Learned to build and deploy LLMs using PyTorch, transformers, and Hugging Face, from inception to production. [Certificate](https://www.datacamp.com/statement-of-accomplishment)
-- **Natural Language Processing in Python**, DataCamp (Nov 29, 2024)  
-  Mastered NLP techniques using NLTK, spaCy, scikit-learn, and SpeechRecognition for transcription and sentiment analysis. [Certificate](https://www.datacamp.com/statement-of-accomplishment)
-- **Machine Learning with Python**, freeCodeCamp (Sep 30, 2024)  
-  Built neural networks with TensorFlow, covering NLP, reinforcement learning, and advanced architectures. [Certificate](https://www.freecodecamp.org/certification)
-- **PyTorch Bootcamp**, OpenCV (Sep 17, 2025)  
-  Mastered deep learning fundamentals, tensors, neural networks, and object detection using PyTorch. [Certificate](https://opencv.org/certification)
+
+- **[Machine Learning with Python](https://www.freecodecamp.org/certification)**, freeCodeCamp (September 30, 2024)  
+  Built neural networks with TensorFlow, covering NLP, reinforcement learning, and advanced architectures.
+
+- **[OpenCV Bootcamp](https://courses.opencv.org/certificates/7e56e37fe25a44709b0d39dee24764ef)**, OpenCV (September 29, 2025)  
+  Free OpenCV course teaches image/video manipulation, object and face detection for AI and deep learning.
+
+- **[Model Context Protocol: Advanced Topics](https://verify.skilljar.com/c/ydfdh6p4t453)**, Anthropic (September 19, 2025 )
+  Learn MCP to connect Claude with services: build servers/clients, expose tools, resources, prompts, and create a document‑management system.
+
+- **[Spark Fundamentals II](https://courses.cognitiveclass.ai/certificates/4ff85ac4e4414a69b6741e87c3ba562c)**, Cognitive Class (October 07, 2024)
+  Advanced Spark RDD course covering architecture, caching, and advanced API operations.
 
 ## Skills
-- **Programming Languages**: Master level in Python, JavaScript, PHP, C++  
+- **Programming Languages**: Highly skilled in Python, JavaScript, PHP, C++  
   Proficient in writing clean, efficient, and scalable code for diverse applications.
-- **Web Development**: Normal level in HTML, CSS, Jekyll, Bootstrap, Flask, FastAPI  
-  Skilled in developing user-friendly web interfaces and APIs for AI-driven applications.
-- **AI/ML Frameworks & Libraries**: Master level in TensorFlow, Keras, PyTorch, Scikit-learn  
-  Expert in building and deploying state-of-the-art machine learning and deep learning models.
-- **Cloud Platforms**: Normal level in Google Cloud Platform (GCP), AWS, Azure  
-  Experienced in deploying AI models and managing scalable cloud infrastructure.
-- **Data Science & Visualization Tools**: Normal level in Pandas, NumPy, Matplotlib, Seaborn, Google Colab, Jupyter Notebook  
-  Adept at data analysis, preprocessing, and creating insightful visualizations.
-- **Version Control & Collaboration**: Normal level in Git, GitHub, GitLab, Bitbucket  
-  Proficient in collaborative development and maintaining version-controlled codebases.
-- **Operating Systems**: Normal level in Linux, Windows  
-  Comfortable across multiple OS environments for development and deployment.
-- **Databases**: Normal level in SQL Language, NoSQL Language, MySQL, MongoDB  
-  Skilled in designing and querying databases for efficient data management.
-- **DevOps & Containerization**: Normal level in Docker, Kubernetes, CI/CD  
-  Experienced in containerized deployment and streamlining development pipelines.
+
 - **Machine Learning**: Master level in Supervised Learning, Unsupervised Learning, Reinforcement Learning, Neural Networks, Deep Learning, Natural Language Processing (NLP), Computer Vision, Audio Processing, Data Preprocessing, Data Visualization, Time Series Analysis, Model Evaluation & Tuning, Feature Engineering  
   Deep expertise in designing and optimizing AI models for diverse domains.
+
+- **AI/ML Frameworks & Libraries**: Highly level in TensorFlow, Keras, PyTorch, Scikit-learn  
+  Good at building and deploying state-of-the-art machine learning and deep learning models.
+
+- **Data Science & Visualization Tools**: Normal level in Pandas, NumPy, Matplotlib, Seaborn, Google Colab, Jupyter Notebook  
+  Adept at data analysis, preprocessing, and creating insightful visualizations.
+
+- **Web Development**: Normal level in HTML, CSS, Jekyll, Bootstrap, Flask, FastAPI  
+  Skilled in developing user-friendly web interfaces and APIs for AI-driven applications.
+
+- **Cloud Platforms**: Normal level in Google Cloud Platform (GCP), AWS, Azure  
+  Experienced in deploying AI models and managing scalable cloud infrastructure.
+
+- **Version Control & Collaboration**: Normal level in Git, GitHub, GitLab, Bitbucket  
+  Proficient in collaborative development and maintaining version-controlled codebases.
+
+- **Operating Systems**: Normal level in Linux, Windows  
+  Comfortable across multiple OS environments for development and deployment.
+
+- **Databases**: Normal level in SQL Language, NoSQL Language, MySQL, MongoDB  
+  Skilled in designing and querying databases for efficient data management.
+
+- **DevOps & Containerization**: Normal level in Docker, Kubernetes, CI/CD  
+  Experienced in containerized deployment and streamlining development pipelines.
+
 - **Mathematics & Statistics**: Master level in Linear Algebra, Calculus, Probability Theory, Statistical Inference  
   Strong mathematical foundation for advanced AI and data science applications.
+
 - **Computer Science**: Master level in Data Structures, Algorithms, Object-Oriented Programming (OOP), Networking, Cybersecurity, Constraints Programming, BigData Technologies, Data Engineering, Intelligence Systems, Parallel & Distributed Computing  
   Comprehensive knowledge for robust and scalable system design.
+
 - **Others**: Master level in Selenium, BeautifulSoup, Scrapy, Rest APIs  
   Proficient in web scraping and API development for data acquisition and integration.
+
 - **Soft Skills**: Master level in Problem-Solving, Critical Thinking, Communication, Teamwork, Adaptability  
   Exceptional interpersonal and analytical skills, fostering collaboration and innovation.
 
 ## Projects
 Below are some of my projects, demonstrating my ability to apply AI to real-world challenges, particularly in healthcare. For a full list, visit [my projects page](https://danhtran2mind.github.io/projects).
-- **Vietnamese Health Chat LoRA** (2025)  
-  Developed an AI-powered chatbot using LoRA (Low-Rank Adaptation) to deliver precise, contextually relevant healthcare responses in Vietnamese. Leveraged NLP and deep learning to enhance medical information accessibility, addressing language-specific challenges in Vietnam’s healthcare system. [Project](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA)
-- **Medical Image Analysis System** (2024)  
-  Built a deep learning-based system using convolutional neural networks (CNNs) to detect and classify anomalies in X-rays and MRIs. Integrated with TensorFlow and deployed on Google Cloud Platform for scalable, real-time processing.
-- **Predictive Healthcare Analytics Dashboard** (2023)  
-  Created a Flask-based web application with interactive visualizations using Matplotlib and Seaborn, enabling healthcare providers to predict patient outcomes through time series analysis and feature engineering.
-- **Vietnamese NLP Model for Sentiment Analysis** (2022)  
-  Developed a transformer-based NLP model with PyTorch for sentiment analysis on Vietnamese text, achieving high accuracy in contextual understanding. Fine-tuned on a custom dataset and integrated into a REST API for real-time applications.
+
+-   **[Vietnamese Health Chat LoRA](https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA)**
+  Vietnamese Health Chat LoRA is an advanced conversational AI project designed for healthcare queries in Vietnamese. Utilizing LoRA fine-tuning, it enhances leading language models to deliver precise, contextually relevant medical responses.
+
+-   **[BTCUSDT ML ETL Pipeline](https://github.com/danhtran2mind/BTCUSDT-ML-ETL-Pipeline)**
+  This project delivers a robust, cloud-native ETL pipeline for extracting, transforming, and loading BTC-USDT trading data, leveraging industry-leading tools for orchestration, storage, and distributed processing.
+-   **[Anime Super Resolution](https://github.com/danhtran2mind/Anime-Super-Resolution)**
+  Anime Super Resolution enhances anime-style images using a fine-tuned Real-ESRGAN model, optimized for clarity and detail. Built on the RealESRGAN_x4plus model, it leverages a private dataset of 27,052 high-resolution (1920x1080) anime frames. The project offers tools for data processing, training, inference, and an interactive Gradio demo, accessible on platforms like Colab, Kaggle, and locally.
+
+-   **[SlimFace: Efficient Face Recognition](https://github.com/danhtran2mind/SlimFace)**
+  SlimFace is a robust and efficient framework for face recognition, designed to enable developers to build high-accuracy models using transfer learning with pre-trained TorchVision architectures. Optimized for edge devices, SlimFace delivers a scalable solution with minimal computational overhead, supporting custom datasets for tailored applications and providing an interactive interface for seamless inference and testing.
+
+-   **[Grayscale2Color Landscape from scratch](https://github.com/danhtran2mind/gray2color-landscape-from-scratch)**
+  Transform grayscale landscape images into vibrant, full-color visuals with this AutoEncoder, U-Net, Transformer models. Built from scratch, this project leverages deep learning to predict color channels (ab in Lab* color space) from grayscale inputs, delivering impressive results with a sleek, minimalist design.
+
+-   **[Text to Video Ghibli Style](https://github.com/danhtran2mind/Text2Video-Ghibli-style)**
+  Transform text into captivating videos with the enchanting aesthetic of Studio Ghibli. This project leverages a fine-tuned zeroscope_v2_576w model to generate high-quality, Ghibli-inspired video content from text prompts. Built upon the foundation of MotionDirector, it includes optimized code and enhanced stability for seamless performance.
+
+-   **[Vietnamese Nutrition GPT-2 finetune](https://github.com/danhtran2mind/vi-nutrition-gpt2-finetune)**
+  The Vietnamese Nutrition GPT-2 Finetune is a language model fine-tuned on Hanoi Medical College’s "Nutrition in Rehabilitation" textbook, based on NlpHUST/gpt2-vietnamese. It provides accurate, Vietnamese-language nutrition guidance through an interactive Gradio interface on HuggingFace, with customizable text generation via a Python API. Ideal for researchers and nutrition enthusiasts.
+
+-   **[Vietnamese F5-TTS](https://github.com/danhtran2mind/Vi-F5-TTS)**
+  Vietnamese F5-TTS (Vi-F5-TTS) is a fine-tuned text-to-speech model for Vietnamese, based on F5-TTS. Using the vin100h-preprocessed-v2 dataset, it generates natural Vietnamese audio for applications like voice assistants and audiobooks, powered by PyTorch, Transformers, and Gradio.
+
+-   **[Vietnamese Whisper Tiny finetuning](https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning)**  
+  In the dynamic field of automatic speech recognition, Vietnamese audio demands precision and speed. Vi-Whisper-Tiny-finetuning refines OpenAI's Whisper Tiny model for exceptional Vietnamese transcription. Offering real-time accuracy via Gradio interface and Python API, this lightweight solution enables efficient local deployments, transforming voice-to-text for creators and enterprises alike. 
 
 ## Personal Philosophy
 I believe that innovation thrives at the intersection of curiosity, interdisciplinary knowledge, and relentless passion. Artificial intelligence is a powerful catalyst for solving complex, real-world challenges. My approach integrates rigorous scientific inquiry with creative problem-solving, ensuring that every project delivers measurable value and advances the frontiers of AI.
