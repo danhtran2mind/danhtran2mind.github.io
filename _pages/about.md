@@ -119,7 +119,7 @@ Greetings, I am Tran Pham Cong Danh (Cong-Danh Pham Tran), an AI Engineer with a
 ## Contact
 - **Email**: danhtran2mind@gmail.com
 - **Phone**: +84xxxxxxxxx
-- **Website**: https://danhtran2mind.github.io
+- **Website**: [danhtran2mind.github.io](https://danhtran2mind.github.io)
 - **Profiles**:
   - GitHub: [danhtran2mind](https://github.com/danhtran2mind)
   - GitLab: [danhtran2mind](https://gitlab.com/danhtran2mind)
@@ -142,9 +142,6 @@ Below are some of my certificates, showcasing my expertise in AI, machine learni
 
 - **[Associate AI Engineer for Developers](https://www.datacamp.com/statement-of-accomplishment/track/9be5c32bd0d1bc752cf39f631c4f35bd824e1f79?raw=1)**, DataCamp (November 19, 2024)  
   Learn to integrate AI into apps using OpenAI, Hugging Face, LangChain, and Pinecone. Build chatbots, recommendation systems, and production-ready AI applications.
-
-- **Developing Large Language Models**, DataCamp (November 29, 2024)  
-  Learned to build and deploy LLMs using PyTorch, transformers, and Hugging Face, from inception to production. [Certificate](https://www.datacamp.com/statement-of-accomplishment)
 
 - **[Machine Learning with Python](https://www.freecodecamp.org/certification)**, freeCodeCamp (September 30, 2024)  
   Built neural networks with TensorFlow, covering NLP, reinforcement learning, and advanced architectures.
