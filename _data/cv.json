@@ -460,7 +460,7 @@
       "url": "https://github.com/danhtran2mind/Viet-Glow-TTS-finetuning"
     },
     {
-      "name": "BTC-USDT ETL Pipeline",
+      "name": "BTCUSDT ML ETL Pipeline",
       "summary": "Extracts, transforms, and loads BTC-USDT trading data using scalable, cloud-native frameworks.",
       "highlights": [""],
       "startDate": "2025",
