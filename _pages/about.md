@@ -118,7 +118,7 @@ Greetings, I am Tran Pham Cong Danh (Cong-Danh Pham Tran), an AI Engineer with a
 
 ## Contact
 - **Email**: danhtran2mind@gmail.com
-- **Phone**: +84xxxxxxxxx
+<!-- - **Phone**: +84xxxxxxxxx -->
 - **Website**: [danhtran2mind.github.io](https://danhtran2mind.github.io)
 - **Profiles**:
   - GitHub: [danhtran2mind](https://github.com/danhtran2mind)
@@ -129,9 +129,9 @@ Greetings, I am Tran Pham Cong Danh (Cong-Danh Pham Tran), an AI Engineer with a
   - LinkedIn: [danhtran2mind](https://linkedin.com/in/danhtran2mind)
 
 ## Education
-- **Master of Engineering in Computer Science**, Ho Chi Minh City University of Technology -- Vietnam National University Ho Chi Minh City, HCMC, VN (2022–2024).
+- **Master of Engineering in Computer Science**, Ho Chi Minh City University of Technology -- Vietnam National University Ho Chi Minh City, HCMC, VN (2022 -- 2024).
   Focused on advanced algorithms, machine learning, and data engineering, providing a robust foundation for developing cutting-edge AI systems.
-- **Doctor of Medicine in General Medicine**, University of Health Sciences -- Vietnam National University Ho Chi Minh City, HCMC, VN (2014–2020).
+- **Doctor of Medicine in General Medicine**, University of Health Sciences -- Vietnam National University Ho Chi Minh City, HCMC, VN (2014 -- 2020).
   Acquired comprehensive medical knowledge, enabling the design of AI solutions that address healthcare challenges with precision and empathy.
 
 ## Certificates
