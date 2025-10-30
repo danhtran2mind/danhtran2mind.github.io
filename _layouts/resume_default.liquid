@@ -40,22 +40,17 @@
         <nav id="toc-sidebar" class="sticky-top">
 
         <!-- Print Resume -->        
-        <div class="print-page-element">
-          <!-- Print button -->
-          <span class="other-version-link">
-            <button class="print-button" onclick="printDiv()">
-              <i class="fas fa-print"></i>
-              <span class="print-button-text">Print Resume</span>
-            </button>
-          </span>
+        <!-- Buttons container – NO flex -->
+        <div class="print-page-element no-print">
+          <button class="print-button" onclick="printDiv()">
+            <i class="fas fa-print"></i>
+            <span>Print Resume</span>
+          </button>
 
-          <!-- Download button -->
-          <span class="other-version-link">
-            <button class="print-button" onclick="downloadDiv()">
-              <i class="fas fa-download"></i>
-              <span class="print-button-text">Download Resume</span>
-            </button>
-          </span>
+          <button class="print-button" onclick="downloadDiv()">
+            <i class="fas fa-download"></i>
+            <span>Download Resume</span>
+          </button>
         </div>
         <!-- End of Print Resume Part -->
 
