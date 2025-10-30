@@ -209,10 +209,10 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    /* gap: 8px;
     padding: 10px 16px;
     font-size: 14px;
-    font-family: inherit;
+    font-family: inherit; */
     /* border: 1px solid #ccc;
     border-radius: 6px;
     background: #f9f9f9; */
@@ -222,9 +222,9 @@
     margin: 0 6px; */
   }
 
-  .print-button:hover {
+  /* .print-button:hover {
     background: #f0f0f0;
-  }
+  } */
 
   .print-button i {
     font-size: 16px;
