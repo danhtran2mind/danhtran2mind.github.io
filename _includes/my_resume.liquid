@@ -895,30 +895,7 @@
                     {% endfor %}
                 </div>
             <!-- language certification -->
-            {% elsif sec_id == 'language_certifications' %}
-                <div class="more-info-link">
-                    {% for item in section.items %}
-                        <div class="cv-item" style="margin-bottom: 0rem;">
-                            <div class="cv-item-row lang-info" style="display: flex; justify-content: center !important;">
-                                <div class="cv-item-title" style="text-align: right; margin-top: 0rem; padding-right: 0.1rem;">
-                                    {{ item.name }}
-                                </div>
-                                {% if item.url %}
-                                    <span>•</span>
-                                    
-                                    <div class="cv-item-title" style="text-align: left; margin-top: 0rem; padding-left: 0.1rem;">                                        
-                                        {{ item.description }}
-                                    </div>
-                                    
-                                {% endif %}
-                            </div>
-                        </div>
-                        {% unless forloop.last %}
-                            <span style="margin: 0 0.2rem;">|</span>
-                        {% endunless %}
-                    {% endfor %}
-                </div>
-            {% endif %}
+
             <!-- additional information -->
             {% elsif sec_id == 'additional_info' %}
                 <div class="more-info-link">
