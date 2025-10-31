@@ -52,7 +52,7 @@
 .cv {
   font-family: var(--cv-font-family);
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: var(--cv-text-color);
   background-color: var(--cv-background);
   max-width: 960px;
