@@ -246,6 +246,20 @@ data:
       # - name: Blog
       #   url: https://github.com/google
 
+  language_certifications:
+    title: Language Certifications
+    items:
+      - name: TOEIC
+        date: Jul 15, 2018
+        provider_issuer: IIG Vietnam
+        url: https://www.iigvietnam.com.vn/
+        description: "Score: 750/990"
+      - name: IELTS
+        date: Dec 20, 2017
+        provider_issuer: British Council Vietnam
+        url: https://www.britishcouncil.vn/en/exam/ielts
+        description: "Overall Band Score: 6.0"
+
   skills:
     title: Technical Skills
     items:

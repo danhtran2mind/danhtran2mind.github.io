@@ -557,10 +557,15 @@
             .basic-info-div {
                 font-size: 9.5pt !important;
             }
+            .cv-item-content.more {
+                line-height: 0.75 !important;
+                font-size: 0.75rem !important;
+            }
 
         }
         .cv-item-content.more {
-            line-height: 1 !important;
+            line-height: 0.75 !important;
+            font-size: 0.75rem !important;
         }
         .cv-item-content.about {
             font-style: italic;
@@ -795,8 +800,8 @@
                 <div class="cv-item-content more">
                     <em>For further details on additional projects, please refer to 
                         <a href="#additional_info" style="color: var(--cv-accent-color); text-decoration: none; font-weight: 700;">
-                            More Information
-                        </a>.</em>
+                            More Information.
+                        </a></em>
                 </div>
             {% elsif sec_id == 'certificates' %}
                 <div class="three-column-section">
@@ -833,8 +838,8 @@
                 <div class="cv-item-content more">
                     <em>For a detailed and comprehensive list of certificates, please consult the additional information provided in the
                         <a href="#additional_info" style="color: var(--cv-accent-color); text-decoration: none; font-weight: 700;">
-                            More Information
-                        </a>.</em>
+                            More Information.
+                        </a></em>
                 </div>
             {% elsif sec_id == 'experience' %}
                 {% for item in section.items %}
@@ -889,12 +894,37 @@
                         </div>
                     {% endfor %}
                 </div>
-
+            <!-- language certification -->
+            {% elsif sec_id == 'language_certifications' %}
+                <div class="more-info-link">
+                    {% for item in section.items %}
+                        <div class="cv-item" style="margin-bottom: 0rem;">
+                            <div class="cv-item-row lang-info" style="display: flex; justify-content: center !important;">
+                                <div class="cv-item-title" style="text-align: right; margin-top: 0rem; padding-right: 0.1rem;">
+                                    {{ item.name }}
+                                </div>
+                                {% if item.url %}
+                                    <span>•</span>
+                                    
+                                    <div class="cv-item-title" style="text-align: left; margin-top: 0rem; padding-left: 0.1rem;">                                        
+                                        {{ item.description }}
+                                    </div>
+                                    
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% unless forloop.last %}
+                            <span style="margin: 0 0.2rem;">|</span>
+                        {% endunless %}
+                    {% endfor %}
+                </div>
+            {% endif %}
+            <!-- additional information -->
             {% elsif sec_id == 'additional_info' %}
                 <div class="more-info-link">
                     {% for item in section.items %}
                         <div class="cv-item" style="margin-bottom: 0rem;">
-                            <div class="cv-item-row" style="display: flex; justify-content: center !important;">
+                            <div class="cv-item-row more-info" style="display: flex; justify-content: center !important;">
                                 <div class="cv-item-title" style="text-align: right; margin-top: 0rem; padding-right: 0.1rem;">
                                     {{ item.name }}
                                 </div>
@@ -923,6 +953,7 @@
                     {% endfor %}
                 </div>
             {% endif %}
+
         </section>
     {% endfor %}
 
