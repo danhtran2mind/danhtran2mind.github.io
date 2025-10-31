@@ -626,6 +626,7 @@
             {% endif %}
         </section>
     {% endfor %}
+    <p>abc</p>
     {% for sec_id in cv.sections %}
         {% assign section = cv.data[sec_id] %}
         {% if sec_id == 'additional_info' %}
@@ -660,7 +661,7 @@
                         <div class="three-column-section">
                             {% for item in cv.data.language_certifications.items %}
                                 <div class="cv-item">
-                                    <div class="cv-item-row two-columns" style="display: inline;">
+                                    <div class="cv-item-row two-columns" style="display: inline-flex;">
                                         <div class="cv-item-row-name"><span>{{item.name}}</span></div>
                                         <div style="display: flex; justify-content: space-between;">
                                             <div>
