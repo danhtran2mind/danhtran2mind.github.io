@@ -377,11 +377,20 @@
             .cv-item-content.more { line-height: 0.75 !important; font-size: 0.59rem !important; }
             header.contact-block { font-size: 10.1pt !important; }
             .basic-info-div { font-size: 9.5pt !important; }
+            .experience-description {
+                font-style: italic; 
+                font-size: 0.75rem !important;
+            }
+            .cv-item-row-name { font-size: 0.85rem !important; font-weight: 700; }
+            .project-date {
+                font-size: 9pt !important;
+            }
+            .project-url { font-size: 7pt !important; }
         }
         .cv-item-content.more { line-height: 0.75 !important; font-size: 0.75rem !important; }
-        .cv-item-content.about { font-style: italic; font-size: 0.55rem; line-height: 1.1; }
+        .cv-item-content.about { font-style: italic; font-size: 0.577rem; line-height: 1.1; }
         .cv-item-content.more em { color: var(--cv-muted-color); font-style: italic; font-size: 0.65rem; }
-        .cv-item-row-name { font-size: 0.85rem !important; font-weight: 700; }
+        .cv-item-row-name { font-size: 0.93rem !important; font-weight: 700; }
         .cv-item-row.two-columns { font-weight: normal !important; font-size: 0.88rem !important; gap: 0em; }
         .degree { font-size: 1.1rem }
         .cv-item-row.degree { font-size: 1rem !important; }
@@ -606,10 +615,14 @@
                     {% endfor %}
                 </div>
 
-            {% elsif sec_id == 'additional_info' %}
+            
+        </section>
+    {% endfor %}
+
+    {% elsif sec_id == 'additional_info' %}
                 <div class="more-info-wrapper">
                     <!-- LEFT: More Information -->
-                    <section class="cv-section more-info-column" id="more_information">
+                    <section class="cv-section more-info-column" id="more_information" style="margin-left: 1rem !important; margin-right: 0rem !important; padding-left: 0px; padding-right: 0px; margin-bottom: 0px !important; padding-bottom: 0px;">
                         <header class="cv-section-header">
                             <h2 class="text-primary cv-section-title">{{section.title}}</h2>
                         </header>
@@ -631,7 +644,7 @@
                     </section>
 
                     <!-- RIGHT: Language Certifications -->
-                    <section class="cv-section more-info-column" id="language_certifications">
+                    <section class="cv-section more-info-column" id="language_certifications" style="margin-left: 1rem !important; margin-right: 0rem !important; padding-left: 0px; padding-right: 0px; margin-bottom: 0px !important; padding-bottom: 0px;">
                         <header class="cv-section-header">
                             <h2 class="text-primary cv-section-title">{{cv.data.language_certifications.title}}</h2>
                         </header>
@@ -663,6 +676,4 @@
                     </section>
                 </div>
             {% endif %}
-        </section>
-    {% endfor %}
 </div>
