@@ -543,7 +543,8 @@
                 font-size: 8.5pt  !important;
             }
             .more-info-link {
-                display: flex;
+                /* display: flex; */
+                display: inline;
                 align-content: center;
                 justify-content: center;
                 gap: 0.1rem;
@@ -568,7 +569,7 @@
             .cv-item-content.more em {
                 color: var(--cv-muted-color);
                 font-style: italic;
-                font-size: 0.55rem !important;
+                font-size: 0.65rem !important;
             }
         }
         .cv-item-content.more {
@@ -860,7 +861,7 @@
                             <div style="width: 30%;">{{item.organization | markdownify}}</div>
                             <div style="width: 25%; text-align: right;">{{item.date | markdownify}}</div>
                         </div>
-                        <div class="cv-item-content" style="line-height: 1;">
+                        <div class="cv-item-content" style="line-height: 0.9;">
                             {% if item.description %}
                                 <div>
                                     <em>Description:</em>
@@ -912,7 +913,7 @@
                 <div class="more-info-link">
                     {% for item in section.items %}
                         <div class="cv-item" style="margin-bottom: 0rem;">
-                            <div class="cv-item-row more-info" style="display: flex; justify-content: center !important;">
+                            <div class="cv-item-row more-info" style="display: flex; justify-content: left !important; line-height: 1.2;">
                                 <div class="cv-item-title" style="text-align: right; margin-top: 0rem; padding-right: 0.1rem;">
                                     {{ item.name }}
                                 </div>
@@ -934,9 +935,11 @@
                                 {% endif %}
                             </div>
                         </div>
+                        <!--
                         {% unless forloop.last %}
                             <span style="margin: 0 0.2rem;">|</span>
                         {% endunless %}
+                        -->
                     {% endfor %}
                 </div>
             {% endif %}
