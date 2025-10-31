@@ -402,6 +402,9 @@
                 font-size: 11pt;
                 font-weight: 700;
             }
+            .lang-certs-issuer-date {
+                font-size: 0.69rem !important;
+            }
             .lang-certs-issuer-date a {
                 font-size: 0.69rem !important;
             }
@@ -432,6 +435,7 @@
         .project-url { font-size: 0.69rem; }
         .experience-description { font-style: italic; font-size: 0.85rem; }
         .more-info-link { display: inline; align-content: center; justify-content: center; gap: 0.1rem; font-size: 0.78rem; }
+        .cv-item-content.about.cert { font-size: 0.9rem; }
     </style>
 
     <!-- Name and Avatar -->
@@ -590,7 +594,7 @@
                 <div class="three-column-section">
                     {% for item in section.items %}
                         <div class="cv-item">
-                            <div class="cv-item-row two-columns" style="display: inline;">
+                            <div class="cv-item-row two-columns" style="display: inline; line-height: 1.1rem;">
                                 <div class="cv-item-row-name"><span>{{item.name}}</span></div>
                                 <div style="display: flex;justify-content: space-between;">
                                     <div>
@@ -688,7 +692,7 @@
             <div class="three-column-section" style="display: inline-flex;">
                 {% for item in lang_certs.items %}
                 <div class="cv-item">
-                    <div class="cv-item-row two-columns" style="display: inline;">
+                    <div class="cv-item-row two-columns" style="display: inline; line-height: 1.1rem;">
                         <div class="cv-item-row-name lang-cert"><span>{{item.name}}</span></div>
                         <div class="lang-certs-issuer-date" style="display: flex; justify-content: space-between;">
                             <div>
