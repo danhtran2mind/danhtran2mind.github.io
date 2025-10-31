@@ -297,7 +297,7 @@
             font-weight: 700;
         }
 
-        /* === MORE INFO COLUMNS (from 2)) === */
+        /* === MORE INFO COLUMNS === */
         .more-info-wrapper {
             display: flex;
             gap: 0.5rem;
@@ -311,7 +311,6 @@
             padding: 0.5rem;
             border-radius: 8px;
         }
-
         .cv-item-row.more-info {
             display: flex;
             justify-content: flex-start;
@@ -393,7 +392,7 @@
                 box-sizing: border-box;
                 padding: 0.5rem;
                 border-radius: 8px;
-        }
+            }
         }
         .cv-item-content.more { line-height: 0.75 !important; font-size: 0.75rem !important; }
         .cv-item-content.about { font-style: italic; font-size: 0.577rem; line-height: 1.1; }
@@ -497,9 +496,10 @@
         </div>
     </section>
 
-    <!-- Sections -->
+    <!-- Main Sections (excluding additional_info) -->
     {% for sec_id in cv.sections %}
         {% assign section = cv.data[sec_id] %}
+        {% unless sec_id == 'additional_info' %}
         <section class="cv-section" id="{{sec_id}}">
             <header class="cv-section-header">
                 <h2 class="text-primary cv-section-title">{{section.title}}</h2>
@@ -625,65 +625,66 @@
 
             {% endif %}
         </section>
+        {% endunless %}
     {% endfor %}
-    <p>abc</p>
-    {% for sec_id in cv.sections %}
-        {% assign section = cv.data[sec_id] %}
-        {% if sec_id == 'additional_info' %}
-                <div class="more-info-wrapper">
-                    <!-- LEFT: More Information -->
-                    <section class="cv-section more-info-column" id="more_information" style="margin-left: 1rem !important; margin-right: 0rem !important; padding-left: 0px; padding-right: 0px; margin-bottom: 0px !important; padding-bottom: 0px;">
-                        <header class="cv-section-header">
-                            <h2 class="text-primary cv-section-title">{{section.title}}</h2>
-                        </header>
-                        <div class="more-info-link">
-                            {% for item in section.items %}
-                                <div class="cv-item" style="margin-bottom: 0rem;">
-                                    <div class="cv-item-row more-info">
-                                        <div class="cv-item-title" style="text-align: right; padding-right: 0.1rem; margin-top: 0rem;">{{ item.name }}</div>
-                                        {% if item.url %}
-                                            <span>•</span>
-                                            <div class="cv-item-title" style="text-align: left; padding-left: 0.1rem; margin-top: 0rem;">
-                                                <a href="{{ item.url }}">{{ item.url | replace: 'https://', '' }}</a>
-                                            </div>
-                                        {% endif %}
-                                    </div>
-                                </div>
-                            {% endfor %}
-                        </div>
-                    </section>
 
-                    <!-- RIGHT: Language Certifications -->
-                    <section class="cv-section more-info-column" id="language_certifications" style="margin-left: 1rem !important; margin-right: 0rem !important; padding-left: 0px; padding-right: 0px; margin-bottom: 0px !important; padding-bottom: 0px;">
-                        <header class="cv-section-header">
-                            <h2 class="text-primary cv-section-title">{{cv.data.language_certifications.title}}</h2>
-                        </header>
-                        <div class="three-column-section" style="display: inline-flex;>
-                            {% for item in cv.data.language_certifications.items %}
-                                <div class="cv-item">
-                                    <div class="cv-item-row two-columns" style="display: inline;">
-                                        <div class="cv-item-row-name"><span>{{item.name}}</span></div>
-                                        <div style="display: flex; justify-content: space-between;">
-                                            <div>
-                                                {% if item.url %}
-                                                    <a href="{{ item.url }}" target="_blank" style="margin-right: 0.15rem;">{{ item.provider_issuer }}</a>
-                                                    <img src="/assets/svg/url.svg" style="width: 11px; height: 11px;" alt="url icon">
-                                                {% else %}
-                                                    <span>{{ item.provider_issuer }}</span>
-                                                {% endif %}
-                                            </div>
-                                            <div><span>{{item.date | markdownify}}</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="cv-item-content about cert">
-                                        {% if item.description %}
-                                            <p style="display:inline;">{{item.description | markdownify | strip_html}}</p>
-                                        {% endif %}
-                                    </div>
-                                </div>
-                            {% endfor %}
-                        </div>
-                    </section>
+    <!-- MORE INFORMATION & LANGUAGE CERTIFICATIONS (like in 2)) -->
+    {% assign more_info = cv.data.additional_info %}
+    {% assign lang_certs = cv.data.language_certifications %}
+
+    <div class="more-info-wrapper">
+        <!-- LEFT: More Information -->
+        <section class="cv-section more-info-column" id="more_information" style="margin-left: 1rem !important; margin-right: 0rem !important; padding-left: 0px; padding-right: 0px; margin-bottom: 0px !important; padding-bottom: 0px;">
+            <header class="cv-section-header">
+                <h2 class="text-primary cv-section-title">{{ more_info.title }}</h2>
+            </header>
+            <div class="more-info-link">
+                {% for item in more_info.items %}
+                <div class="cv-item" style="margin-bottom: 0rem;">
+                    <div class="cv-item-row more-info">
+                        <div class="cv-item-title" style="text-align: right; padding-right: 0.1rem; margin-top: 0rem;">{{ item.name }}</div>
+                        {% if item.url %}
+                            <span>•</span>
+                            <div class="cv-item-title" style="text-align: left; padding-left: 0.1rem; margin-top: 0rem;">
+                                <a href="{{ item.url }}">{{ item.url | replace: 'https://', '' }}</a>
+                            </div>
+                        {% endif %}
+                    </div>
                 </div>
-            {% endif %}
-{% endfor %}
+                {% endfor %}
+            </div>
+        </section>
+
+        <!-- RIGHT: Language Certifications -->
+        <section class="cv-section more-info-column" id="language_certifications" style="margin-left: 1rem !important; margin-right: 0rem !important; padding-left: 0px; padding-right: 0px; margin-bottom: 0px !important; padding-bottom: 0px;">
+            <header class="cv-section-header">
+                <h2 class="text-primary cv-section-title">{{ lang_certs.title }}</h2>
+            </header>
+            <div class="three-column-section" style="display: inline-flex;">
+                {% for item in lang_certs.items %}
+                <div class="cv-item">
+                    <div class="cv-item-row two-columns" style="display: inline;">
+                        <div class="cv-item-row-name"><span>{{item.name}}</span></div>
+                        <div style="display: flex; justify-content: space-between;">
+                            <div>
+                                {% if item.url %}
+                                    <a href="{{ item.url }}" target="_blank" style="margin-right: 0.15rem;">{{ item.provider_issuer }}</a>
+                                    <img src="/assets/svg/url.svg" style="width: 11px; height: 11px;" alt="url icon">
+                                {% else %}
+                                    <span>{{ item.provider_issuer }}</span>
+                                {% endif %}
+                            </div>
+                            <div><span>{{item.date | markdownify}}</span></div>
+                        </div>
+                    </div>
+                    <div class="cv-item-content about cert">
+                        {% if item.description %}
+                            <p style="display:inline;">{{item.description | markdownify | strip_html}}</p>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+</div>
