@@ -374,9 +374,9 @@
             .basic-info-div { font-size: 9.5pt !important; }
             .experience-description {
                 font-style: italic; 
-                font-size: 0.75rem !important;
+                font-size: 0.78rem !important;
             }
-            .cv-item-row-name { font-size: 0.85rem !important; font-weight: 700; }
+            .cv-item-row-name { font-size: 0.8rem !important; font-weight: 700; }
             .project-date {
                 font-size: 9pt !important;
             }
@@ -393,7 +393,16 @@
                 padding: 0.5rem;
                 border-radius: 8px;
             }
+            .cv-item-content.more em {
+                color: var(--cv-muted-color);
+                font-style: italic;
+                font-size: 0.59rem !important;
+            }
+            .lang-certs-issuer-date{ font-size: 0.82rem; }
+            .cv-item-row-name.lang-cert {font-size: .89rem; }
         }
+        .lang-certs-issuer-date{ font-size: 0.85rem; }
+        .cv-item-row-name.lang-cert {font-size: .93rem; }
         .cv-item-content.more { line-height: 0.75 !important; font-size: 0.75rem !important; }
         .cv-item-content.about { font-style: italic; font-size: 0.577rem; line-height: 1.1; }
         .cv-item-content.more em { color: var(--cv-muted-color); font-style: italic; font-size: 0.65rem; }
@@ -664,8 +673,8 @@
                 {% for item in lang_certs.items %}
                 <div class="cv-item">
                     <div class="cv-item-row two-columns" style="display: inline;">
-                        <div class="cv-item-row-name"><span>{{item.name}}</span></div>
-                        <div style="display: flex; justify-content: space-between;">
+                        <div class="cv-item-row-name lang-cert"><span>{{item.name}}</span></div>
+                        <div class="lang-certs-issuer-date" style="display: flex; justify-content: space-between;">
                             <div>
                                 {% if item.url %}
                                     <a href="{{ item.url }}" target="_blank" style="margin-right: 0.15rem;">{{ item.provider_issuer }}</a>
