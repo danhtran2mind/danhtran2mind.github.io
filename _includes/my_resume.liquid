@@ -633,7 +633,7 @@
                         </div>
                         <div class="cv-item-content" style="line-height: 0.9;">
                             {% if item.description %}
-                                <div><em>Description:</em> <span class="experience-description"><p style="display:inline;">{{item.description | markdownify | strip_html}}</p></span></div>
+                                <div><em style="font-size: 0.8rem;">Description:</em> <span class="experience-description"><p style="display:inline;">{{item.description | markdownify | strip_html}}</p></span></div>
                             {% endif %}
                         </div>
                     </div>
@@ -663,29 +663,8 @@
     {% assign lang_certs = cv.data.language_certifications %}
 
     <div class="more-info-wrapper">
-        <!-- LEFT: More Information -->
-        <section class="cv-section more-info-column" id="more_information" style="margin-left: 1rem !important; margin-right: 0rem !important; padding-left: 0px; padding-right: 0px; margin-bottom: 0px !important; padding-bottom: 0px;">
-            <header class="cv-section-header">
-                <h2 class="text-primary cv-section-title">{{ more_info.title }}</h2>
-            </header>
-            <div class="more-info-link">
-                {% for item in more_info.items %}
-                <div class="cv-item" style="margin-bottom: 0rem;">
-                    <div class="cv-item-row more-info">
-                        <div class="cv-item-title" style="text-align: right; padding-right: 0.1rem; margin-top: 0rem;">{{ item.name }}</div>
-                        {% if item.url %}
-                            <span>•</span>
-                            <div class="cv-item-title" style="text-align: left; padding-left: 0.1rem; margin-top: 0rem;">
-                                <a href="{{ item.url }}">{{ item.url | replace: 'https://', '' }}</a>
-                            </div>
-                        {% endif %}
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </section>
 
-        <!-- RIGHT: Language Certifications -->
+        <!-- LEFT: Language Certifications -->
         <section class="cv-section more-info-column" id="language_certifications" style="margin-left: 1rem !important; margin-right: 0rem !important; padding-left: 0px; padding-right: 0px; margin-bottom: 0px !important; padding-bottom: 0px;">
             <header class="cv-section-header">
                 <h2 class="text-primary cv-section-title">{{ lang_certs.title }}</h2>
@@ -716,5 +695,29 @@
                 {% endfor %}
             </div>
         </section>
+
+        <!-- RIGHT: More Information -->
+        <section class="cv-section more-info-column" id="more_information" style="margin-left: 1rem !important; margin-right: 0rem !important; padding-left: 0px; padding-right: 0px; margin-bottom: 0px !important; padding-bottom: 0px;">
+            <header class="cv-section-header">
+                <h2 class="text-primary cv-section-title">{{ more_info.title }}</h2>
+            </header>
+            <div class="more-info-link">
+                {% for item in more_info.items %}
+                <div class="cv-item" style="margin-bottom: 0rem;">
+                    <div class="cv-item-row more-info">
+                        <div class="cv-item-title" style="text-align: right; padding-right: 0.1rem; margin-top: 0rem;">{{ item.name }}</div>
+                        {% if item.url %}
+                            <span>•</span>
+                            <div class="cv-item-title" style="text-align: left; padding-left: 0.1rem; margin-top: 0rem;">
+                                <a href="{{ item.url }}">{{ item.url | replace: 'https://', '' }}</a>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        
     </div>
 </div>
