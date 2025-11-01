@@ -418,7 +418,7 @@
             .cv-item-row-name { font-size: 0.8rem; font-weight: 700; }
             .cv-item-row-name.project-name {font-size: 0.82rem !important;}
             .cv-item-row-name.project-name span {font-size: 0.82rem !important;}
-            .cv-item-content.about.lang-cert p {font-size: 0.72rem !important;}
+            .cv-item-content.about.lang-cert p {font-size: 0.75rem !important;}
         }
         .lang-certs-issuer-date{ font-size: 0.82rem; }
         .cv-item-row-name.lang-cert {font-size: .93rem; }
@@ -436,7 +436,7 @@
         .project-date { font-size: 0.73rem; }
         .project-url { font-size: 0.69rem; }
         .experience-description { font-style: italic; font-size: 0.85rem; }
-        .more-info-link { display: inline; align-content: center; justify-content: center; gap: 0.1rem; font-size: 0.95rem; }
+        .more-info-link { display: inline; align-content: center; justify-content: center; gap: 0.1rem; font-size: 0.9rem; }
         .cv-item-content.about.cert { font-size: 0.577rem; }
         .cv-item-content.about.lang-cert { font-size: 0.9rem; }
     </style>
@@ -660,7 +660,7 @@
         {% endunless %}
     {% endfor %}
 
-    <!-- MORE INFORMATION & LANGUAGE CERTIFICATIONS (like in 2)) -->
+    <!-- MORE INFORMATION & LANGUAGE CERTIFICATIONS -->
     {% assign more_info = cv.data.additional_info %}
     {% assign lang_certs = cv.data.language_certifications %}
 
@@ -673,7 +673,7 @@
             </header>
             <div class="three-column-section" style="display: inline-flex;">
                 {% for item in lang_certs.items %}
-                <div class="cv-item">
+                <div class="cv-item" style="margin-bottom: 0px;">
                     <div class="cv-item-row two-columns" style="display: inline; line-height: 1.1rem;">
                         <div class="cv-item-row-name lang-cert"><span>{{item.name}}</span></div>
                         <div class="lang-certs-issuer-date" style="display: flex; justify-content: space-between;">
