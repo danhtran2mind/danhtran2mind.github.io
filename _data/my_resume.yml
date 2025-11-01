@@ -57,7 +57,7 @@ data:
       - date: 04/2025 -- 05/2025
         organization: Karuna Veggie Restaurant
         job_title: AI-Driven Marketing Supporter
-        description: Used AI to design targeted veggie diet campaigns, digital banners, content, and analytics-optimized slides. Drove AI-powered marketing to increase brand visibility, customer engagement, and promote plant-based lifestyles across digital and offline channels.
+        description: Used AI to design targeted veggie diet campaigns, digital banners, content, and analytics-optimized slides. Drove AI-powered marketing to increase brand visibility, customer engagement, and promote plant-based lifestyles across digital channels.
         # achievements:
         #   - Contributed to team projects with consistent performance.
       - date: 01/2021 -- 12/2021
@@ -107,37 +107,37 @@ data:
         date: Nov 29, 2024
         provider_issuer: DataCamp
         url: https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1
-        description: "Explore deep learning and build models using PyTorch framework."
+        description: "Explore deep learning using PyTorch: predict water safety, energy use, classify clouds and text, master images and Transformers in Python."
 
       - name: Python Developer
         date: Sep 14, 2025
         provider_issuer: DataCamp
         url: https://www.datacamp.com/statement-of-accomplishment/track/aeb14daa0ffcaf568d9c83a187d83fbe9c2d6314?raw=1
-        description: "Professional Python skills in testing, Git, scraping, and OOP."
+        description: "Advanced Python Developer Track: Master testing, Git, web scraping, OOP, data structures, and algorithms for professional excellence."
 
       - name: Machine Learning Engineer
         date: Nov 24, 2024
         provider_issuer: DataCamp
         url: https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1
-        description: "Master MLOps and deploy models for real-world expertise."
+        description: "Comprehensive MLOps track for deploying, monitoring, and maintaining ML models with hands-on projects to prepare for junior roles."
 
       - name: Python Essentials 2
         date: Sep 29, 2024
         provider_issuer: NetAcad
         url: https://www.credly.com/badges/d589eb5b-d2f5-4c77-9c2e-67c9921896e1
-        description: "Advanced Python with OOP and PCAP certification preparation."
+        description: "Advanced Python course builds on basics, teaching OOP and portfolio development for high-paying software careers."
 
       - name: OpenCV Bootcamp
         date: Sep 29, 2024
         provider_issuer: OpenCV
         url: https://courses.opencv.org/certificates/7e56e37fe25a44709b0d39dee24764ef
-        description: "Master OpenCV for image, video, and object detection."
+        description: "OpenCV course teaches image/video manipulation, object/face detection, and Computer Vision essentials."
 
       - name: Machine Learning with Python
         date: Sep 30, 2024
         provider_issuer: freeCodeCamp
         url: https://www.freecodecamp.org/certification/danhtran2mind/machine-learning-with-python-v7
-        description: "Build neural networks with TensorFlow for NLP and reinforcement."
+        description: "Build neural networks with TensorFlow; master NLP, reinforcement learning, and deep, recurrent, convolutional architectures in Python."
 
 
   # skills:
