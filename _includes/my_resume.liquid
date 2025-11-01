@@ -435,7 +435,8 @@
         .project-url { font-size: 0.69rem; }
         .experience-description { font-style: italic; font-size: 0.85rem; }
         .more-info-link { display: inline; align-content: center; justify-content: center; gap: 0.1rem; font-size: 0.78rem; }
-        .cv-item-content.about.cert { font-size: 0.9rem; }
+        .cv-item-content.about.cert { font-size: 0.577rem; }
+        .cv-item-content.about.lang-cert { font-size: 0.9rem; }
     </style>
 
     <!-- Name and Avatar -->
@@ -706,7 +707,7 @@
                             <div><span>{{item.date | markdownify}}</span></div>
                         </div>
                     </div>
-                    <div class="cv-item-content about cert">
+                    <div class="cv-item-content about lang-cert">
                         {% if item.description %}
                             <p style="display:inline;">{{item.description | markdownify | strip_html}}</p>
                         {% endif %}
