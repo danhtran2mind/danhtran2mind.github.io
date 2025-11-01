@@ -413,12 +413,14 @@
             .lang-certs-issuer-date p {
                 font-size: 0.69rem !important;
             }
-            .cv-item-row.degree { font-size: 0.85rem !important; }
+            .cv-item-row.degree { font-size: 0.8rem !important; }
             .cv-item-row-name.lang-cert span {font-size: .79rem; }
             .cv-item-row-name { font-size: 0.8rem; font-weight: 700; }
             .cv-item-row-name.project-name {font-size: 0.82rem !important;}
             .cv-item-row-name.project-name span {font-size: 0.82rem !important;}
             .cv-item-content.about.lang-cert p {font-size: 0.75rem !important;}
+            .cv-item-row-name {font-size: 0.82rem !important;}
+            .cv-item-row-name span {font-size: 0.82rem !important;}
         }
         .lang-certs-issuer-date{ font-size: 0.82rem; }
         .cv-item-row-name.lang-cert {font-size: .87rem; }
@@ -439,6 +441,7 @@
         .more-info-link { display: inline; align-content: center; justify-content: center; gap: 0.1rem; font-size: 0.9rem; }
         .cv-item-content.about.cert { font-size: 0.577rem; }
         .cv-item-content.about.lang-cert { font-size: 0.9rem; }
+        .cv-item-row-name { font-size: 0.92rem; }
     </style>
 
     <!-- Name and Avatar -->
@@ -598,7 +601,7 @@
                     {% for item in section.items %}
                         <div class="cv-item">
                             <div class="cv-item-row two-columns" style="display: inline; line-height: 1.1rem;">
-                                <div class="cv-item-row-name"><span>{{item.name}}</span></div>
+                                <div class="cv-item-row-name cert"><span>{{item.name}}</span></div>
                                 <div style="display: flex;justify-content: space-between;">
                                     <div>
                                         {% if item.url %}
