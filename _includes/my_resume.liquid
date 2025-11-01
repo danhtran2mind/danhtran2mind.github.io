@@ -671,16 +671,16 @@
             <header class="cv-section-header">
                 <h2 class="text-primary cv-section-title">{{ lang_certs.title }}</h2>
             </header>
-            <div class="three-column-section" style="display: inline-flex;">
+            <div class="three-column-section" style="display: inline-flex; justify-content: space-between; width: 100%;">
                 {% for item in lang_certs.items %}
-                <div class="cv-item" style="margin-bottom: 0px;">
+                <div class="cv-item" style="margin-bottom: 0px; flex: 0 0 48%;">
                     <div class="cv-item-row two-columns" style="display: inline; line-height: 1.1rem;">
                         <div class="cv-item-row-name lang-cert"><span>{{item.name}}</span></div>
                         <div class="lang-certs-issuer-date" style="display: flex; justify-content: space-between;">
                             <div>
                                 {% if item.url %}
                                     <a href="{{ item.url }}" target="_blank" style="margin-right: 0.15rem;">{{ item.provider_issuer }}</a>
-                                    <img src="/assets/svg/url.svg" style="width: 11px; height: 11px;" alt="url icon">
+                                    <!-- <img src="/assets/svg/url.svg" style="width: 11px; height: 11px;" alt="url icon"> -->
                                 {% else %}
                                     <span>{{ item.provider_issuer }}</span>
                                 {% endif %}
