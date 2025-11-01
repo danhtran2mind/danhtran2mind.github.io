@@ -119,7 +119,7 @@ data:
         date: Nov 24, 2024
         provider_issuer: DataCamp
         url: https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1
-        description: "Comprehensive MLOps track for deploying, monitoring, and maintaining ML models with hands-on projects to prepare for junior roles."
+        description: "Comprehensive MLOps track: master model deployment, monitoring, CI/CD; hands-on projects; prepare for junior ML engineer roles."
 
       - name: Python Essentials 2
         date: Sep 29, 2024
