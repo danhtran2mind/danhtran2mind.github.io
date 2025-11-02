@@ -247,18 +247,18 @@ data:
       #   url: https://github.com/google
 
   language_certifications:
-    title: Language Certifications
+    title: English Language Certifications
     items:
-      - name: TOEIC
-        date: Jul 15, 2018
+      - name: "TOEIC Listening & Reading"
+        date: May 11, 2021
         provider_issuer: IIG Vietnam
-        url: https://www.iigvietnam.com.vn/
-        description: "Score: 750/990"
-      - name: IELTS
-        date: Dec 20, 2017
-        provider_issuer: British Council Vietnam
-        url: https://www.britishcouncil.vn/en/exam/ielts
-        description: "Overall Band Score: 6.0"
+        url: https://iigvietnam.com
+        description: "Score: 455"
+      - name: "TOEIC Speaking & Writing"
+        date: Nov 03, 2019
+        provider_issuer: BIIG Vietnam
+        url: https://iigvietnam.com
+        description: "Overall Band Score: 250"
 
   skills:
     title: Technical Skills
