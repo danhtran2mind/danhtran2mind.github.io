@@ -429,8 +429,10 @@
             .cv-item-row.two-columns.issuer-date { font-size: 0.82rem !important;}
             .cv-item-row.two-columns.issuer-date a { font-size: 0.82rem !important;}
             .cv-item-row.two-columns.issuer-date span { font-size: 0.82rem !important;}
+            .cv-item-title.more-info-link.url {font-weight: normal;}
         }
         .lang-certs-issuer-date { font-size: 0.8rem; }
+        ..lang-certs-issuer-date a { font-weight: bold;}
         .cv-item-row-name.lang-cert {font-size: .87rem; }
         .cv-item-content.more { line-height: 0.9 !important; font-size: 0.75rem !important; }
         .cv-item-content.about { font-style: italic; font-size: 0.577rem; line-height: 1.1; }
@@ -722,7 +724,7 @@
                         <div class="cv-item-title" style="text-align: right; padding-right: 0.1rem; margin-top: 0rem;">{{ item.name }}</div>
                         {% if item.url %}
                             <!-- <span>•</span> -->
-                            <div class="cv-item-title" style="text-align: left; padding-left: 0.1rem; margin-top: 0rem;">
+                            <div class="cv-item-title more-info-link url" style="text-align: left; padding-left: 0.1rem; margin-top: 0rem;">
                                 <a href="{{ item.url }}">{{ item.url | replace: 'https://', '' }}</a>
                             </div>
                         {% endif %}

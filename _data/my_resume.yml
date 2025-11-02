@@ -256,7 +256,7 @@ data:
         description: "Score: 455"
       - name: "TOEIC Speaking & Writing"
         date: Nov 03, 2019
-        provider_issuer: BIIG Vietnam
+        provider_issuer: IIG Vietnam
         url: https://iigvietnam.com
         description: "Overall Band Score: 250"
 
