@@ -317,6 +317,7 @@
             line-height: 1.2;
             gap: 0.3rem;
             align-items: center;
+            justify-content: space-between;
         }
         .cv-item-title {
             font-weight: 600;
@@ -720,7 +721,7 @@
                     <div class="cv-item-row more-info">
                         <div class="cv-item-title" style="text-align: right; padding-right: 0.1rem; margin-top: 0rem;">{{ item.name }}</div>
                         {% if item.url %}
-                            <span>•</span>
+                            <!-- <span>•</span> -->
                             <div class="cv-item-title" style="text-align: left; padding-left: 0.1rem; margin-top: 0rem;">
                                 <a href="{{ item.url }}">{{ item.url | replace: 'https://', '' }}</a>
                             </div>
