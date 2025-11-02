@@ -63,7 +63,7 @@ data:
       - date: 01/2021 -- 12/2021
         organization: Dr. Nhung Dental Clinic
         job_title: Web Developer
-        description: Created a PHP-MySQL internal management portal for HeathDental clinic, streamlining patient records and revenue tracking. Built responsive UI with secure database optimization and jQuery-powered image gallery for enhanced usability and operational efficiency.
+        description: Created a PHP-MySQL internal management portal for Heath Dental clinic, streamlining patient records and revenue tracking. Built responsive UI with secure database optimization and jQuery-powered image gallery for enhanced usability and operational efficiency.
         # location: Not specified
         # achievements:
         #   - Contributed to team projects with consistent performance.
