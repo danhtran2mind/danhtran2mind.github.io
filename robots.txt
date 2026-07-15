@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://danhtran2mind.github.io//sitemap.xml
