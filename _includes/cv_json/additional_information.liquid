@@ -1,0 +1,43 @@
+{%- comment -%}
+  Load the “additional_information” object from _data/cv.json
+  and display each entry as:
+  🔗 Certificate Details: https://google.com
+  🔗 Certification Details: https://google.com
+  …
+  Handles array of objects: [{"certificate details": "google.com"}, ...]
+{%- endcomment -%}
+
+{% assign addInfo = site.data.cv.additional_information %}
+
+<div class="additional-info">
+
+  {% if addInfo %}
+  <table class="table" style="width: 100%; border-collapse: collapse;">
+    <tbody>
+      {% for item in addInfo %}
+        {% for pair in item %}
+          {% assign label = pair[0] | capitalize %}
+          {% assign url = pair[1] %}
+          
+          {% if url contains 'http://' %}
+            {% assign display_url = url %}
+          {% else %}
+            {% assign display_url = 'https://' | append: url %}
+          {% endif %}
+
+          <tr style="margin-bottom: 0.5rem;">
+            <td style="padding-right: 2rem; font-weight: bold; width: 30%;">{{ label }}:</td>
+            <td>
+              <i class="fa-solid fa-link me-2" style="color: var(--global-theme-color);"></i>
+              <a href="{{ display_url }}" target="_blank" rel="noopener">{{ display_url }}</a>
+            </td>
+          </tr>
+        {% endfor %}
+      {% endfor %}
+    </tbody>
+  </table>
+{% else %}
+  <p class="text-danger">Error: No additional_information data found in _data/cv.json</p>
+{% endif %}
+
+</div>

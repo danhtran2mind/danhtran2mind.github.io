@@ -1,0 +1,31 @@
+aws
+	www.aws.training
+	skillbuilder.aws
+google	n
+microsoft	q
+cisco netcad
+freecodecamp
+hackerrank
+cognitiveclass.ai
+datacamp
+codecademy
+anthropic.skilljar.com
+
+leetcode
+hacker rank	q
+coursera
+udemy
+udacity
+datacamp
+opencv
+edx.org	n
+confluent	q
+openai	q
+edube	q
+kaggle	q
+mbcl...	
+cpr...	
+skillsbuild.org
+www.codecademy.com
+accounts.skilljar.com
+cognitiveclass.ai

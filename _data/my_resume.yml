@@ -1,0 +1,389 @@
+# Main Info
+name: Tran Pham Cong Danh
+photo: /assets/images/resume/avatar.jpg
+tagline: "An AI Engineer: Embracing AI, Powered by Passion"
+
+# Contact Info
+date_of_birth: Sep 29, 1996
+location: HCMC, Vietnam
+email: danhtran2mind@gmail.com
+phone: "+84xxx-xxx-xxxx"  # Replace with actual phone number
+
+github: https://github.com/danhtran2mind
+huggingface: https://huggingface.co/danhtran2mind
+website: https://danhtran2mind.github.io
+
+linkedin: https://www.linkedin.com/in/danhtran2mind
+x: https://x.com/danhtran2mind
+facebook: https://facebook.com/danhtran2mind
+
+# Experiment Info
+sections:
+  - experience
+  - skills
+  - projects
+  - certificates
+  - education
+  - additional_info
+  # - free_time
+
+data:
+  # experience:
+  #   title: Work Experience
+  #   items:
+  #     - 2023-present: |
+  #         Senior Site Reliability Engineer, Service Operations at [Wikimedia Foundation](https://wikimediafoundation.org/):  
+  #         running over 100 services behind Wikipedia and other Wikimedia projects, including the application layer of Wikipedia
+  #     - 2021-2023: |
+  #         DevOps Engineer at [Wincent](https://www.wincent.co/):  
+  #         system & application monitoring; big data pipeline design & implementation; performance monitoring including using [eBPF](https://ebpf.io/) to export custom kernel metrics
+  #     - 2019-2021: |
+  #         Research Engineer, Site Reliability Engineer at [Network Security Group](https://netsec.ethz.ch/), ETH Zurich:  
+  #         design and operations of the [SCIONLab](https://scionlab.org) global research network; work on high-performance network aplikasi
+  #     - 2018: |
+  #         Lead Site Reliability Engineer for [Data Center Light](https://datacenterlight.ch) at [ungleich](https://www.ungleich.ch/):  
+  #         VM cluster design and operation ([Ceph](https://ceph.io/) distributed filesystem, [OpenNebula](https://opennebula.io/) virtualization manager, [Prometheus](https://prometheus.io/) monitoring)
+  #     - 2014, 2015: Site Reliability Engineering intern at Google Switzerland (summer 2014 Payments SRE, summer 2015 Borg SRE)
+  #     - 2014–2017: |
+  #         - contributed to the [Student Development Team](https://github.com/fmfi-svt) at my university -- full-stack web development; ops
+  #         - designed and developed the backend of an in-house solution for an RFID-based access control system -- [Project Deadlock](https://github.com/fmfi-svt-deadlock)
+  #         - server administrator for [Trojsten](https://trojsten.sk/) – Linux and FreeBSD servers with diverse uses
+  #     - 2012–2013: software engineer at [MicroStep - MIS](http://www.microstep-mis.sk/) -- meteorological data visualisation
+  #     - 2009–2012: web developer (front-end) at [Lighting Beetle](https://www.lbstudio.sk/)
+
+  experience:
+    title: Work Experience
+    items:
+      # - date: 12/2025 -- Now
+      #   organization: OSAS Joint Stock Company (Employed via AI MED Technology Training and Services Co., Ltd.)
+      #   job_title: AI Engineer
+      #   description: |
+      #     - Served as the primary AI Engineer responsible for the AI development of an intelligent chatbot product.
+      #     - Designed and implemented core chatbot functionalities including RAG (Retrieval-Augmented Generation), ASR (Automatic Speech Recognition), and TTS (Text-to-Speech).
+      #     - Optimized local LLM models to ensure high performance, data privacy, and cost efficiency.
+      #     - Developed a specialized hospital chatbot capable of handling diverse medical documents, enabling natural conversations with accurate source citations including exact page references.
+      #     - Built multi-level conversational features for financial reports and complex documents, along with automated information extraction into dashboard views.
+      #     - Conducted R&D on the multimodal module for a future product, integrating image analysis capabilities to detect common dermatological conditions from user-uploaded skin images and provide preliminary diagnosis along with basic care guidance.
+      
+      - date: 12/2025 -- Now
+        organization: OSAS Joint Stock Company (via AI MED Technology Co., Ltd.)
+        job_title: AI Engineer
+        description: |
+          Primary AI Engineer responsible for developing core AI features of an intelligent chatbot product. Led the design and implementation of ASR, TTS, RAG systems, and local LLM optimization. Built hospital chatbot with multi-document retrieval and precise page citations, multi-level financial report chatting with dashboard generation. Conducted R&D on multimodal capabilities for future product, enabling skin disease detection from images and preliminary medical guidance.
+      
+      - date: 04/2025 -- 05/2025
+        organization: Karuna Veggie Restaurant
+        job_title: AI-Driven Marketing Supporter
+        description: Used AI to design targeted veggie diet campaigns, digital banners, content, and analytics-optimized slides. Drove AI-powered marketing to increase brand visibility, customer engagement, and promote plant-based lifestyles across digital channels.
+        # achievements:
+        #   - Contributed to team projects with consistent performance.
+      - date: 01/2021 -- 12/2021
+        organization: Dr. Nhung Dental Clinic
+        job_title: Web Developer
+        description: Created a PHP-MySQL internal management portal for Health Dental clinic, streamlining patient records and revenue tracking. Built responsive UI with secure database optimization and jQuery-powered image gallery for enhanced usability and operational efficiency.
+        # location: Not specified
+        # achievements:
+        #   - Contributed to team projects with consistent performance.
+        
+      
+  # education:
+  #   title: Education
+  #   items:
+  #     - 2016–2019: |
+  #         ETH Zurich, Switzerland: MSc Computer Science, focus Information Security  
+  #         Thesis: [FPGA-based line-rate packet forwarding for the SCION future Internet architecture](https://github.com/danhtran2mind/scion-p4netfpga/blob/master/doc/thesis/thesis.pdf) – hardware/software co-design, work across the whole network stack, software-defined networking; achieved 40Gbps throughput
+  #     - 2013–2016: |
+  #         Faculty of Mathematics, Physics and Informatics, Comenius University, Slovakia: BSc Computer Science  
+  #         Notable project: learned more about how operating systems work by making one from scratch - [chaOS](https://github.com/danhtran2mind/chaOS)
+
+  
+  education:
+    title: Education
+    items:
+      - date: 2022 -- 2024
+        university: Ho Chi Minh City University of Technology -- Vietnam National University Ho Chi Minh City
+        degree: Master of Engineering in Computer Science
+        gpa: 8.08/10
+        # description: Studied foundational and advanced topics in computer science.
+        thesis: Classification of blood pressure for patients treated at home
+        # achievements:
+        #   - Completed coursework in algorithms, data structures, and software engineering.
+      - date: 2014 -- 2020
+        university: University of Health Sciences -- Vietnam National University Ho Chi Minh City 
+        degree: General Medicine in Doctor of Medicine
+        # gpa:
+        # description: Studied foundational and advanced topics in computer science.
+        # thesis: Nothing is True, Everything is Permited
+        # achievements:
+        #   - Completed coursework in algorithms, data structures, and software engineering.
+          
+  certificates:
+    title: Certificates
+    items:
+      - name: Deep Learning in Python
+        date: Nov 29, 2024
+        provider_issuer: DataCamp
+        url: https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1
+        description: "Explore deep learning using PyTorch: predict water safety, energy use, classify clouds and text, master images and Transformers in Python."
+
+      - name: Python Developer
+        date: Sep 14, 2025
+        provider_issuer: DataCamp
+        url: https://www.datacamp.com/statement-of-accomplishment/track/aeb14daa0ffcaf568d9c83a187d83fbe9c2d6314?raw=1
+        description: "Advanced Python Developer Track: Master testing, Git, web scraping, OOP, data structures, and algorithms for professional excellence."
+
+      - name: Machine Learning Engineer
+        date: Nov 24, 2024
+        provider_issuer: DataCamp
+        url: https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1
+        description: "Comprehensive MLOps track: master model deployment, monitoring, CI/CD; hands-on projects; prepare for junior ML engineer roles."
+
+      - name: Python Essentials 2
+        date: Sep 29, 2024
+        provider_issuer: NetAcad
+        url: https://www.credly.com/badges/d589eb5b-d2f5-4c77-9c2e-67c9921896e1
+        description: "Advanced Python course builds on basics, teaching OOP and portfolio development for high-paying software careers."
+
+      - name: OpenCV Bootcamp
+        date: Sep 29, 2024
+        provider_issuer: OpenCV
+        url: https://courses.opencv.org/certificates/7e56e37fe25a44709b0d39dee24764ef
+        description: "OpenCV course teaches image/video manipulation, object/face detection, and Computer Vision essentials."
+
+      - name: Machine Learning with Python
+        date: Sep 30, 2024
+        provider_issuer: freeCodeCamp
+        url: https://www.freecodecamp.org/certification/danhtran2mind/machine-learning-with-python-v7
+        description: "Build neural networks with TensorFlow; master NLP, reinforcement learning, and deep, recurrent, convolutional architectures in Python."
+
+
+  # skills:
+  #   title: Technical Skills
+  #   text: |
+  #       - Python: 8.5/10
+  #       - TensorFlow, PyTorch, OpenCV: 8/10
+  #       - Kafka: 7/10
+  #       - JavaScript, HTML, CSS: 7/10
+  #       - C++, PHP: 6/10
+
+  # Programming Languages: Python, R, Java, C++
+  # Machine Learning Frameworks: TensorFlow, PyTorch, Scikit-learn, Keras
+  # Deep Learning: CNNs, RNNs, GANs, Transformers, Reinforcement Learning
+  # Data Processing & Analysis: Pandas, NumPy, SQL, Spark
+  # Cloud Platforms: AWS (SageMaker, Lambda), Google Cloud (AI Platform), Azure
+  # Tools & Technologies: Docker, Kubernetes, Git, CI/CD, REST APIs
+  # Domains: Natural Language Processing (NLP), Computer Vision, Time-Series Analysis, Predictive Modeling
+  # Soft Skills: Problem-solving, Team Collaboration, Technical Communication, Agile Methodologies
+  
+  # skills:
+  #   title: Technical Skills
+  #   items:
+  #     - skill: Python
+  #       score: 8.5/10
+  #     - skill: TensorFlow, PyTorch, OpenCV
+  #       score: 8/10
+  #     - skill: Git
+  #       score: 7/10
+  #     - skill: SQL, NoSQL
+  #       score: 7/10
+  #     - skill: Kafka, Spark
+  #       score: 7/10
+  #     - skill: Kafka, Spark
+  #       score: 7/10
+  #     - skill: JavaScript, HTML, CSS
+  #       score: 7/10
+  #     - skill: C++, PHP
+  #       score: 6/10
+      # - skill: Docker
+      #   score: 6/10
+
+  projects:
+    title: AI & Programming Projects
+    items:
+      - name: BTCUSDT ML ETL Pipeline
+        date: 2025
+        url: https://github.com/danhtran2mind/BTCUSDT-ML-ETL-Pipeline
+        description: "Scalable BTC-USDT ML ETL Pipeline using Airflow, MinIO, Spark, DuckDB for data processing and LSTM price forecasting."
+      - name: Anime Super Resolution
+        date: 2025
+        url: https://github.com/danhtran2mind/Anime-Super-Resolution
+        description: "Anime Super Resolution enhances anime-style images using fine-tuned Real-ESRGAN model optimized for clarity, detail."
+      - name: "SlimFace: Efficient Face Recognition"
+        date: 2025
+        url: https://github.com/danhtran2mind/SlimFace
+        description: "SlimFace: Efficient transfer learning framework for high-accuracy face recognition on edge devices with custom datasets."
+      - name: Grayscale2Color Landscape from scratch
+        date: 2025
+        url: https://github.com/danhtran2mind/gray2color-landscape-from-scratch
+        description: "From-scratch DL models (AutoEncoder, U-Net, Transformer) colorize grayscale landscapes in Lab*. Vibrant, minimalist."
+      - name: Text to Video Ghibli Style
+        date: 2025
+        url: https://github.com/danhtran2mind/Text2Video-Ghibli-style
+        description: "Transform text into enchanting Studio Ghibli-style videos with fine-tuned zeroscope_v2_576w on optimized MotionDirector."
+      - name: Vietnamese Health Chat LoRA
+        date: 2025
+        url: https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA
+        description: "LoRA fine-tunes models for Vietnamese Health Chat AI, enabling precise, contextual healthcare responses."
+      - name: Vietnamese Nutrition GPT-2 finetune
+        date: 2025
+        url: https://github.com/danhtran2mind/vi-nutrition-gpt2-finetune
+        description: "Fine-tuned GPT-2 on Hanoi Medical textbook for accurate Vietnamese nutrition guidance in rehabilitation."
+      - name: Vietnamese F5-TTS
+        date: 2025
+        url: https://github.com/danhtran2mind/Vi-F5-TTS
+        description: "F5-TTS-based Vi-F5-TTS uses vin100h-preprocessed-v2 to create natural Vietnamese TTS for assistants, audiobooks."
+      - name: Vietnamese Whisper Tiny finetuning
+        date: 2025
+        url: https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning
+        description: "Vi-Whisper-Tiny-finetuning: Lightweight, real-time Vietnamese ASR with local Gradio/Python deployment."
+      # - name: Viet Glow-TTS finetuning
+      #   date: 2025
+      #   url: https://github.com/danhtran2mind/Viet-Glow-TTS-finetuning
+      #   description: "Converts text to Vietnamese speech using GlowTTS."
+
+        
+  free_time:
+    title: Free Time Activities
+    text: |
+        - giving talks on a multitude of science & tech topics
+        - organizing competitions and educational activities for students
+        - flying small aircraft
+        - music, art & design, archery, hiking, puzzle hunts (e.g. [TMOU](https://en.wikipedia.org/wiki/TMOU))
+        - physics, astronomy, mathematics
+
+  additional_info:
+    title: More Information
+    items:
+      - name: All Projects
+        url: https://danhtran2mind.github.io/projects
+      - name: All Certificates
+        url: https://danhtran2mind.github.io/certificates
+      - name: Full CV
+        url: https://danhtran2mind.github.io/cv
+      # - name: Blog
+      #   url: https://github.com/google
+
+  # language_certifications:
+  #   title: English Language Certifications
+  #   items:
+  #     - name: "TOEIC Listening & Reading"
+  #       date: xxx xxx, xxx
+  #       provider_issuer: IIG Vietnam
+  #       url: https://iigvietnam.com
+  #       description: "Score: xxx"
+  #     - name: "TOEIC Speaking & Writing"
+  #       date: xxx xxx, xxx
+  #       provider_issuer: IIG Vietnam
+  #       url: https://iigvietnam.com
+  #       description: "Overall Band Score: xxx"
+
+  skills:
+    title: Technical Skills
+    items:
+      - group_name: Programming Languages
+        group_name_elements:
+        - element: Python
+          proficiency: 4.5/5
+        - element: JavaScript
+          proficiency: 3.5/5
+        - element: PHP
+          proficiency: 3/5
+        - element: C++
+          proficiency: 3/5
+
+      - group_name: AI Libraries & Frameworks
+        group_name_elements:
+        - element: TensorFlow
+          proficiency: 4/5
+        - element: PyTorch
+          proficiency: 4/5
+        - element: Keras
+          proficiency: 4/5
+        - element: Scikit-learn
+          proficiency: 4/5
+        - element: ONNX
+          proficiency: 3/5
+
+      - group_name: Data Management & Processing
+        group_name_elements:
+        - element: SQL
+          proficiency: 4.5/5
+        - element: NoSQL
+          proficiency: 3.5/5
+        - element: Spark
+          proficiency: 3/5
+        - element: Kafka
+          proficiency: 3/5
+        - element: Jupyter
+          proficiency: 3/5
+      
+      - group_name: System & DevOps Tools
+        group_name_elements:
+        - element: Git
+          proficiency: 4.5/5
+        - element: Linux
+          proficiency: 3.5/5
+        - element: Docker
+          proficiency: 3/5
+
+      - group_name: Python Libraries
+        group_name_elements:
+        - element: OpenCV
+          proficiency: 3/5
+        - element: NumPy
+          proficiency: 3/5
+        - element: Pandas
+          proficiency: 3/5
+        - element: Matplotlib
+          proficiency: 3/5
+        - element: Gradio
+          proficiency: 4.5/5
+        - element: Streamlit
+          proficiency: 4.5/5
+
+      - group_name: Others
+        group_name_elements:
+        - element: HTML
+          proficiency: 4.5/5
+        - element: CSS
+          proficiency: 4.5/5
+        - element: LangChain
+          proficiency: 4.5/5
+        - element: Selenium
+          proficiency: 4.5/5
+        - element: Flask
+          proficiency: 3/5
+
+        
+# Programming Languages
+# Python, JavaScript, PHP, C++, Java, R, Scala
+
+# Deep Learning Frameworks
+# TensorFlow, PyTorch, Keras, JAX
+
+# Machine Learning Libraries
+# Scikit-learn, MLflow
+
+# Natural Language Processing (NLP)
+# Hugging Face Transformers, LangChain
+
+# Computer Vision
+# OpenCV
+
+# Data Processing Libraries
+# NumPy, Pandas
+
+# Data Management and Processing
+# SQL, NoSQL, Spark, Kafka, Jupyter, Hadoop, Airflow, Dask
+
+# Development Tools and Environments
+# Git, Linux, Docker, Kubernetes, VS Code, PyCharm
+
+# Cloud Computing and Deployment
+# AWS (SageMaker), Google Cloud AI, Azure ML, FastAPI, Flask, TensorRT, Gradio, Streamlit
+
+# Mathematics and Statistics
+# Linear Algebra, Calculus, Probability, Statistics (using SymPy, SciPy)
+
+# Others
+# HTML, CSS, Selenium, REST APIs, Agile Methodologies

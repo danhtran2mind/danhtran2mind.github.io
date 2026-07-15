@@ -1,0 +1,98 @@
+---
+layout: default
+---
+{% include resume_css.liquid %}
+<script src="/assets/js/theme_toggle.js" defer></script>
+<style type="text/css">
+  h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 550;
+  }
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.4rem;
+    font-weight: 450;
+  }
+  h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  p {
+    font-size: 1rem;
+  }
+  blockquote {
+    font-size: 1rem !important;
+  }
+
+  /* Image Table */
+
+  .table-hover {
+    max-width: 60rem !important;
+    width: 53rem;
+    /* table-layout: fixed;  */
+    margin: 0 auto;
+}
+
+  .table-hover td {
+      padding: 0rem !important;
+      overflow: hidden;
+      border-width: 1px;
+      border-style: solid;
+      text-align: center;
+  }
+
+  .table-hover th {
+      text-align: center;
+      border-width: 1px;
+      border-style: solid;
+  }
+
+  .table-hover img {
+      /* width: 100%; */
+      width: auto !important;
+      max-width: 20rem !important;
+      height: auto !important;
+  }
+
+  {% if page._styles %}
+    {{ page._styles }}
+  {% endif %}
+</style>
+
+<script>
+// JavaScript to generate TOC dynamically based on headings
+document.addEventListener('DOMContentLoaded', function() {
+  const tocSidebar = document.getElementById('toc-sidebar');
+  const contentArea = document.querySelector('.post article');
+  if (!tocSidebar || !contentArea) return;
+
+  const headings = contentArea.querySelectorAll('h1, h2, h3, h4, h5');
+  if (headings.length === 0) return;
+  // Create TOC container
+  const tocList = document.createElement('ul');
+  tocList.className = 'nav flex-column';
+
+  headings.forEach((heading) => {
+    // Generate anchor ID from heading text
+    const anchorId = heading.textContent
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9-]/g, '');
+    heading.id = anchorId;
+
+
+  });
+
+});
+</script>
+
+<article>
+    {{ content }}
+</article>

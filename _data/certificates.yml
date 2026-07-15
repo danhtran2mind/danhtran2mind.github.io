@@ -1,0 +1,575 @@
+# ========================================================================== #
+#                           DataCamp Certificates                            #
+# ========================================================================== #
+- name: Deep Learning in Python
+  date: Nov 29, 2024
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1'
+  provider_issuer: DataCamp
+  description: "Explore deep learning with PyTorch, build models for real-world problems, and master advanced architectures like Transformers."
+  short_description: "Learn deep learning, build models with PyTorch."
+  # tags: [Python, Programming, Data Science]
+  file: 'assets/images/certificates/datacamp/Deep Learning in Python.jpg'
+
+- name: Associate AI Engineer for Developers
+  date: Nov 19, 2024
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/9be5c32bd0d1bc752cf39f631c4f35bd824e1f79?raw=1'
+  provider_issuer: DataCamp
+  description: "Learn AI engineering, master APIs, LLMs, and build production-ready AI systems."
+  short_description: "Master AI engineering, build impactful applications."
+  # tags: [Machine Learning, AI, Data Science]
+  file: 'assets/images/certificates/datacamp/Associate AI Engineer for Developers.jpg'
+
+- name: Associate AI Engineer for Data Scientists
+  date: Nov 22, 2024
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/bfd759655c5217bb1c6ef410e8952f3460894b0e?raw=1'
+  provider_issuer: DataCamp
+  description: "Become an AI Engineer: Master AI development, deployment, and MLOps with hands-on Python, LLMs, and LangChain experience."
+  short_description: "AI Engineer: Build, deploy AI solutions."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Associate AI Engineer for Data Scientists.jpg'
+
+- name: Machine Learning Engineer
+  date: Nov 24, 2024
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1'
+  provider_issuer: DataCamp
+  description: "Become a machine learning engineer with MLOps, model deployment, and real-world projects."
+  short_description: "Master MLOps, deploy models, gain expertise."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Machine Learning Engineer.jpg'
+
+- name: Keras Fundamentals
+  date: Nov 25, 2024
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/d1152665979387f0abffc6b138f9df14f2ed7000?raw=1'
+  provider_issuer: DataCamp
+  description: "Learn Keras, neural networks, and deep learning to solve real-world challenges like predicting housing prices."
+  short_description: "Master Keras, neural networks, deep learning."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Keras Fundamentals.jpg'
+
+- name: Machine Learning Fundamentals in Python
+  date: Nov 28, 2024
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/83554b9fdffc9aef27dd906aafba730673c4ee20?raw=1'
+  provider_issuer: DataCamp
+  description: "Master machine learning with Python using scikit-learn, PyTorch, and Gymnasium for supervised, unsupervised, deep, and reinforcement learning."
+  short_description: "Learn machine learning with Python comprehensively."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Machine Learning Fundamentals in Python.jpg'
+
+- name: Developing Large Language Models
+  date: Nov 29, 2024
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/7535c53246f1013fe3c625462939a18fcb342e65?raw=1'
+  provider_issuer: DataCamp  
+  description: "Learn to build LLMs with PyTorch, transformers, and Hugging Face, from inception to real-world deployment."
+  short_description: "Build LLMs with PyTorch and transformers."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Developing Large Language Models.jpg'
+
+- name: OpenAI Fundamentals
+  date: Nov 22, 2024
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/55a6617dab4407e4807d6c5438fa6ef28378a726?raw=1'
+  provider_issuer: DataCamp
+  description: "Learn to use the OpenAI API in Python for chatbots, semantic search, recommendations, advanced prompting, and embeddings."
+  short_description: "Build AI apps with OpenAI API."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/OpenAI Fundamentals.jpg'
+
+- name: Machine Learning in Production in Python
+  date: Nov 24, 2024
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/3dbb239ab99db948c01f2f3972fb2d2b783a5bc4?raw=1'
+  provider_issuer: DataCamp
+  description: "Learn MLOps fundamentals, deploy and monitor Python models with MLflow and DVC in a hands‑on production‑ready track."
+  short_description: "Deploy, monitor Python ML models with MLOps."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Machine Learning in Production in Python.jpg'
+
+- name: Natural Language Processing in Python
+  date: Nov 29, 2024
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/cbbebe7949a9faa86b32e2789f7354133fe52fd9?raw=1'
+  provider_issuer: DataCamp  
+  description: "Learn Python NLP to process unstructured data, using NLTK, spaCy, scikit‑learn, and SpeechRecognition for transcription and sentiment analysis."
+  short_description: "Python NLP: audio transcription and sentiment analysis."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Natural Language Processing in Python.jpg'
+
+- name: Big Data with PySpark
+  date: Dec 04, 2024
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/76b5579dea577af5bc04c7065d04a8fa8df719f2?raw=1'
+  provider_issuer: DataCamp  
+  description: "Learn NLP: transcribe audio, analyze sentiment, and extract insights from Wikipedia, reviews, and flight data using NLTK, scikit‑learn, spaCy, SpeechRecognition."
+  short_description: "Python NLP: transcribe audio, analyze sentiment."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Big Data with PySpark.jpg'
+
+- name: Reinforcement Learning in Python
+  date: Aug 29, 2025
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/700f81ea70aa729582132592ace66c82914cfc26?raw=1'
+  provider_issuer: DataCamp
+  description: "Learn RL fundamentals, apply Q‑learning, SARSA, deep RL, and RLHF using Python and Gymnasium for games, robotics, and trading."
+  short_description: "Master RL basics to advanced human‑feedback models."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Reinforcement Learning in Python.jpg'
+
+- name: Llama Fundamentals
+  date: Aug 29, 2025
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/3b38d13f1c8bb52ca82eaae4433451c483a1116e?raw=1'
+  provider_issuer: DataCamp
+  description: "Learn to run, fine‑tune, and deploy Llama 3 for inference, summarization, and generation on consumer hardware."
+  short_description: "Implement Llama 3 for inference and fine‑tuning."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Llama Fundamentals.jpg'
+
+- name: Python Programming
+  date: Sep 10, 2025
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/e62fdaae835f1c6ceca5221686eddcc89d0443fc?raw=1'
+  provider_issuer: DataCamp
+  description: "Advanced Python: context managers, decorators, testing, OOP, and best‑practice modular development."
+  short_description: "Advanced Python: testing, OOP, best practices."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Python Programming.jpg'
+
+- name: Developing Applications with LangChain
+  date: Sep 10, 2025
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/e62fdaae835f1c6ceca5221686eddcc89d0443fc?raw=1'
+  provider_issuer: DataCamp
+  description: "Learn LangChain to build LLM apps: chatbots, RAG, and autonomous agents using Hugging Face and OpenAI."
+  short_description: "LLM apps with LangChain: chatbots, RAG, agents."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Developing Applications with LangChain.jpg'
+
+- name: Machine Learning Scientist in Python
+  date: Sep 11, 2025
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/d045dc25b5435e35d450bed77603af273beb7882?raw=1'
+  provider_issuer: DataCamp
+  description: "Comprehensive Python track teaches ML fundamentals, advanced techniques, real projects, preparing you for machine‑learning scientist roles."
+  short_description: "Python machine learning track for job‑ready scientists."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Machine Learning Scientist in Python.jpg'
+
+- name: Associate Python Developer
+  date: Sep 13, 2025
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/4ec91fb990b6a0a23e5e36a77211ab76f983c631?raw=1'
+  provider_issuer: DataCamp
+  description: "Comprehensive beginner track teaches Python fundamentals, advanced concepts, and real‑world projects to launch a software development career."
+  short_description: "Learn Python, build projects, start dev career."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Associate Python Developer.jpg'
+
+- name: Python Developer
+  date: Sep 14, 2025
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/aeb14daa0ffcaf568d9c83a187d83fbe9c2d6314?raw=1'
+  provider_issuer: DataCamp
+  description: "Advanced Python track: testing, optimization, packaging, Git, web scraping, OOP, data structures, algorithms for professional development."
+  short_description: "Professional Python development: testing, Git, scraping, OOP."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Python Developer.jpg'
+
+- name: Python Programming Fundamentals
+  date: Sep 15, 2025
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/68a44c9ffec2dd287e2e12c0e1a17550280eb571?raw=1'
+  provider_issuer: DataCamp
+  description: "Learn Python basics, work with data types, built‑ins, modules, then build a user‑registration project."
+  short_description: "Python fundamentals to create a registration app."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Python Programming Fundamentals.jpg'
+
+- name: Python Programming Toolbox
+  date: Sep 15, 2025
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/0893a8f7d5b5ec8402ef8787dd8aae6f3cb68fe3?raw=1'
+  provider_issuer: DataCamp
+  description: "Learn Python basics: dates, times, time zones, string manipulation, regex, and classic algorithms with complexity analysis."
+  short_description: "Python dates, regex, and algorithms basics."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Python Programming Toolbox.jpg'
+
+- name: Git Fundamentals
+  date: Sep 15, 2025
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/c669f4ef3f466b5a578493b11a9e4ae5393bd1ca?raw=1'
+  provider_issuer: DataCamp
+  description: "Comprehensive Git course covering basics, branching, merging, rebasing, LFS, bisect, submodules, and collaborative workflows."
+  short_description: "Master Git basics to advanced workflows."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Git Fundamentals.jpg'
+
+- name: Building APIs in Python
+  date: Sep 15, 2025
+  certificate_url: 'https://www.datacamp.com/statement-of-accomplishment/track/8746c526e80689df81cfe2f20f9c9e731596f7ab?raw=1'
+  provider_issuer: DataCamp
+  description: "Learn Python fundamentals, consume APIs, then build fast, async FastAPI services, culminating in a real‑time exchange‑rate API."
+  short_description: "Build fast, async Python APIs with FastAPI."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/datacamp/Building APIs in Python.jpg'
+
+# ========================================================================== #
+#                         NetAcad Certificates                          #
+# ========================================================================== #
+- name: Data Analytics Essentials
+  date: Oct 30, 2024
+  certificate_url: 'https://www.credly.com/badges/7fed13a3-a269-4a20-a177-57194ac41ad3'
+  provider_issuer: NetAcad
+  description: "Learn Excel, SQL, Tableau for data analysis; build a portfolio with a popular‑movies dataset, created with OpenEDG Python Institute."
+  short_description: "Excel, SQL, Tableau data analytics course."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/netcad-cisco/Data Analytics Essentials.jpg'
+
+- name: Python Essentials 1
+  date: Sep 26, 2024
+  certificate_url: 'https://www.credly.com/badges/1c9274cf-d6b4-4f57-9647-60eeb5525415'
+  provider_issuer: NetAcad
+  description: "Learn Python fundamentals, build projects, and prepare for PCEP certification for diverse tech careers."
+  short_description: "Python fundamentals, PCEP prep, tech careers."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/netcad-cisco/Python Essentials 1.jpg'
+
+- name: Python Essentials 2
+  date: Sep 29, 2024
+  certificate_url: 'https://www.credly.com/badges/d589eb5b-d2f5-4c77-9c2e-67c9921896e1'
+  provider_issuer: NetAcad
+  description: "Advanced Python course covering OOP, portfolio projects, and PCAP certification prep, for learners with basics."
+  short_description: "Advanced Python OOP and PCAP prep."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/netcad-cisco/Python Essentials 2.jpg'
+
+- name: JavaScript Essentials 1
+  date: Oct 16, 2024
+  certificate_url: 'https://www.credly.com/badges/e740f914-00b7-4ecf-bbd9-ae31aedc09f3'
+  provider_issuer: NetAcad
+  description: "Learn JavaScript front‑end development, earn JSE entry‑level certification, no experience needed, boost career in web, mobile, gaming."
+  short_description: "JavaScript basics, certification, career boost."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/netcad-cisco/JavaScript Essentials 1.jpg'
+
+# ========================================================================== #
+#                           Anthropic Certificates                           #
+# ========================================================================== #
+- name: Introduction to Model Context Protocol
+  date: Sep 19, 2025
+  certificate_url: 'https://verify.skilljar.com/c/ydfdh6p4t453'
+  provider_issuer: Anthropic
+  description: "Learn MCP to connect Claude with services: build servers/clients, expose tools, resources, prompts, and create a document‑management system."
+  short_description: "Master MCP integration for Claude services."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/anthropic/Introduction to Model Context Protocol.jpg'
+
+- name: 'Model Context Protocol: Advanced Topics'
+  date: Sep 19, 2025
+  certificate_url: 'https://verify.skilljar.com/c/ydfdh6p4t453'
+  provider_issuer: Anthropic
+  description: "Learn MCP to connect Claude with services: build servers/clients, expose tools, resources, prompts, and create a document‑management system."
+  short_description: "Master MCP integration for Claude services."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/anthropic/Model Context Protocol - Advanced Topics.jpg'
+
+# ========================================================================== #
+#                            OpenCV Certificates                             #
+# ========================================================================== #
+- name: 'FREE TensorFlow Keras Bootcamp'
+  date: Mar 4, 2025
+  certificate_url: 'https://courses.opencv.org/certificates/8036870dc30e40309db2321117120def'
+  provider_issuer: OpenCV
+  description: "Learn NN, MLP, CNN for image classification/segmentation and train a custom CNN on your dataset."
+  short_description: "Learn CNNs, train custom image model."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/opencv/FREE TensorFlow Keras Bootcamp.jpg'
+
+- name: 'OpenCV Bootcamp'
+  date: Sep 29, 2024
+  certificate_url: 'https://courses.opencv.org/certificates/7e56e37fe25a44709b0d39dee24764ef'
+  provider_issuer: OpenCV
+  description: "Free OpenCV course teaches image/video manipulation, object and face detection for AI and deep learning."
+  short_description: "Master OpenCV: image, video, object detection."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/opencv/OpenCV Bootcamp.jpg'
+
+- name: 'Python for Beginners'
+  date: Sep 29, 2024
+  certificate_url: 'https://courses.opencv.org/certificates/722b6f87c7f2480da0d390d1f57121e5'
+  provider_issuer: OpenCV
+  description: "Learn essential Python to launch a career in computer vision, deep learning, and AI."
+  short_description: "Python fundamentals for AI careers."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/opencv/Python for Beginners.jpg'
+
+- name: 'Vision Language Model Bootcamp'
+  date: Sep 17, 2025
+  certificate_url: 'https://courses.opencv.org/certificates/722b6f87c7f2480da0d390d1f57121e5'
+  provider_issuer: OpenCV
+  description: "Free VLM course teaches CLIP embeddings for zero‑shot classification, then Qwen2.5‑VL for image captioning and object detection hands-on."
+  short_description: "Free VLM course: CLIP & Qwen2.5‑VL."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/opencv/Vision Language Model Bootcamp.jpg'
+
+- name: 'PyTorch Bootcamp'
+  date: Sep 17, 2025
+  certificate_url: 'https://courses.opencv.org/certificates/a01b381eaae9471bafef979ad7197a2e'
+  provider_issuer: OpenCV
+  description: "Free PyTorch bootcamp teaching deep‑learning fundamentals, hands‑on tensors, neural networks, optimization, plus object detection and segmentation."
+  short_description: "Free PyTorch bootcamp: tensors to segmentation."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/opencv/PyTorch Bootcamp.jpg'
+
+# ========================================================================== #
+#                         freeCodeCamp Certificates                          #
+# ========================================================================== #
+- name: 'Machine Learning with Python'
+  date: Sep 30, 2024
+  certificate_url: 'https://www.freecodecamp.org/certification/danhtran2mind/machine-learning-with-python-v7'
+  provider_issuer: freeCodeCamp
+  description: "Learn TensorFlow to build neural networks, covering NLP, reinforcement learning, and deep, recurrent, convolutional architectures."
+  short_description: "TensorFlow: neural nets, NLP, reinforcement learning."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/freecodecamp/Machine Learning with Python.jpg'
+
+# ========================================================================== #
+#                       AWS Skill Builder Certificates                       #
+# ========================================================================== #
+- name: 'Fundamentals of Analytics on AWS - Part 1'
+  date: Oct 01, 2024
+  certificate_url: 'blob:https://skillbuilder.aws/97bdd08d-0dda-442f-8494-f8cb6911d1d8'
+  provider_issuer: AWS Skill Builder
+  description: "Intro to analytics fundamentals, covering types, 5 V's, challenges, and AWS service mapping; 2‑hour, fundamental level."
+  short_description: "Analytics basics, 5 V's, AWS mapping."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/skillbuilder-aws/Fundamentals of Analytics on AWS_Part 1.jpg'
+
+- name: 'Building Language Models on AWS'
+  date: Oct 01, 2024
+  certificate_url: 'blob:https://skillbuilder.aws/4c1b933a-3a57-45a5-8ffe-ad8c02552c05'
+  provider_issuer: AWS Skill Builder
+  description: "SageMaker course covers LLM data ingestion, distributed training, alignment, and optimized deployment."
+  short_description: "SageMaker LLM training and deployment."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/skillbuilder-aws/Building Language Models on AWS.jpg'
+
+# ========================================================================== #
+#                        Cognitive Class Certificates                        #
+# ========================================================================== #
+- name: 'Spark Fundamentals II'
+  date: Oct 07, 2024
+  certificate_url: 'https://courses.cognitiveclass.ai/certificates/4ff85ac4e4414a69b6741e87c3ba562c'
+  provider_issuer: Cognitive Class
+  description: "Advanced Spark RDD course covering architecture, caching, and advanced API operations."
+  short_description: "Advanced Spark RDD course."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/cognitiveclass/Spark Fundamentals II.jpg'
+
+- name: 'Deep Learning with TensorFlow'
+  date: Oct 04, 2024
+  certificate_url: 'https://courses.cognitiveclass.ai/certificates/a6f8f3d1579d42dcbce416007e6313d8'
+  provider_issuer: Cognitive Class
+  description: "Deep TensorFlow course teaches neural nets, backpropagation, and architectures for images, sound, and text."
+  short_description: "TensorFlow deep learning basics."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/cognitiveclass/Deep Learning with TensorFlow.jpg'
+
+- name: 'Machine Learning with Apache SystemML'
+  date: Oct 03, 2024
+  certificate_url: 'https://courses.cognitiveclass.ai/certificates/5e6790f5b8b844b693a2dfc8dfecee7b'
+  provider_issuer: Cognitive Class
+  description: "SystemML lets you write R/Python-style ML code that auto-optimizes and scales from single-node to Hadoop/Spark clusters."
+  short_description: "Auto-scaling ML with R/Python-style syntax."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/cognitiveclass/Machine Learning with Apache SystemML.jpg'
+
+- name: 'Simplifying data pipelines with Apache Kafka'
+  date: Oct 03, 2024
+  certificate_url: 'https://courses.cognitiveclass.ai/certificates/92e6840bb6ed4d518ffa737ec8efc162'
+  provider_issuer: Cognitive Class
+  description: "Apache Kafka fundamentals, architecture, and real‑world use cases, plus hands‑on production/consumption, Spark integration, and Kafka Connect."
+  short_description: "Kafka basics and hands‑on labs."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/cognitiveclass/Simplifying data pipelines with Apache Kafka.jpg'
+
+- name: 'Deep Learning Fundamentals'
+  date: Oct 04, 2024
+  certificate_url: 'https://courses.cognitiveclass.ai/certificates/c1ce87dee63645ed83b4972a6c12e847'
+  provider_issuer: Cognitive Class
+  description: "A free crash‑course covering deep learning basics, CNNs, their power, and applications to jump‑start a data‑science career."
+  short_description: "Free intro to deep learning and CNNs."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/cognitiveclass/Deep Learning Fundamentals.jpg'
+
+# ========================================================================== #
+#                        Microsoft Learn Certificates                        #
+# ========================================================================== #
+- name: 'Create machine learning models'
+  date: Sep 20, 2024
+  certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/9XHVWYEU'
+  provider_issuer: Microsoft Learn
+  description: "Microsoft Learn offers browser‑based, interactive Jupyter notebooks covering basic ML models, EDA, and custom architectures as a foundation for deep learning."
+  short_description: "Interactive ML basics to deep‑learning prep."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/microsoft-learn/Create machine learning models.jpg'
+
+- name: 'Develop your own custom copilots with Azure AI Studio'
+  date: Sep 20, 2024
+  certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/DCSNSEFJ'
+  provider_issuer: Microsoft Learn
+  description: "Generative AI apps on Azure AI Foundry require AI basics, Azure services knowledge, and programming skills."
+  short_description: "Build Azure generative AI apps."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/microsoft-learn/Develop your own custom copilots with Azure AI Studio.jpg'
+
+- name: 'Microsoft Azure AI Fundamentals: Document Intelligence and Knowledge Mining'
+  date: Sep 20, 2024
+  certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/DCSWPP2J'
+  provider_issuer: Microsoft Learn
+  description: "AI fundamentals and Azure AI services; requires Azure portal familiarity."
+  short_description: "AI basics, Azure AI; Azure portal needed."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_Document Intelligence and Knowledge Mining.jpg'
+
+- name: 'Copilot Foundations'
+  date: Sep 20, 2024
+  certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/VDEGACJM'
+  provider_issuer: Microsoft Learn
+  description: "Overview of adopting, using, and building AI copilots on Azure."
+  short_description: "AI copilots on Azure."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/microsoft-learn/Copilot Foundations.jpg'
+
+- name: 'Microsoft Azure AI Fundamentals: Natural Language Processing'
+  date: Sep 20, 2024
+  certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/HANQ6568'
+  provider_issuer: Microsoft Learn
+  description: "Core AI concepts and Azure AI services overview."
+  short_description: "Azure AI basics."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_Natural Language Processing.jpg'
+
+- name: 'Microsoft Azure AI Fundamentals: Generative AI'
+  date: Sep 20, 2024
+  certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/QT4CACVE'
+  provider_issuer: Microsoft Learn
+  description: "Intro to AI fundamentals and Azure AI services; requires Azure portal familiarity."
+  short_description: "AI basics with Azure services."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_Generative AI.jpg'
+
+- name: 'Microsoft Azure AI Fundamentals: Computer Vision'
+  date: Sep 20, 2024
+  certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/4LD3ZCUK'
+  provider_issuer: Microsoft Learn
+  description: "Core AI concepts and Azure AI services overview."
+  short_description: "Azure AI basics."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_Computer Vision.jpg'
+
+- name: 'Microsoft Azure AI Fundamentals: AI Overview'
+  date: Sep 20, 2024
+  certificate_url: 'https://learn.microsoft.com/api/achievements/share/en-us/danhtran2mind/DCSWVZ7J'
+  provider_issuer: Microsoft Learn
+  description: "Core AI concepts and Azure AI services overview."
+  short_description: "Azure AI basics."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/microsoft-learn/Microsoft Azure AI Fundamentals_AI Overview.jpg'
+
+# ========================================================================== #
+#                            Kaggle Certificates                             #
+# ========================================================================== #
+- name: 'Intro to Programming'
+  date: Sep 28, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/intro-to-programming'
+  provider_issuer: Kaggle
+  description: "Get started with Python, if you have no coding experience."
+  short_description: "Python basics for absolute beginners."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Intro_to_Programming.jpg'
+
+- name: 'Python'
+  date: Sep 28, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/python'
+  provider_issuer: Kaggle
+  description: "Learn the most important language for data science."
+  short_description: "Python: key language for data science."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Python.jpg'
+
+- name: 'Intro to Machine Learning'
+  date: Sep 29, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/intro-to-machine-learning'
+  provider_issuer: Kaggle
+  description: "Learn the core ideas in machine learning, and build your first models."
+  short_description: "Data, models, training, evaluation, regularization."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Intro to Machine Learning.jpg'
+
+- name: 'Pandas'
+  date: Sep 29, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/pandas'
+  provider_issuer: Kaggle
+  description: "Solve short hands-on challenges to perfect your data manipulation skills."
+  short_description: "Do quick data‑manipulation drills."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Pandas.jpg'
+
+- name: 'Intermediate Machine Learning'
+  date: Sep 29, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/intermediate-machine-learning'
+  provider_issuer: Kaggle
+  description: "Handle missing values, non-numeric values, data leakage, and more."
+  short_description: "Preprocess: missing, non‑numeric, leakage mitigation."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Intermediate Machine Learning.jpg'
+
+- name: 'Feature Engineering'
+  date: Oct 04, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/feature-engineering'
+  provider_issuer: Kaggle
+  description: "Better features make better models. Discover how to get the most out of your data."
+  short_description: "Enhance models with better data features."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Feature Engineering.jpg'
+
+- name: 'Intro to Deep Learning'
+  date: Sep 29, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/intro-to-deep-learning'
+  provider_issuer: Kaggle
+  description: "Use TensorFlow and Keras to build and train neural networks for structured data."
+  short_description: "TensorFlow/Keras structured‑data neural networks."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Intro to Deep Learning.jpg'
+
+- name: 'Computer Vision'
+  date: Sep 29, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/computer-vision'
+  provider_issuer: Kaggle
+  description: "Build convolutional neural networks with TensorFlow and Keras."
+  short_description: "Stack conv‑pool‑dense layers; compile, train, evaluate."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Computer Vision.jpg'
+
+- name: 'Time Series'
+  date: Oct 04, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/time-series'
+  provider_issuer: Kaggle
+  description: "Build convolutional neural networks with TensorFlow and Keras."
+  short_description: "ML for practical forecasting."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Time Series.jpg'
+
+- name: 'Data Cleaning'
+  date: Sep 29, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/data-cleaning'
+  provider_issuer: Kaggle
+  description: "Master efficient workflows for cleaning real-world, messy data."
+  short_description: "Clean messy data efficiently."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Data Cleaning.jpg'
+
+- name: 'Intro to AI Ethics'
+  date: Sep 28, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/intro-to-ai-ethics'
+  provider_issuer: Kaggle
+  description: "Explore practical tools to guide the moral design of AI systems."
+  short_description: "Frameworks, assessments, documentation, workshops, audits."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Intro to AI Ethics.jpg'
+
+- name: 'Machine Learning Explainability'
+  date: Oct 04, 2024
+  certificate_url: 'https://www.kaggle.com/learn/certification/danhtran8mind/machine-learning-explainability'
+  provider_issuer: Kaggle
+  description: "Extract human-understandable insights from any model."
+  short_description: "Produce understandable model insights."
+  # tags: [Web Development, HTML, CSS, JavaScript]
+  file: 'assets/images/certificates/kaggle/Machine Learning Explainability.jpg'

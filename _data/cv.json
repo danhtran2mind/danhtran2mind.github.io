@@ -1,0 +1,526 @@
+{
+  "basics": {
+    "full name": "Tran Pham Cong Danh",
+    "adapted English version name": "Cong-Danh Pham Tran",
+    "avatar image": "/assets/images/cv/avatar.jpg",
+    "occupation": "AI Engineer",
+    "birth date": "September 29, 1996",
+    "summary": "An AI Engineer: Embracing AI, Powered by Passion",
+    "location": {
+      "show_full_address": false,
+      "address": "",
+      "postalCode": "",
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "region": "Ho Chi Minh City"
+    },
+    "email": "danhtran2mind@gmail.com",
+    "phone": "+84xxx-xxx-xxxx",
+    "website": "https://danhtran2mind.github.io",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "danhtran2mind",
+        "url": "https://github.com/danhtran2mind"
+      },
+      {
+        "network": "GitLab",
+        "username": "danhtran2mind",
+        "url": "https://gitlab.com/danhtran2mind"
+      },
+      {
+        "network": "HugggingFace",
+        "username": "danhtran2mind",
+        "url": "https://huggingface.co/danhtran2mind"
+      },
+      {
+        "network": "X-Twitter",
+        "username": "danhtran2mind",
+        "url": "https://x.com/danhtran2mind"
+      },
+      {
+        "network": "Facebook",
+        "username": "danhtran2mind",
+        "url": "https://facebook.com/danhtran2mind"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "danhtran2mind",
+        "url": "https://linkedin.com/in/danhtran2mind"
+      }      
+    ]
+  },
+
+  "education": [
+    {
+      "institution": "Ho Chi Minh City University of Technology -- Vietnam National University Ho Chi Minh City",
+      "location": "HCMC, VN",
+      "url": "https://hcmut.edu.vn",
+      "area": "Computer Science",
+      "studyType": "Master of Engineering",
+      "startDate": "2022",
+      "endDate": "2024",
+      "score": "",
+      "courses": [""]
+    },
+    {
+      "institution": "University of Health Sciences -- Vietnam National University Ho Chi Minh City",
+      "location": "HCMC, VN",
+      "url": "https://www.uhsvnu.edu.vn/",
+      "area": "Doctor of Medicine",
+      "studyType": "General Medicine",
+      "startDate": "2014",
+      "endDate": "2020",
+      "score": "",
+      "courses": [""]
+    }
+  ],
+
+  "work": [
+    {
+      "name": "Karuna Veggie Restaurant",
+      "position": "AI-Driven Marketing Supporter",
+      "url": "https://www.facebook.com/KarunaVeggie",
+      "startDate": "2025-04-01",
+      "endDate": "2025-05-01",
+      "summary": "Utilized AI tools to create targeted campaigns, digital content, and slides promoting veggie diets.",
+      "highlights": ["Engineered AI-driven marketing campaigns using advanced AI agents to boost brand visibility and customer engagement.",
+                     "Developed dynamic banners and digital content with AI-powered platforms to promote plant-based diets effectively.",
+                     "Designed data-driven presentation slides for offline veggie diet meetings, optimizing content with AI analytics tools."]
+    },
+    {
+      "name": "Dr. Nhung Dental Clinic",
+      "position": "Web Developer",
+      "url": "https://www.facebook.com/nhakhoadrnhung",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-01",
+      "summary": "Built internal management website for HeathDental clinic with PHP, front-end, and MySQL, enhancing user experience and operational efficiency.",
+      "highlights": [
+        "Developed a comprehensive management website using PHP and MySQL to manage patient data and revenue tracking.",
+        "Designed responsive front-end interfaces and optimized MySQL database solutions for accurate, secure data management.",
+        "Applied jQuery to create an easy-to-control image gallery, enhancing user interaction and visual presentation."
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Programing Languages",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python",
+        "JavaScript",
+        "PHP",
+        "C++"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Normal",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Jekyll",
+        "Bootstrap",
+        "Flask",
+        "FastAPI",
+      ]
+    },
+    {
+      "name": "AI/ML Frameworks & Libraries",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "Scikit-learn",
+        "ONNX"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "level": "Normal",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Google Cloud Platform (GCP)",
+        "AWS",
+        "Azure"
+      ]
+    },
+    {
+      "name": "Data Science & Visualization Tools",
+      "level": "Normal",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Google Colab",
+        "Jupyter Notebook",
+      ]
+    },
+    {
+      "name": "Version Control & Collaboration",
+      "level": "Normal",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Bitbucket"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "level": "Normal",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Linux",
+        "Windows"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Normal",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "SQL Language",
+        "NoSQL Language",
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "DevOps & Containerization",
+      "level": "Normal",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Neural Networks",
+        "Deep Learning",
+        "Natural Language Processing (NLP)",
+        "Computer Vision",
+        "Audio Processing",
+        "Data Preprocessing",
+        "Data Visualization",
+        "Time Series Analysis",
+        "Model Evaluation & Tuning",
+        "Feature Engineering",
+      ]
+    },
+    {
+      "name": "Mathematics & Statistics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Linear Algebra",
+        "Calculus",
+        "Probability Theory",
+        "Statistical Inference",
+      ]
+    },
+    {
+      "name": "Computer Science",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Data Structures",
+        "Algorithms",
+        "Object-Oriented Programming (OOP)",
+        "Networking",
+        "Cybersecurity",
+        "Constraints Programming",
+        "BigData Technologies",
+        "Data Engineering",
+        "Intelligence Systems",
+        "Parallel & Distributed Computing"
+      ]
+    },
+    {
+      "name": "Others",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Selenium",
+        "BeautifulSoup",
+        "Scrapy",
+        "Rest APIs"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Problem-Solving",
+        "Critical Thinking",
+        "Communication",
+        "Teamwork",
+        "Adaptability"
+      ]
+    }
+  ],
+  
+  "certifications": [
+    {
+      "name": "Machine Learning Certifications",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "description": "Machine Learning by Stanford University on Coursera. Topics include supervised learning, unsupervised learning, best practices in machine learning, and more.",
+      "icon": "fa-solid fa-location-dot"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Deep Learning in Python",
+      "date": "Nov 29, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/20ce71782442f1aa537d98c7ef37739124d64cb1?raw=1",
+      "description": "Explore deep learning with PyTorch, build models for real-world problems, and master advanced architectures like Transformers.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Associate AI Engineer for Developers",
+      "date": "Nov 19, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/9be5c32bd0d1bc752cf39f631c4f35bd824e1f79?raw=1",
+      "description": "Learn AI engineering, master APIs, LLMs, and build production-ready AI systems.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Python Developer",
+      "date": "Sep 14, 2025",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/aeb14daa0ffcaf568d9c83a187d83fbe9c2d6314?raw=1",
+      "description": "Advanced Python track: testing, optimization, packaging, Git, web scraping, OOP, data structures, algorithms for professional development.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Machine Learning Engineer",
+      "date": "Nov 24, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/06025a9336a74b77eb8d47725c2df0f2b60dd097?raw=1",
+      "description": "Become a machine learning engineer with MLOps, model deployment, and real-world projects.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Developing Large Language Models",
+      "date": "Nov 29, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/7535c53246f1013fe3c625462939a18fcb342e65?raw=1",
+      "description": "Learn to build LLMs with PyTorch, transformers, and Hugging Face, from inception to real-world deployment.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Python Essentials 1",
+      "date": "Sep 26, 2024",
+      "issuer": "NetAcad",
+      "url": "https://www.credly.com/badges/1c9274cf-d6b4-4f57-9647-60eeb5525415",
+      "description": "Learn Python fundamentals, build projects, and prepare for PCEP certification for diverse tech careers.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Python Essentials 2",
+      "date": "Sep 29, 2024",
+      "issuer": "NetAcad",
+      "url": "https://www.credly.com/badges/d589eb5b-d2f5-4c77-9c2e-67c9921896e1",
+      "description": "Advanced Python course covering OOP, portfolio projects, and PCAP certification prep, for learners with basics.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Model Context Protocol: Advanced Topics",
+      "date": "Sep 19, 2025",
+      "issuer": "Anthropic",
+      "url": "https://verify.skilljar.com/c/ydfdh6p4t453",
+      "description": "Learn MCP to connect Claude with services: build servers/clients, expose tools, resources, prompts, and create a document-management system.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "OpenCV Bootcamp",
+      "date": "Sep 29, 2024",
+      "issuer": "OpenCV",
+      "url": "https://courses.opencv.org/certificates/7e56e37fe25a44709b0d39dee24764ef",
+      "description": "Free OpenCV course teaches image/video manipulation, object and face detection for AI and deep learning.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Machine Learning with Python",
+      "date": "Sep 30, 2024",
+      "issuer": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/danhtran2mind/machine-learning-with-python-v7",
+      "description": "Learn TensorFlow to build neural networks, covering NLP, reinforcement learning, and deep, recurrent, convolutional architectures.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Keras Fundamentals",
+      "date": "Nov 25, 2024",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/statement-of-accomplishment/track/d1152665979387f0abffc6b138f9df14f2ed7000?raw=1",
+      "description": "Learn Keras, neural networks, and deep learning to solve real-world challenges like predicting housing prices.",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "PyTorch Bootcamp",
+      "date": "Sep 17, 2025",
+      "issuer": "OpenCV",
+      "url": "https://courses.opencv.org/certificates/a01b381eaae9471bafef979ad7197a2e",
+      "description": "Free PyTorch bootcamp teaching deep-learning fundamentals, hands-on tensors, neural networks, optimization, plus object detection and segmentation.",
+      "icon": "fa-solid fa-hashtag"
+    }
+  ],
+  
+  "projects": [
+    {
+      "name": "Anime Super Resolution",
+      "summary": "Enhances anime images using fine-tuned Real-ESRGAN model.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/Anime-Super-Resolution"
+    },
+    {
+      "name": "SlimFace: Efficient Face Recognition",
+      "summary": "Efficient face recognition framework using transfer learning and customization.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/SlimFace"
+    },
+    {
+      "name": "Grayscale2Color Landscape from scratch",
+      "summary": "AutoEncoder/U-Net/Transformer colorizes grayscale landscapes via Lab* prediction.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/gray2color-landscape-from-scratch"
+    },
+    {
+      "name": "Text to Video Ghibli Style",
+      "summary": "Generates Ghibli-style videos from text using fine-tuned zeroscope model.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/Text2Video-Ghibli-style"
+    },
+    {
+      "name": "Vietnamese Health Chat LoRA",
+      "summary": "Provides accurate healthcare responses using AI for Vietnamese users.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/Vietnamese-Health-Chat-LoRA"
+    },
+    {
+      "name": "Vietnamese Nutrition GPT-2 finetune",
+      "summary": "Fine-tuned GPT-2 for accurate, interactive nutrition guidance in Vietnamese.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/vi-nutrition-gpt2-finetune"
+    },
+    {
+      "name": "Vietnamese F5-TTS",
+      "summary": "Fine-tuned F5-TTS to generate natural audio for voice applications in Vietnamese.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/Vi-F5-TTS"
+    },
+    {
+      "name": "Vietnamese Whisper Tiny finetuning",
+      "summary": "Fine-tuned Whisper Tiny for accurate, real-time Vietnamese speech recognition.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/Vi-Whisper-Tiny-finetuning"
+    },
+    {
+      "name": "Viet Glow-TTS finetuning",
+      "summary": "Transforms text into natural, high-quality Vietnamese speech.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/Viet-Glow-TTS-finetuning"
+    },
+    {
+      "name": "BTCUSDT ML ETL Pipeline",
+      "summary": "Extracts, transforms, and loads BTC-USDT trading data using scalable, cloud-native frameworks.",
+      "highlights": [""],
+      "startDate": "2025",
+      "endDate": "2025",
+      "url": "https://github.com/danhtran2mind/BTC-USDT-ETL-Pipeline"
+    }
+  ],
+
+  "languages": [
+  {
+    "language": "Vietnamese",
+    "fluency": "Native speaker",
+    "icon": ""
+  },
+  {
+    "language": "English",
+    "fluency": "Fluent",
+    "icon": ""
+  }
+  ],
+
+  "interests": [
+    {
+      "name": "Video Games",
+      "icon": "fa-solid fa-gamepad",
+      "keywords": [
+        "League of Legends",
+        "Teamfight Tactics",
+        "FC Online",
+        "Counter-Strike 2",
+        "The Elder Scrolls V: Skyrim",
+        "GTA series"
+      ]
+    },
+    {
+      "name": "Sports and Fitness Activities",
+      "icon": "fa-solid fa-futbol",
+      "keywords": [
+        "Soccer",
+        "Gym",
+        "Basketball",
+        "Volleyball",
+        "Tennis"
+      ]
+    },
+    {
+      "name": "General Knowledge",
+      "icon": "fa-solid fa-book-open",
+      "keywords": [
+        "Psychology",
+        "Physics",
+        "Astronomy",
+        "Economy"
+      ]
+    },
+  ],
+  "additional_information": [
+    {"certificate details": "danhtran2mind.github.io/certificates"},
+    {"certification details": "danhtran2mind.github.io/certifications"},
+    {"project details": "danhtran2mind.github.io/projects"},
+    {"resume detail": "danhtran2mind.github.io/resume"}
+  ]
+}
