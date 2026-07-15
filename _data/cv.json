@@ -78,6 +78,21 @@
 
   "work": [
     {
+      "name": "OSAS Joint Stock Company (Employed via AI MED Technology Training and Services Co., Ltd.)",
+      "position": "AI Engineer",
+      "url": "https://www.orasas.com",
+      "startDate": "2025-12-01",
+      "endDate": "Now",
+      "summary": "Primary AI Engineer responsible for developing core AI features of an intelligent chatbot product. Led the design and implementation of ASR, TTS, RAG systems, and local LLM optimization. Built hospital chatbot with multi-document retrieval and precise page citations, multi-level financial report chatting with dashboard generation. Conducted R&D on multimodal capabilities for future product, enabling skin disease detection from images and preliminary medical guidance.",
+      "highlights": ["Served as the primary AI Engineer responsible for the AI development of an intelligent chatbot product.",
+                     "Designed and implemented core chatbot functionalities including RAG (Retrieval-Augmented Generation), ASR (Automatic Speech Recognition), and TTS (Text-to-Speech).",
+                     "Optimized local LLM models to ensure high performance, data privacy, and cost efficiency.",
+                     "Developed a specialized hospital chatbot capable of handling diverse medical documents, enabling natural conversations with accurate source citations including exact page references.",
+                     "Built multi-level conversational features for financial reports and complex documents, along with automated information extraction into dashboard views.",
+                     "Conducted R&D on the multimodal module for a future product, integrating image analysis capabilities to detect common dermatological conditions from user-uploaded skin images and provide preliminary diagnosis along with basic care guidance."
+                    ]
+    },
+    {
       "name": "Karuna Veggie Restaurant",
       "position": "AI-Driven Marketing Supporter",
       "url": "https://www.facebook.com/KarunaVeggie",
