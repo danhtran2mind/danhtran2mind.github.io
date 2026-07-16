@@ -69,18 +69,28 @@ data:
         organization: OSAS Joint Stock Company (via AI MED Technology Co., Ltd.)
         job_title: AI Engineer
         description: |
-          Primary AI Engineer responsible for developing core AI features of an intelligent chatbot product. Led the design and implementation of ASR, TTS, RAG systems, and local LLM optimization. Built hospital chatbot with multi-document retrieval and precise page citations, multi-level financial report chatting with dashboard generation. Conducted R&D on multimodal capabilities for future product, enabling skin disease detection from images and preliminary medical guidance.
+          - Primary AI Engineer responsible for developing core AI features of an intelligent chatbot product.
+          - Led the design and implementation of ASR, TTS, RAG systems, and local LLM optimization.
+          - Built hospital chatbot with multi-document retrieval and precise page citations.
+          - Developed multi-level financial report chatting with dashboard generation.
+          - Conducted R&D on multimodal capabilities for future product, enabling skin disease detection from images and preliminary medical guidance.
       
       - date: 04/2025 -- 05/2025
         organization: Karuna Veggie Restaurant
         job_title: AI-Driven Marketing Supporter
-        description: Used AI to design targeted veggie diet campaigns, digital banners, content, and analytics-optimized slides. Drove AI-powered marketing to increase brand visibility, customer engagement, and promote plant-based lifestyles across digital channels.
+        description: |
+          - Used AI to design targeted veggie diet campaigns, digital banners, content, and analytics-optimized slides.
+          - Drove AI-powered marketing to increase brand visibility and customer engagement.
+          - Promoted plant-based lifestyles across digital channels.
         # achievements:
         #   - Contributed to team projects with consistent performance.
       - date: 01/2021 -- 12/2021
         organization: Dr. Nhung Dental Clinic
         job_title: Web Developer
-        description: Created a PHP-MySQL internal management portal for Health Dental clinic, streamlining patient records and revenue tracking. Built responsive UI with secure database optimization and jQuery-powered image gallery for enhanced usability and operational efficiency.
+        description: |
+          - Created a PHP-MySQL internal management portal for the clinic to streamline patient records and revenue tracking.
+          - Built a responsive UI with secure database optimization and a jQuery-powered image gallery.
+          - Improved usability and operational efficiency for the clinic staff.
         # location: Not specified
         # achievements:
         #   - Contributed to team projects with consistent performance.
