@@ -123,7 +123,7 @@
             margin-left: 1em !important;
         }
         .cv-section-title {
-            font-size: 1.35rem;
+            font-size: clamp(1.2rem, calc(1.2rem + 0.4vw), 1.5rem);
             margin: 2em 0 1em 0;
             color: var(--cv-accent-color);
             background-color: var(--cv-accent-bg);
@@ -131,6 +131,15 @@
             margin-top: 0.1rem !important;
             padding: 0em 0em !important;
             font-style: italic;
+        }
+        .cv-section-title[id="work-experience"],
+        .cv-section-title[id="technical-skills"],
+        .cv-section-title[id="ai-programming-projects"],
+        .cv-section-title[id="more-information"],
+        .cv-section-title[id="language-certifications"],
+        .cv-section-title[id="certificates-1"],
+        .cv-section-title[id="education-1"] {
+            font-size: 1.28rem;
         }
         .cv-item-title {
             font-weight: 600;
@@ -572,17 +581,17 @@
             {% if sec_id == 'education' %}
                 {% for item in section.items %}
                     <div class="cv-item">
-                        <div class="cv-item-row degree">
+                        <div class="cv-item-row degree" style="font-size: 0.99rem;">
                             <div><span>{{item.degree}}</span></div>
                             {% if item.thesis %}<div><em>GPA:</em> <span>{{item.gpa}}</span></div>{% endif %}
                             <div><span>{{item.date | markdownify}}</span></div>
                         </div>
-                        <div class="cv-item-content edu instustute">
+                        <div class="cv-item-content edu instustute" style="font-size: 0.99rem;">
                             <em>University:</em>
                             <span class="university-name">{{item.university | markdownify | strip_html}}</span>
                         </div>
                         {% if item.thesis %}
-                            <div class="cv-item-content edu document">
+                            <div class="cv-item-content edu document" style="font-size: 0.99rem;">
                                 <em>Thesis:</em>
                                 <span class="thesis-name"><p style="display:inline;">{{item.thesis | strip_html}}</p></span>
                             </div>
