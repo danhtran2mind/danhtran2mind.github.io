@@ -498,6 +498,69 @@
         .cv-item-row-name { font-size: 0.92rem; }
         .cv-item-row.two-columns.issuer-date { font-size: 0.88rem !important;}
         .cv-item-title.more-info-link.url a {font-weight: normal;}
+
+        /* Work Experience Single Line Layout */
+        #experience .cv-item {
+            margin-bottom: 1.5rem;
+        }
+
+        #experience .cv-item-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            gap: 0.5rem;
+            font-size: 0.95rem;
+            line-height: 1.3;
+        }
+
+        #experience .job-title {
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--cv-text-color);
+            flex-shrink: 0;
+        }
+
+        #experience .company-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--cv-text-color);
+            flex-grow: 1;
+            text-align: center;
+            padding: 0 0.5rem;
+        }
+
+        #experience .date-range {
+            font-weight: 500;
+            font-size: 0.9rem;
+            color: var(--cv-muted-color);
+            flex-shrink: 0;
+            white-space: nowrap;
+        }
+
+        #experience .cv-item-content {
+            margin-top: 0.5rem;
+            padding-left: 0;
+        }
+
+        /* Print-specific adjustments */
+        @media print {
+            #experience .cv-item-row {
+                font-size: 10pt;
+            }
+            
+            #experience .job-title {
+                font-size: 10.5pt;
+            }
+            
+            #experience .company-name {
+                font-size: 10pt;
+            }
+            
+            #experience .date-range {
+                font-size: 9.5pt;
+            }
+        }
     </style>
 
     <!-- Name and Avatar -->
@@ -685,30 +748,32 @@
                 </div>
 
             {% elsif sec_id == 'experience' %}
-                {% for item in section.items %}
-                    <div class="cv-item">
-                        <div class="cv-item-row" style="display: flex; justify-content: space-between; font-size: 0.99rem; line-height: 1.2;">
-                            <div style="width: 28%;">{{item.job_title | markdownify}}</div>
-                            <div style="width: 54%; text-align: center;">{{item.organization | markdownify}}</div>
-                            <div style="width: 16%; text-align: right;">{{item.date | markdownify}}</div>
-                        </div>
-                        <div class="cv-item-content" style="line-height: 1.1;">
-                            {% if item.description %}
-                                {% assign description_text = item.description | strip | newline_to_br %}
-                                {% assign description_parts = description_text | split: '<br />' %}
-                                <div class="experience-description-label"><em>Description:</em></div>
-                                <ul class="experience-description-list">
-                                    {% for part in description_parts %}
-                                        {% assign clean_part = part | strip %}
-                                        {% if clean_part != '' %}
-                                            <li>{{ clean_part | markdownify | strip_html }}</li>
-                                        {% endif %}
-                                    {% endfor %}
-                                </ul>
-                            {% endif %}
-                        </div>
+            {% for item in section.items %}
+                <div class="cv-item">
+                    <div class="cv-item-row">
+                        <div class="job-title">{{item.job_title | markdownify}}</div>
+                        <span style="color: var(--cv-muted-color);">•</span>
+                        <div class="company-name">{{item.organization | markdownify}}</div>
+                        <span style="color: var(--cv-muted-color);">•</span>
+                        <div class="date-range">{{item.date | markdownify}}</div>
                     </div>
-                {% endfor %}
+                    <div class="cv-item-content" style="line-height: 1.1;">
+                        {% if item.description %}
+                            {% assign description_text = item.description | strip | newline_to_br %}
+                            {% assign description_parts = description_text | split: '<br />' %}
+                            <div class="experience-description-label"><em>Description:</em></div>
+                            <ul class="experience-description-list">
+                                {% for part in description_parts %}
+                                    {% assign clean_part = part | strip %}
+                                    {% if clean_part != '' %}
+                                        <li>{{ clean_part | markdownify | strip_html }}</li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
 
             {% elsif sec_id == 'skills' %}
                 <div class="skills-grid three-column-section">
