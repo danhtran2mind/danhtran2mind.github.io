@@ -349,7 +349,7 @@
             size: A4; 
             margin: 0mm !important; 
         }
-        @media print {
+                @media print {
             body * { visibility: hidden; }
             .cv, .cv * { visibility: visible; }
             .cv {
@@ -373,8 +373,51 @@
             .text-muted { font-size: 10.5pt; color: #666 !important; }
             .name-slogan { margin-bottom: 1.25em !important; }
             .cv-section-title { font-size: 12pt; color: #1e40af !important; }
-            .cv-item-row, .cv-item-content { font-size: 10pt; color: #000 !important; }
             
+            /* === WORK EXPERIENCE SINGLE LINE FIX === */
+            #experience .cv-item-row {
+                display: flex !important;
+                flex-wrap: nowrap !important;
+                align-items: center !important;
+                justify-content: space-between !important;
+                font-size: 9pt !important; /* Reduced font size to guarantee 1 line */
+                line-height: 1.2 !important;
+                gap: 0.25rem !important;
+                width: 100% !important;
+            }
+
+            /* Force all child divs to stay on one line and override inline widths */
+            #experience .cv-item-row > div {
+                white-space: nowrap !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+
+            #experience .cv-item-row > div:first-child {
+                width: 25% !important;
+                flex: 0 0 25% !important;
+                text-align: left !important;
+                font-weight: 700 !important;
+            }
+
+            #experience .cv-item-row > div:nth-child(2) {
+                width: 55% !important;
+                flex: 0 0 55% !important;
+                text-align: center !important;
+                font-weight: 600 !important;
+            }
+
+            #experience .cv-item-row > div:last-child {
+                width: 20% !important;
+                flex: 0 0 20% !important;
+                text-align: right !important;
+                font-weight: 500 !important;
+            }
+            /* === END WORK EXPERIENCE SINGLE LINE FIX === */
+
+            .cv-item-row, .cv-item-content { font-size: 10pt; color: #000 !important; }
             .cv-item-content.about { font-style: italic; font-size: 0.63rem !important; }
             .contact-block, .contact, a.contact { color: #000 !important; -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
             .contact, a.contact { font-size: 9pt; }
@@ -401,62 +444,34 @@
             .cv-item-content.more { line-height: 1 !important; font-size: 0.7rem !important; }
             header.contact-block { font-size: 10.2pt !important; }
             .basic-info-div { font-size: 9.8pt !important; }
-            .experience-description {
-                font-style: italic; 
-                font-size: 0.78rem !important;
-            }
-            
-            .project-date {
-                font-size: 9.2pt !important;
-            }
+            .experience-description { font-style: italic; font-size: 0.78rem !important; }
+            .project-date { font-size: 9.2pt !important; }
             .project-url { font-size: 8pt !important; }
-            .more-info-wrapper {
-                display: flex;
-                gap: 0.5rem;
-                justify-content: space-between;
-                flex-wrap: wrap;
-            }
-            .more-info-column {
-                flex: 1;
-                box-sizing: border-box;
-                padding: 0.5rem;
-                border-radius: 8px;
-            }
-            
-            .university-name {
-                font-size: 11pt;
-                font-weight: 700;
-            }
-            .lang-certs-issuer-date {
-                font-size: 0.78rem !important;
-            }
-            .lang-certs-issuer-date a {
-                font-size: 0.72rem !important;
-            }
-
-            .lang-certs-issuer-date p {
-                font-size: 0.72rem !important;
-            }
+            .more-info-wrapper { display: flex; gap: 0.5rem; justify-content: space-between; flex-wrap: wrap; }
+            .more-info-column { flex: 1; box-sizing: border-box; padding: 0.5rem; border-radius: 8px; }
+            .university-name { font-size: 11pt; font-weight: 700; }
+            .lang-certs-issuer-date { font-size: 0.78rem !important; }
+            .lang-certs-issuer-date a { font-size: 0.72rem !important; }
+            .lang-certs-issuer-date p { font-size: 0.72rem !important; }
             .cv-item-row.degree { font-size: 0.95rem !important; }
             .cv-item-row.degree span { font-size: 0.95rem !important; }
             .cv-item-row.degree em { font-size: 0.95rem !important; }
-
-            .cv-item-row-name.lang-cert span {font-size: .79rem; }
+            .cv-item-row-name.lang-cert span { font-size: .79rem; }
             .cv-item-row-name { font-size: 0.8rem; font-weight: 700; }
-            .cv-item-row-name.project-name {font-size: 0.82rem !important;}
-            .cv-item-row-name.project-name span {font-size: 0.82rem !important;}
-            .cv-item-content.about.lang-cert p {font-size: 0.75rem !important;}
-            .cv-item-row-name {font-size: 0.82rem !important;}
-            .cv-item-row-name.cert span {font-size: 0.82rem !important;}
-            .cv-item-content.more em {
-                color: var(--cv-muted-color);
-                font-style: italic;
-                font-size: 0.597rem !important;
-            }
-            .cv-item-row.two-columns.issuer-date { font-size: 0.82rem !important;}
-            .cv-item-row.two-columns.issuer-date a { font-size: 0.82rem !important;}
-            .cv-item-row.two-columns.issuer-date span { font-size: 0.82rem !important;}
+            .cv-item-row-name.project-name { font-size: 0.82rem !important; }
+            .cv-item-row-name.project-name span { font-size: 0.82rem !important; }
+            .cv-item-content.about.lang-cert p { font-size: 0.75rem !important; }
+            .cv-item-row-name.cert span { font-size: 0.82rem !important; }
+            .cv-item-content.more em { color: var(--cv-muted-color); font-style: italic; font-size: 0.597rem !important; }
+            .cv-item-row.two-columns.issuer-date { font-size: 0.82rem !important; }
+            .cv-item-row.two-columns.issuer-date a { font-size: 0.82rem !important; }
+            .cv-item-row.two-columns.issuer-date span { font-size: 0.82rem !important; }
             
+            /* Ensure description lists don't break layout in print */
+            .experience-description-list {
+                grid-template-columns: 1fr !important; /* Forces single column in print for better readability */
+                font-size: 8.5pt !important;
+            }
         }
         .lang-certs-issuer-date { font-size: 0.8rem; }
         .lang-certs-issuer-date a { font-weight: bold;}
@@ -499,68 +514,7 @@
         .cv-item-row.two-columns.issuer-date { font-size: 0.88rem !important;}
         .cv-item-title.more-info-link.url a {font-weight: normal;}
 
-        /* Work Experience Single Line Layout */
-        #experience .cv-item {
-            margin-bottom: 1.5rem;
-        }
-
-        #experience .cv-item-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: nowrap;
-            gap: 0.5rem;
-            font-size: 0.95rem;
-            line-height: 1.3;
-        }
-
-        #experience .job-title {
-            font-weight: 700;
-            font-size: 1rem;
-            color: var(--cv-text-color);
-            flex-shrink: 0;
-        }
-
-        #experience .company-name {
-            font-weight: 600;
-            font-size: 0.95rem;
-            color: var(--cv-text-color);
-            flex-grow: 1;
-            text-align: center;
-            padding: 0 0.5rem;
-        }
-
-        #experience .date-range {
-            font-weight: 500;
-            font-size: 0.9rem;
-            color: var(--cv-muted-color);
-            flex-shrink: 0;
-            white-space: nowrap;
-        }
-
-        #experience .cv-item-content {
-            margin-top: 0.5rem;
-            padding-left: 0;
-        }
-
-        /* Print-specific adjustments */
-        @media print {
-            #experience .cv-item-row {
-                font-size: 10pt;
-            }
-            
-            #experience .job-title {
-                font-size: 10.5pt;
-            }
-            
-            #experience .company-name {
-                font-size: 10pt;
-            }
-            
-            #experience .date-range {
-                font-size: 9.5pt;
-            }
-        }
+        
     </style>
 
     <!-- Name and Avatar -->
@@ -748,32 +702,30 @@
                 </div>
 
             {% elsif sec_id == 'experience' %}
-            {% for item in section.items %}
-                <div class="cv-item">
-                    <div class="cv-item-row">
-                        <div class="job-title">{{item.job_title | markdownify}}</div>
-                        <span style="color: var(--cv-muted-color);">•</span>
-                        <div class="company-name">{{item.organization | markdownify}}</div>
-                        <span style="color: var(--cv-muted-color);">•</span>
-                        <div class="date-range">{{item.date | markdownify}}</div>
+                {% for item in section.items %}
+                    <div class="cv-item">
+                        <div class="cv-item-row" style="display: flex; justify-content: space-between; font-size: 0.99rem; line-height: 1.2;">
+                            <div style="width: 28%;">{{item.job_title | markdownify}}</div>
+                            <div style="width: 54%; text-align: center;">{{item.organization | markdownify}}</div>
+                            <div style="width: 16%; text-align: right;">{{item.date | markdownify}}</div>
+                        </div>
+                        <div class="cv-item-content" style="line-height: 1.1;">
+                            {% if item.description %}
+                                {% assign description_text = item.description | strip | newline_to_br %}
+                                {% assign description_parts = description_text | split: '<br />' %}
+                                <div class="experience-description-label"><em>Description:</em></div>
+                                <ul class="experience-description-list">
+                                    {% for part in description_parts %}
+                                        {% assign clean_part = part | strip %}
+                                        {% if clean_part != '' %}
+                                            <li>{{ clean_part | markdownify | strip_html }}</li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
                     </div>
-                    <div class="cv-item-content" style="line-height: 1.1;">
-                        {% if item.description %}
-                            {% assign description_text = item.description | strip | newline_to_br %}
-                            {% assign description_parts = description_text | split: '<br />' %}
-                            <div class="experience-description-label"><em>Description:</em></div>
-                            <ul class="experience-description-list">
-                                {% for part in description_parts %}
-                                    {% assign clean_part = part | strip %}
-                                    {% if clean_part != '' %}
-                                        <li>{{ clean_part | markdownify | strip_html }}</li>
-                                    {% endif %}
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
-                    </div>
-                </div>
-            {% endfor %}
+                {% endfor %}
 
             {% elsif sec_id == 'skills' %}
                 <div class="skills-grid three-column-section">
