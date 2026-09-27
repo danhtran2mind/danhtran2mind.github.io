@@ -86,9 +86,8 @@ data:
         organization: Dr. Nhung Dental Clinic
         job_title: Web Developer
         description: |
-          - Created a PHP-MySQL internal management portal for the clinic to streamline patient records and revenue tracking.
-          - Built a responsive UI with secure database optimization and a jQuery-powered image gallery.
-          - Improved usability and operational efficiency for the clinic staff.
+          - Architected a PHP-MySQL internal management portal to streamline patient records and revenue tracking.
+          - Built a responsive UI with secure database optimization and a jQuery-powered image gallery, improving usability and operational efficiency.
         # location: Not specified
         # achievements:
         #   - Contributed to team projects with consistent performance.
